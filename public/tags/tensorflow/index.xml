@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TensorFlow on Jerry</title>
+    <link>https://jjerry-test.github.io/tags/tensorflow/</link>
+    <description>Recent content in TensorFlow on Jerry</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 Sep 2020 18:30:46 +0600</lastBuildDate><atom:link href="https://jjerry-test.github.io/tags/tensorflow/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Seed 가 뭐길래..</title>
+      <link>https://jjerry-test.github.io/blog/seed/</link>
+      <pubDate>Sat, 12 Sep 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/seed/</guid>
+      <description>Deep learning model 을 실험하다보면 reproducibility 라는 말을 자주 듣게 됩니다.</description>
+    </item>
+    
+    <item>
+      <title>TensorFlow Multi GPU 사용법</title>
+      <link>https://jjerry-test.github.io/blog/tf2_multi_gpu/</link>
+      <pubDate>Sun, 14 Jun 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/tf2_multi_gpu/</guid>
+      <description>이번 포스팅은 Multi GPU 시스템에서 Google의 머신러닝 오픈 소스 플랫폼인 TensorFlow사용법에 관한 것입니다!</description>
+    </item>
+    
+    <item>
+      <title>Anaconda를 이용하여 TensorFlow 설치하기!</title>
+      <link>https://jjerry-test.github.io/blog/anaconda_setting/</link>
+      <pubDate>Sun, 18 Nov 2018 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/anaconda_setting/</guid>
+      <description>안녕하세요!
+오늘은 TensorFlow 설치 방법을 간단하게 알려드리려고 합니다.
+CPU와 GPU 중에서도 GPU 버전 설치에 대해 알려드릴거에요!</description>
+    </item>
+    
+    <item>
+      <title>Python 3.6 에서 이 경고 보기 싫어요..</title>
+      <link>https://jjerry-test.github.io/blog/warning/</link>
+      <pubDate>Fri, 19 Oct 2018 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/warning/</guid>
+      <description>안녕하세요! Jerry 입니다!
+어제 pip 로 설치하지 말라구요!? 라는 포스팅을 했죠?</description>
+    </item>
+    
+    <item>
+      <title>pip 로 설치하지 말라구요!?</title>
+      <link>https://jjerry-test.github.io/blog/condavspip/</link>
+      <pubDate>Thu, 18 Oct 2018 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/condavspip/</guid>
+      <description>오늘 갑자기 당황스러운 포스팅을 봤습니다.
+출처 : https://www.anaconda.com/blog/developer-blog/tensorflow-in-anaconda/
+내용을 보니 pip 로 설치하는것 보다 conda를 이용하면 좋은 점이 두 가지가 있다고 합니다.</description>
+    </item>
+    
+    <item>
+      <title>Object Detection API</title>
+      <link>https://jjerry-test.github.io/blog/tfod/</link>
+      <pubDate>Wed, 12 Sep 2018 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/tfod/</guid>
+      <description>이번에 V.ais에서 TensorFlow Object Detection API 사용 매뉴얼을 작성해봤습니다.
+https://github.com/V-AIS/tensorflow</description>
+    </item>
+    
+    <item>
+      <title>LSTM 예제 코드</title>
+      <link>https://jjerry-test.github.io/blog/lstm/</link>
+      <pubDate>Thu, 16 Aug 2018 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/lstm/</guid>
+      <description>TensorFlow LSTM 예제 코드 여기저기서 TensorFlow LSTM 코드를 찾다가 예제를 제가 보기 편하게 작성햇습니다.</description>
+    </item>
+    
+  </channel>
+</rss>

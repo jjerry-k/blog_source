@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DeepLearning on Jerry</title>
+    <link>https://jjerry-test.github.io/categories/deeplearning/</link>
+    <description>Recent content in DeepLearning on Jerry</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Nov 2020 18:30:46 +0600</lastBuildDate><atom:link href="https://jjerry-test.github.io/categories/deeplearning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MediaPipe - (3)</title>
+      <link>https://jjerry-test.github.io/blog/mediapipe_3/</link>
+      <pubDate>Sun, 15 Nov 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/mediapipe_3/</guid>
+      <description>저번 Mediapipe의 Hands 포스팅에 이어서 Mediapipe의 Pose 를 테스트 해보겠습니다.</description>
+    </item>
+    
+    <item>
+      <title>MediaPipe - (2)</title>
+      <link>https://jjerry-test.github.io/blog/mediapipe_2/</link>
+      <pubDate>Sat, 14 Nov 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/mediapipe_2/</guid>
+      <description>저번 Mediapipe와 Face mesh 포스팅에 이어서 Mediapipe의 Hands 를 테스트 해보겠습니다.</description>
+    </item>
+    
+    <item>
+      <title>MediaPipe - (1)</title>
+      <link>https://jjerry-test.github.io/blog/mediapipe_1/</link>
+      <pubDate>Fri, 13 Nov 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/mediapipe_1/</guid>
+      <description>이번 포스팅에선 Google의 MediaPipe에 대해서 다뤄보려합니다.
+MediaPipe is a framework for building multimodal (eg.</description>
+    </item>
+    
+    <item>
+      <title>Seed 가 뭐길래..</title>
+      <link>https://jjerry-test.github.io/blog/seed/</link>
+      <pubDate>Sat, 12 Sep 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/seed/</guid>
+      <description>Deep learning model 을 실험하다보면 reproducibility 라는 말을 자주 듣게 됩니다.</description>
+    </item>
+    
+    <item>
+      <title>Weights &amp; Biases Usage - [2]</title>
+      <link>https://jjerry-test.github.io/blog/sweep/</link>
+      <pubDate>Fri, 28 Aug 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/sweep/</guid>
+      <description>오늘은 Weights &amp;amp; Biases 의 기능중 하나인 sweep에 대해서 알아보려고 합니다.</description>
+    </item>
+    
+    <item>
+      <title>Weights &amp; Biases Usage - [1]</title>
+      <link>https://jjerry-test.github.io/blog/wandb_usage_1/</link>
+      <pubDate>Thu, 27 Aug 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/wandb_usage_1/</guid>
+      <description>이번 포스팅은 Weights &amp;amp; Biases 를 활용하여 Network 성능 비교 예시를 하려고 합니다.</description>
+    </item>
+    
+    <item>
+      <title>Paper Reading Roadmap</title>
+      <link>https://jjerry-test.github.io/blog/paper_roadmap/</link>
+      <pubDate>Fri, 21 Aug 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/paper_roadmap/</guid>
+      <description>본 포스팅은 고려대학교 산업경영공학부 Data Science &amp;amp; Business Analytics 연구실의 강필성 교수님의 자료를 정리한 포스팅입니다.</description>
+    </item>
+    
+    <item>
+      <title>RAPIDS APIs ( cuML )</title>
+      <link>https://jjerry-test.github.io/blog/rapids-cuml/</link>
+      <pubDate>Thu, 20 Aug 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/rapids-cuml/</guid>
+      <description>어제는 RAPIDS에 대한 소개와 RAPIDS APIs 중 cuDF 에 대한 예제에 대한 포스팅을 했습니다.</description>
+    </item>
+    
+    <item>
+      <title>RAPIDS!!!</title>
+      <link>https://jjerry-test.github.io/blog/rapids/</link>
+      <pubDate>Wed, 19 Aug 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/rapids/</guid>
+      <description>RAPIDS is a suite of software libraries for executing end-to-end data science &amp;amp; analytics pipelines entirely on GPUs.</description>
+    </item>
+    
+    <item>
+      <title>Review: Cycle GAN</title>
+      <link>https://jjerry-test.github.io/blog/cycle_gan/</link>
+      <pubDate>Tue, 11 Aug 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/cycle_gan/</guid>
+      <description>Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks Author: Jun-Yan Zhu∗, Taesung Park∗, Phillip Isola, Alexei A.</description>
+    </item>
+    
+    <item>
+      <title>Review: Pix2Pix</title>
+      <link>https://jjerry-test.github.io/blog/pix2pix/</link>
+      <pubDate>Mon, 10 Aug 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/pix2pix/</guid>
+      <description>Image-to-Image Translation with Conditional Adversarial Networks Author: Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, Alexei A.</description>
+    </item>
+    
+    <item>
+      <title>Neptune...? 은 또 뭐여..</title>
+      <link>https://jjerry-test.github.io/blog/neptune/</link>
+      <pubDate>Thu, 23 Jul 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/neptune/</guid>
+      <description>오늘은 neptune.ai 라는 툴을 소개시켜 드리려 합니다.
+Jupyter는 아는데&amp;hellip;. Neptune은 또 뭐여&amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>Netron! Network 구조를 보여주세요!</title>
+      <link>https://jjerry-test.github.io/blog/netron/</link>
+      <pubDate>Mon, 20 Jul 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/netron/</guid>
+      <description>오늘은 netron 이라는 Tool를 드리려 합니다.
+ 본 포스팅은 https://github.com/lutzroeder/netron 내용을 이용하여 작성하였습니다.</description>
+    </item>
+    
+    <item>
+      <title>NIPA x VScode !</title>
+      <link>https://jjerry-test.github.io/blog/nipa_vscode/</link>
+      <pubDate>Wed, 15 Jul 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/nipa_vscode/</guid>
+      <description>지금까지 Docker(이하 도커) 세팅 까지 포스팅을 했었습니다.
+Docker 까진 좋은데&amp;hellip;연결을 항상 Terminal 혹은 CMD를 켜서 ssh로 해야하나.</description>
+    </item>
+    
+    <item>
+      <title>Colab x VSCode !</title>
+      <link>https://jjerry-test.github.io/blog/colab_vscode/</link>
+      <pubDate>Mon, 13 Jul 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/colab_vscode/</guid>
+      <description>본 포스팅은 Colab on steroids: free GPU instances with SSH access and Visual Studio Code Server 내용을 (많이) 참고하여 작성하였습니다.</description>
+    </item>
+    
+    <item>
+      <title>NIPA x Docker !</title>
+      <link>https://jjerry-test.github.io/blog/nipa_docker/</link>
+      <pubDate>Sun, 28 Jun 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/nipa_docker/</guid>
+      <description>원래 NIPA GPU 서버를 대여받은 후에 포트 포워딩을 먼저 해줘야 합니다.</description>
+    </item>
+    
+    <item>
+      <title>NIPA 컴퓨팅 자원 신청 방법 !</title>
+      <link>https://jjerry-test.github.io/blog/nipa_apply/</link>
+      <pubDate>Sat, 27 Jun 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/nipa_apply/</guid>
+      <description>저번 포스팅에 이어 이번엔 NIPA 컴퓨팅 자원 이용 신청에 관한 포스팅을 해보려 합니다!</description>
+    </item>
+    
+    <item>
+      <title>NIPA...NIPA가 뭐죠..</title>
+      <link>https://jjerry-test.github.io/blog/nipa_intro/</link>
+      <pubDate>Fri, 26 Jun 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/nipa_intro/</guid>
+      <description>요즘 커뮤니티(V-AIS) 에선 NIPA에 대한 얘기가 많이 나옵니다.
+NIPA는 정보통신산업진흥원 의 약자인데 근데 그래서 이게 왜.</description>
+    </item>
+    
+    <item>
+      <title>TensorFlow Multi GPU 사용법</title>
+      <link>https://jjerry-test.github.io/blog/tf2_multi_gpu/</link>
+      <pubDate>Sun, 14 Jun 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/tf2_multi_gpu/</guid>
+      <description>이번 포스팅은 Multi GPU 시스템에서 Google의 머신러닝 오픈 소스 플랫폼인 TensorFlow사용법에 관한 것입니다!</description>
+    </item>
+    
+    <item>
+      <title>Review: DETR</title>
+      <link>https://jjerry-test.github.io/blog/detr/</link>
+      <pubDate>Sat, 13 Jun 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/detr/</guid>
+      <description>End-to-End Object Detection with Transformers Author: Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, and Sergey Zagoruyko Date: May 27, 2020 URL: https://ai.</description>
+    </item>
+    
+    <item>
+      <title>Review: ShuffleNetV2</title>
+      <link>https://jjerry-test.github.io/blog/shufflenetv2/</link>
+      <pubDate>Sat, 09 May 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/shufflenetv2/</guid>
+      <description>ShuffleNet V2: Practical Guidelines for Efficient CNN Architecture Design Author: Ningning Ma, Xiangyu Zhang, Hai-Tao Zheng, Jian Sun</description>
+    </item>
+    
+    <item>
+      <title>Review: ResNeXt</title>
+      <link>https://jjerry-test.github.io/blog/resnext/</link>
+      <pubDate>Fri, 08 May 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/resnext/</guid>
+      <description>Aggregated Residual Transformations for Deep Neural Networks Author: Saining Xie, Ross Girshick, Piotr Dollár, Zhuowen Tu, Kaiming He</description>
+    </item>
+    
+    <item>
+      <title>Review: ShuffleNetV1</title>
+      <link>https://jjerry-test.github.io/blog/shufflenetv1/</link>
+      <pubDate>Thu, 07 May 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/shufflenetv1/</guid>
+      <description>ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices Author: Xiangyu Zhang, Xinyu Zhou, Mengxiao Lin, Jian Sun</description>
+    </item>
+    
+    <item>
+      <title>Review: CutMix</title>
+      <link>https://jjerry-test.github.io/blog/cutmix/</link>
+      <pubDate>Wed, 06 May 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/cutmix/</guid>
+      <description>CutMix: Regularization Strategy to Train Strong Classifiers with Localizable Features Author: Sangdoo Yun, Dongyoon Han, Seong Joon Oh, Sanghyuk Chun, Junsuk Choe, Youngjoon Yoo</description>
+    </item>
+    
+    <item>
+      <title>Review: EfficientNet</title>
+      <link>https://jjerry-test.github.io/blog/efficientnet/</link>
+      <pubDate>Sat, 02 May 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/efficientnet/</guid>
+      <description>EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks Author: Mingxing Tan, Quoc V.</description>
+    </item>
+    
+    <item>
+      <title>Review: CBAM</title>
+      <link>https://jjerry-test.github.io/blog/cbam/</link>
+      <pubDate>Thu, 30 Apr 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/cbam/</guid>
+      <description>CBAM: Convolutional Block Attention Module Author: Sanghyun Woo, Jongchan Park, Joon-Young Lee, In So Kweon</description>
+    </item>
+    
+    <item>
+      <title>Review: BAM</title>
+      <link>https://jjerry-test.github.io/blog/bam/</link>
+      <pubDate>Wed, 29 Apr 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/bam/</guid>
+      <description>BAM: Bottleneck Attention Module Author: Jongchan Park, Sanghyun Woo, Joon-Young Lee, In So Kweon</description>
+    </item>
+    
+    <item>
+      <title>Review: MobileNet V3</title>
+      <link>https://jjerry-test.github.io/blog/mobilenetv3/</link>
+      <pubDate>Tue, 28 Apr 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/mobilenetv3/</guid>
+      <description>Searching for MobileNetV3 Author: Andrew G. Howard, Mark Sandler, Grace Chu, Liang-Chieh Chen, Bo Chen, Mingxing Tan, Weijun Wang, Yukun Zhu, Ruoming Pang, Vijay Vasudevan, Quoc V.</description>
+    </item>
+    
+    <item>
+      <title>Review: MobileNet V2</title>
+      <link>https://jjerry-test.github.io/blog/mobilenetv2/</link>
+      <pubDate>Mon, 27 Apr 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/mobilenetv2/</guid>
+      <description>MobileNetV2: Inverted Residuals and Linear Bottlenecks Author: Mark Sandler, Andrew G.</description>
+    </item>
+    
+    <item>
+      <title>Google Coral USB 사용기</title>
+      <link>https://jjerry-test.github.io/blog/coral/</link>
+      <pubDate>Tue, 31 Mar 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/coral/</guid>
+      <description>Raspberry pi 4 &amp;amp; Google Coral USB Accelerator 평소에 라즈베리파이 4를 NAS로 사용하고 있었습니다.</description>
+    </item>
+    
+    <item>
+      <title>Review: StarGAN v2</title>
+      <link>https://jjerry-test.github.io/blog/starganv2/</link>
+      <pubDate>Wed, 04 Mar 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/starganv2/</guid>
+      <description>StarGAN v2: Diverse Image Synthessis for Multiple Domains Author: Yunjey Choi, Youngjung Uh, Jaejun Yoo, Jung-Woo Ha</description>
+    </item>
+    
+    <item>
+      <title>Review: StarGAN v1</title>
+      <link>https://jjerry-test.github.io/blog/starganv1/</link>
+      <pubDate>Mon, 02 Mar 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/starganv1/</guid>
+      <description>StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation Author: Yunjey Choi, Youngjung Uh, Jaejun Yoo, Jung-Woo Ha</description>
+    </item>
+    
+    <item>
+      <title>Weights &amp; Biases 가 뭐지??</title>
+      <link>https://jjerry-test.github.io/blog/wandb/</link>
+      <pubDate>Sun, 01 Mar 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/wandb/</guid>
+      <description>이번 포스팅에선 Weights &amp;amp; Biases 라는 Tool 을 소개드리려 합니다.</description>
+    </item>
+    
+    <item>
+      <title>Review: MobileNet V1</title>
+      <link>https://jjerry-test.github.io/blog/mobilenetv1/</link>
+      <pubDate>Wed, 26 Feb 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/mobilenetv1/</guid>
+      <description>MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications Author: Andrew G.</description>
+    </item>
+    
+    <item>
+      <title>Review: Xception</title>
+      <link>https://jjerry-test.github.io/blog/xception/</link>
+      <pubDate>Sun, 16 Feb 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/xception/</guid>
+      <description>Xception: Deep Learning with Depthwise Separable Convolution Author: Franc¸ois Chollet</description>
+    </item>
+    
+    <item>
+      <title>Review: MRI interpolation using Deep Learning</title>
+      <link>https://jjerry-test.github.io/blog/thin/</link>
+      <pubDate>Fri, 05 Jul 2019 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/thin/</guid>
+      <description>Deep Generative Adversarial Networks for Thin-Section Infant MR Image Reconstruction  Jiaqi Gu1, Zezu Li1, YuanYuan Wans1, 3, Haowei Yang2, Zhongwei Qiao2, and Jinhua Yu1, 3 1School of Information Science and Technology, Fudan University, Shanghai 200433, China</description>
+    </item>
+    
+    <item>
+      <title>Review: YOLO</title>
+      <link>https://jjerry-test.github.io/blog/yolo/</link>
+      <pubDate>Fri, 29 Mar 2019 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/yolo/</guid>
+      <description>You Only Look Once: Unified, Real-Time, Object detection   편의상 bounding box -&amp;gt; bbox</description>
+    </item>
+    
+    <item>
+      <title>Anaconda를 이용하여 TensorFlow 설치하기!</title>
+      <link>https://jjerry-test.github.io/blog/anaconda_setting/</link>
+      <pubDate>Sun, 18 Nov 2018 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/anaconda_setting/</guid>
+      <description>안녕하세요!
+오늘은 TensorFlow 설치 방법을 간단하게 알려드리려고 합니다.
+CPU와 GPU 중에서도 GPU 버전 설치에 대해 알려드릴거에요!</description>
+    </item>
+    
+    <item>
+      <title>Python 3.6 에서 이 경고 보기 싫어요..</title>
+      <link>https://jjerry-test.github.io/blog/warning/</link>
+      <pubDate>Fri, 19 Oct 2018 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/warning/</guid>
+      <description>안녕하세요! Jerry 입니다!
+어제 pip 로 설치하지 말라구요!? 라는 포스팅을 했죠?</description>
+    </item>
+    
+    <item>
+      <title>pip 로 설치하지 말라구요!?</title>
+      <link>https://jjerry-test.github.io/blog/condavspip/</link>
+      <pubDate>Thu, 18 Oct 2018 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/condavspip/</guid>
+      <description>오늘 갑자기 당황스러운 포스팅을 봤습니다.
+출처 : https://www.anaconda.com/blog/developer-blog/tensorflow-in-anaconda/
+내용을 보니 pip 로 설치하는것 보다 conda를 이용하면 좋은 점이 두 가지가 있다고 합니다.</description>
+    </item>
+    
+    <item>
+      <title>Object Detection API</title>
+      <link>https://jjerry-test.github.io/blog/tfod/</link>
+      <pubDate>Wed, 12 Sep 2018 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/tfod/</guid>
+      <description>이번에 V.ais에서 TensorFlow Object Detection API 사용 매뉴얼을 작성해봤습니다.
+https://github.com/V-AIS/tensorflow</description>
+    </item>
+    
+    <item>
+      <title>LSTM 예제 코드</title>
+      <link>https://jjerry-test.github.io/blog/lstm/</link>
+      <pubDate>Thu, 16 Aug 2018 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/lstm/</guid>
+      <description>TensorFlow LSTM 예제 코드 여기저기서 TensorFlow LSTM 코드를 찾다가 예제를 제가 보기 편하게 작성햇습니다.</description>
+    </item>
+    
+  </channel>
+</rss>

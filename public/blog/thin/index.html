@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Jerry</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="this is meta description">
+  <meta name="author" content="Jerry Kim">
+  <meta name="generator" content="Hugo 0.78.2" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://jjerry-test.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://jjerry-test.github.io/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-126636477-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+  <img src="https://jjerry-test.github.io/images/preloader.gif " alt="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://jjerry-test.github.io"><img class="img-fluid"
+          src="https://jjerry-test.github.io/images/logo.png" alt="Jerry"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.facebook.com/jerry.kim.566/"><i class="ti-facebook"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://twitter.com/jjerry_k"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/jjjerry_k/"><i class="ti-instagram"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/jjerry-k"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/jerry-kim-b8804216b/"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://jjerry-test.github.io"><img class="img-fluid"
+            src="https://jjerry-test.github.io/images/logo.png" alt="Jerry"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://jjerry-test.github.io/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://jjerry-test.github.io/blog">Post</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://jjerry-test.github.io/contact">Contact</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://jjerry-test.github.io/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <a href="/categories/deeplearning"
+          class="text-primary">Deep learning</a>
+        
+        <h2>Review: MRI interpolation using Deep Learning</h2>
+        <div class="mb-3 post-meta">
+          <span>By Jerry Kim</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>05 July 2019</span>
+          
+        </div>
+        
+        <div class="content mb-5">
+          <h1 id="deep-generative-adversarial-networks-for-thin-section-infant-mr-image-reconstruction">Deep Generative Adversarial Networks for Thin-Section Infant MR Image Reconstruction</h1>
+<ul>
+<li>Jiaqi Gu<!-- raw HTML omitted -->1<!-- raw HTML omitted -->, Zezu Li<!-- raw HTML omitted -->1<!-- raw HTML omitted -->, YuanYuan Wans<!-- raw HTML omitted -->1, 3<!-- raw HTML omitted -->, Haowei Yang<!-- raw HTML omitted -->2<!-- raw HTML omitted -->, Zhongwei Qiao<!-- raw HTML omitted -->2<!-- raw HTML omitted -->, and Jinhua Yu<!-- raw HTML omitted -->1, 3<!-- raw HTML omitted --></li>
+<li><!-- raw HTML omitted -->1<!-- raw HTML omitted -->School of Information Science and Technology, Fudan University, Shanghai 200433, China<br>
+<!-- raw HTML omitted -->2<!-- raw HTML omitted -->The Children&rsquo;s Hospital of Fudan University, Shanghai 201102, China<br>
+<!-- raw HTML omitted -->3<!-- raw HTML omitted -->Key Laboratory of Medical Imaging Computing and Computer Assisted Intervention of Shanghai, Department of Electronic Engineering, Institute of Functional
+and Molecular Medical Imaging, Fudan University, Shanghai 200433, China</li>
+</ul>
+<hr>
+<h2 id="abstract">Abstract</h2>
+<ul>
+<li>Thin section magnetic resonance images (<strong>Thin MRI</strong>) 는 뇌수술, 뇌 구조 분석에 좋은 영상.</li>
+<li>하지만 Thick section magnetic resonance images (<strong>Thick MRI</strong>) 에 비해 imaging cost가 많이 들기 때문에 잘 사용되지 않음.</li>
+<li>Thick MRI 2 Thin MRI 제안.</li>
+<li>Two stage( GAN -&gt; CNN )로 구성하였고 Thick MRI의 Axial, Sigittal plane을 이용하여 Thin MRI의 Axial reconstruction.</li>
+<li>3D-Y-Net-GAN 은 Axial, Sagittal Thick MRI 를 이용하여 Fusion.</li>
+<li>3D-Dense U-Net은 Sagittal plane에 대해 세부적인 calibrations, structual correction 제공.</li>
+<li>Loss function 은 structual detail을 Network가 capture 할 수 있도록 제안.</li>
+<li>bicubic, sparse representation, 3D-SRU-Net 과 비교.</li>
+<li>35번의 Cross-validation, 114개를 이용하여 두개의 testset 구성.
+<ul>
+<li>PSNR : 23.5 % 증가.</li>
+<li>SSIM : 90.5 % 증가.</li>
+<li>MMI : 21.5 % 증가.</li>
+</ul>
+</li>
+</ul>
+<h2 id="introduction">Introduction</h2>
+<ul>
+<li>Thin MRI 는 slice thickness가 1mm이고 sapcing gap이 0mm.</li>
+<li>하지만 항상 Thin MRI를 사용할 수 없음.</li>
+<li>일반적으로 사용하는 Thick MRI는 slice thickness가 4~6mm 이고 sapcing gap이 0.4~1mm.
+<ul>
+<li>해상도 : Thin MRI &gt; Thick MRI</li>
+</ul>
+</li>
+<li>인간의 뇌 발달에 대한 insight를 주기 때문에 유아의 brain MR image는 어른의 brain MR image 보다 연구에 가치가 있음</li>
+<li>하지만 유아의 MR image를 얻는게 쉽지 않음.</li>
+<li>그래서 Thick to Thin 제안.</li>
+<li>기존 traditional interpolation algorithm
+<ul>
+<li>시각적으로는 성능이 좋아보임. 하지만 성인의 brain 에 초점을 맞춤.</li>
+<li><strong><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4478865/pdf/JMI-001-034007.pdf">Interpolation-based super-resolution reconstruction: effects of slice thickness</a></strong></li>
+<li><strong><a href="https://www.hindawi.com/journals/ijbi/2013/395915/">Evaluation of interpolation effects on upsampling and accuracy of cost functions-based optimized automatic image registration</a></strong></li>
+</ul>
+</li>
+<li>Frame interpolation 방법과 같이 적용 가능.
+<ul>
+<li><strong><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=8110374">Slice Interpolation in MRI Using a Decomposition-reconstruction Method</a></strong></li>
+</ul>
+</li>
+<li>Super-resolution 문제로 적용할 수도 있음.
+<ul>
+<li><strong><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=5466111">Image super-resolution via sparse representation</a></strong></li>
+</ul>
+</li>
+<li>CNN, GAN 이 발전하면서 super-resolution 이 탄력을 받음.
+<ul>
+<li><strong>[<a href="https://link.springer.com/chapter/10.1007/978-3-319-67564-0_12">Context-Sensitive Super-Resolution for Fast Fetal Magnetic Resonance Imaging</a></strong>]</li>
+<li><strong>[<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8417964">Deep Generative Adversarial Neural Networks for Compressive Sensing MRI</a>]</strong></li>
+</ul>
+</li>
+<li>이전에 성인의 Thick MRI를 Thin MRI 로 reconstruction 하는 3D-SRGAN 제안했으나 axial plane만 고려했음. <strong>[<a href="https://link.springer.com/chapter/10.1007%2F978-3-319-67389-9_38">Reconstruction of Thin-Slice Medical Images Using Generative Adversarial Network</a>]</strong></li>
+<li>Deep Learning 이 reconstruction performance 뿐 아니라 reconstruction time 감소에도 매우 효과적인걸 보임.</li>
+</ul>
+<h2 id="proposed-method">Proposed Method</h2>
+<h3 id="a-overview">A. Overview</h3>
+<ul>
+<li>CNN은 기존에도 super-resolution에서 많이 사용됨.</li>
+<li>하지만 최근까지 제안된 Network는 대부분 2D image에 대한 upscaling.</li>
+<li>몇몇 Network는 3D image로 확장했지만 그렇게 효과를 보지 못했음.</li>
+<li>이 논문의 Flow
+<figure>
+    <img src="/images/post/thin/fig01.PNG"/> 
+</figure>
+</li>
+</ul>
+<figure>
+    <img src="/images/post/thin/fig02.PNG"/> 
+</figure>
+
+<h3 id="b-network-architecture">B. Network Architecture</h3>
+<ul>
+<li>First stage는 3D-Y-Net-GAN 으로 Thick MRI를 Thin MRI로 생성 후 3D-DenseU-Net으로 recalibration.</li>
+</ul>
+<h4 id="3d-y-net-gan">3D-Y-Net-GAN</h4>
+<ul>
+<li>Input : Axial, Sagittal Thick MRI</li>
+<li>Output : Thin MRI</li>
+<li>r : Upscaling Factor ( r = 8 일 경우의 예시 )</li>
+</ul>
+<figure>
+    <img src="/images/post/thin/fig03.PNG"/> 
+</figure>
+
+<ul>
+<li>
+<p>Feature Extraction Branches</p>
+<ul>
+<li>각 input에 대한 feature 추출.</li>
+<li>Maxpooling layer에서 [1, 2, 1], [2, 1, 1]의 다른 strides factor 적용.</li>
+<li>3D convolutional layer 는 Convolution + Batch Normalization + Swish 로 구성.
+<ul>
+<li><a href="https://arxiv.org/pdf/1710.05941.pdf">Swish</a>는 Activation 의 종류로 ReLU로 인해 생기는 Dead neuron을 극복할 수 있음. <strong>-&gt; 근데 굳이 왜 swish일까&hellip;</strong></li>
+</ul>
+</li>
+<li>layers 를 거친 후 shape 의 변화
+<ul>
+<li>Axial : [H, W, S, 1] -&gt; [H/2, W/2, S, 32]</li>
+<li>Sagittal : [H, W, r*S, 1] -&gt; [H/2, W/2, S, 32]</li>
+</ul>
+</li>
+<li>Axial과 Sagittal의 shape이 다르기 때문에 Sagittal 에 대해서 preprocessing으로 3개의 3d convolution layer 적용.</li>
+</ul>
+</li>
+<li>
+<p>Feature Fusion Branch</p>
+<ul>
+<li>두 feature를 channel 방향으로 Concatanation.</li>
+<li>W 방향으로 Upsampling 후 H 방향으로 Downsampling feature 를 Concatanation.</li>
+<li>H 방향으로 Upsampling 후 첫번째 Block의 Feature map을 Concatanation</li>
+<li>U-Net 에서 아이디어를 얻었고 structual alignment, gradient-vanishing 등을 완화.</li>
+</ul>
+</li>
+<li>
+<p>Reconstruction Branch</p>
+<ul>
+<li>Figure 3 (b) 와 같은 구조.</li>
+<li>Upsampling layer 3개를 연속으로 붙여서 8배 확장하는 구조 대신에 Multipath upscaling strategy 적용. <strong>-&gt; Artifact 완화 효과&hellip;?</strong></li>
+</ul>
+</li>
+<li>
+<p>Discriminator
+<figure>
+    <img src="/images/post/thin/fig04.PNG"/> 
+</figure>
+</p>
+<ul>
+<li>Axial Image, Saggital Image, Combination Image 가 Real Pair인지 Fake Pair인지 감별.</li>
+<li>Input : \((I^A, I^Y, I^S), (I^A, I^{GT}, I^S)\)</li>
+<li>Output : Real, Fake</li>
+</ul>
+</li>
+</ul>
+<h4 id="3d-denseu-net">3D-DenseU-Net</h4>
+<figure>
+    <img src="/images/post/thin/fig05.PNG"/> 
+</figure>
+
+<ul>
+<li>전체적인 구조는 U-Net이지만 2개의 Enhanced residual block 을 적용하여 detail recalibration.</li>
+<li>Input :  \(I^Y, I^S, I^{YA}\) <strong>-&gt; 어떻게 3개가 input으로&hellip;?</strong></li>
+<li>Output : Thin MR Image</li>
+<li>\(I^A\) 를 \(I^Y\) 의 해당 위치에 insertion 하여 \(I^{YA}\) 생성. -&gt; 아직 이해 X..
+<ul>
+<li>Axial Information 을 이용하여 정확한 axial 을 만들기 위해&hellip;</li>
+<li>\(I^S\) 를 \(I^Y\) 에 insertion하게 되면 Sagittal 에 대한 information 이 과해지기 때문에 Reconstrtion Axial Image의 Quality 가 안좋아 질 것!</li>
+</ul>
+</li>
+<li>End-to-End 가 아니라 각각 따로따로 학습. <strong>-&gt; Faster RCNN 과 같은 방식으로 할런지&hellip;.?</strong></li>
+</ul>
+<h4 id="loss-function">Loss Function</h4>
+<ul>
+<li>\(G\) 는 generator 라는 의미.</li>
+<li>Self-Adaptive Charbonnier Loss
+<ul>
+<li>일반적으로 많이 사용되는 \(\ell2\) 전반적으로 Smoothing 하게 만들어지고 \(\ell1\) 은 GT와 Prediction 의 차이로 indiscriminate 하게 학습.</li>
+<li><a href="https://arxiv.org/pdf/1704.03915.pdf">Deep Laplacian Pyramid Networks for Fast and Accurate Super-Resolution</a>에 따르면 <strong>Charbonnier loss</strong>(미분가능한 $\ell1$의 분산)가 \(\ell1, \ell2\) 보다 성능이 뛰어남.</li>
+<li><a href="https://arxiv.org/pdf/1706.03142.pdf">Deep Learning for Isotropic Super-Resolution from Non-Isotropic 3D Electron Microscopy</a> 에 따르면 <strong>Cubic-weighted mean square error</strong> 가 Generated 영상과 Ground truth 간의 차이가 큰 &ldquo;어려운&rdquo; 부분의 성능을 강조.</li>
+<li>다음과 같은 Loss 제안.</li>
+<li>\(\epsilon\) 은 default로 \(10^{-6}\)</li>
+</ul>
+</li>
+</ul>
+<p>$$L^G_{SC} = \frac{1}{rLWH}\sum_{x,y,z=1,1,1}^{L,W,rH}\sqrt{(I^{GT}_{x,y,z}-I^Y_{z,y,z})^2+\epsilon}\cdot\bigg(\frac{1}{2}+\frac{(I^{GT}_{x,y,z}-I^Y_{z,y,z})^2}{2max((I^{GT}-I^Y)^2)}\bigg)$$</p>
+<ul>
+<li>3-D Gradient Correction Loss
+<ul>
+<li>Charbonnier Loss는 Pixelwise difference에 대한 Loss, Gradient에 대한 손실을 줄 수 있음.</li>
+<li>다음과 같이 각 axis에 대한 Gradient 를 이용하여 Loss 제안.</li>
+</ul>
+</li>
+</ul>
+<p>$$L^G_{GC} = \mathbb{E}[(\nabla_{x}I^{GT}_{x,y,z} - \nabla_{x}I^Y_{x,y,z})^2] \\  + \mathbb{E}[(\nabla_{y}I^{GT}_{x,y,z} - \nabla_{y}I^Y_{x,y,z})]^2 \\ + \mathbb{E}[(\nabla_{z}I^{GT}_{x,y,z} - \nabla_{z}I^Y_{x,y,z})^2]$$</p>
+<ul>
+<li>Adversarial Loss
+<ul>
+<li>LSGAN Loss 사용.</li>
+</ul>
+</li>
+</ul>
+<p>$$L^D=\frac{1}{2}\mathbb{E}[(D(I^{GT}, I^A, I^S)-1)^2+D(I^Y, I^A, I^S)^2]$$</p>
+<p>$$L^G_{AD}=\mathbb{E}[(D(I^Y, I^A, I^S)-1)^2]$$</p>
+<ul>
+<li>\(\ell_2\) Weight Regularization Loss
+<ul>
+<li>(Loss는 아니지만&hellip;)</li>
+<li>Overfitting을 방지하기 위해 사용.</li>
+</ul>
+</li>
+</ul>
+<p>$$L^G_{WR} = \sum\Vert W_G\Vert^2_2$$</p>
+<ul>
+<li>
+<p>3D-Y-Net-GAN Loss</p>
+<ul>
+<li>\(L_G = L^G_{SC} + \lambda_1L^G_{GC} + \lambda_2L^G_{AD} + \lambda_3L^G_{WR}\)</li>
+</ul>
+</li>
+<li>
+<p>3D-DenseU-Net Loss</p>
+<ul>
+<li>\(L = L_{SC} + \lambda_1L_{GC} + \lambda_3L_{WR}\)</li>
+</ul>
+</li>
+</ul>
+<h2 id="experimental-result">Experimental Result</h2>
+<ul>
+<li>
+<p>Multiplanar 의 효율성을 검증하기 위해 다음과 같이 세 가지 경우로 나눔.</p>
+<ul>
+<li>Axial, Sagittal 둘 다 이용.</li>
+<li>Axial 만 이용.</li>
+<li>Saigittal 만 이용.</li>
+</ul>
+</li>
+<li>
+<p>Loss function을 검증하기 위해 네 가지 경우로 나눔.</p>
+<ul>
+<li>\(\ell1norm + L_{GC} + L_{AD} + L_{WR}\) (pixelwise loss를 \(\ell1norm\)으로 대체.)</li>
+<li>\(L_{SC} + L_{GC} + L_{WR}\)</li>
+<li>\(L_{SC} + L_{AD} + L_{WR}\)</li>
+<li>\(L_{SC} + L_{GC} + L_{AD} + L_{WR}\)</li>
+</ul>
+</li>
+<li>
+<p>Evalutaion Method 로는 아래와 같이 네 가지 기법과 자신들의 Network</p>
+<ul>
+<li><a href="https://ieeexplore.ieee.org/document/1163711">Bicubic interpolation</a></li>
+<li><a href="https://ieeexplore.ieee.org/document/5466111">Sparse representation</a></li>
+<li><a href="https://arxiv.org/abs/1706.03142">3D-SRU-Net</a></li>
+<li>3D-Y-Net-GAN</li>
+<li>3D-Y-Net-GAN + 3D-DenseU-Net</li>
+</ul>
+</li>
+<li>
+<p>Metrics으로는 다음 세 가지 사용.</p>
+<ul>
+<li>PSNR(Peak Signal-to-Noise Ratio)</li>
+</ul>
+</li>
+</ul>
+<p>$$
+\begin{alignedat}{2}
+MAX_I = 255 \\
+PSNR = 20\cdot\log_{10}\Bigg(\frac{MAX_I}{\sqrt{\frac{1}{rLWH}\sum_{x, y, z}(I^R_{x,y,z}-I^{GT}_{x,y,z})^2}}\Bigg)
+\end{alignedat}
+$$</p>
+<ul>
+<li>SSIM(Structural SIMilarity)</li>
+</ul>
+<p>$$L=255(\text{dynamic\ range})$$
+$$\mu:\text{Variance} $$
+$$\mu_{ab}:\text{Covariance} $$
+$$c_1=(k_1L)^2 $$
+$$c_2=(k_2L)^2 $$
+$$SSIM=\frac{(2\mu_a\mu_b+c_1)(2\sigma_{ab}+c_2)}{(\mu_a^2+\mu_b^2+c_1)(\sigma_a^2+\sigma_b^2+c_2)}$$</p>
+<ul>
+<li>NMI(Normalized Mutual Information)</li>
+</ul>
+<p>$$H(X) = -\sum_{x_i}\in{X} p(x_i)\log {p(x_i)}$$
+$$H(X, Y) = -\sum_{y_i\in{Y}} \sum_{x_i\in{X}}p(x_i, y_i)\log{p(x_i, y_i)}$$
+$$NMI(X, Y) = 2\frac{H(X) + H(Y) - H(X, Y)}{H(X)+H(Y)}$$</p>
+<ul>
+<li>pixel 값을 [-1, 1]로 clipping -&gt; 다시 8-bit gray scale로 변환.</li>
+<li>Generated MR images 와 Ground truth가 비슷할 수록 높은 값을 가짐.</li>
+</ul>
+<h3 id="a-data-and-preprocessing">A. Data and Preprocessing</h3>
+<ul>
+<li>총 154 samples의 2~5세 유아 Axial, Sagittal Thick MRI, Axial Thin MRI</li>
+</ul>
+<figure>
+    <img src="/images/post/thin/tab01.PNG"/> 
+</figure>
+
+<ul>
+<li>Table 1. 과 같은 parameter 사용.</li>
+<li>Dataset 분할
+<ul>
+<li>Cross Validation Dataset : 40 samples</li>
+<li>Test 1 Dataset : 65 samples</li>
+<li>Test 2 Dataset : 49 samples</li>
+</ul>
+</li>
+<li>Preprocessing
+<ul>
+<li>각 영상별로 다른 parameter를 가지고 있고 intensities 도 다양하기 때문에 spatial misalignment, intensity imblance를 발견.</li>
+<li>Registration을 위해 SPM12 를 이용하여 unified spatial normalization 수행.
+<ul>
+<li>DICOM to NIfTI</li>
+<li>Segment gray matter, white matter, cerebrospinal fluid, skull, scalp, and air mask.</li>
+<li>Nonlinear deformation field</li>
+<li>ICBM Asian brain template in affine regularization</li>
+</ul>
+</li>
+<li>Grayscale Normalization
+<ul>
+<li>MRI 는 16 bit..</li>
+<li>단순 linear transformation 으로 [-1, 1]로 mapping.</li>
+</ul>
+</li>
+<li>Histogram Matching
+<ul>
+<li>고정된 샘플을 reference로 histogram matching 적용.</li>
+<li>histogram imbalance 제거.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Data Augmentation
+<ul>
+<li>Radial Transformation
+<ul>
+<li><strong><a href="https://arxiv.org/pdf/1708.04347.pdf">Image Augmentation using Radial Transform for Training Deep Neural Networks</a></strong></li>
+</ul>
+</li>
+<li>Mirror Reflection</li>
+</ul>
+</li>
+</ul>
+<h3 id="b-experimental-settings">B. Experimental Settings</h3>
+<ul>
+<li>
+<p>5-fold cross-validation 적용.</p>
+</li>
+<li>
+<p>35 개중 랜덤으로 28:7로 training:validation . <strong>-&gt; 앞에선 40개라더니..?</strong></p>
+</li>
+<li>
+<p>Training 3D-Y-Net-GAN</p>
+<ul>
+<li>Batch Size : 16</li>
+<li>Epochs : 200</li>
+<li><a href="https://arxiv.org/pdf/1412.6980.pdf">Adam Optimizer Parameter</a>
+<ul>
+<li>\(\beta_1\): 0.9</li>
+<li>Learning rate schedule
+<ul>
+<li>Initial value : 5*10<!-- raw HTML omitted -->-4<!-- raw HTML omitted --></li>
+<li>Decay Step : 252</li>
+<li>Decay rate : 0.989</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>$\lambda_1, \lambda_2, \lambda_3$ : 0.2, 0.02, 0.1</li>
+<li>He initializer</li>
+</ul>
+</li>
+<li>
+<p>Training 3D-DenseU-Net</p>
+<ul>
+<li>Batch Size : 12</li>
+<li>Epochs : 300</li>
+<li>Adam Optimizer Parameter
+<ul>
+<li>\(\beta_1\): 0.9</li>
+<li>Learning rate schedule
+<ul>
+<li>Initial value : 5*10<!-- raw HTML omitted -->-4<!-- raw HTML omitted --></li>
+<li>Decay Step : 373</li>
+<li>Decay rate : 0.989</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>\(\lambda_1, \lambda_3\) : 1, 0.001</li>
+<li>He initializer</li>
+</ul>
+</li>
+<li>
+<p>SR Parameter</p>
+<ul>
+<li>Dictionary size = 512</li>
+<li>Patch number = 100,000</li>
+<li>Patch size = 13 x 13</li>
+<li>Sparsity Regularization = 0.15</li>
+<li>Overlap = 12.</li>
+</ul>
+</li>
+<li>
+<p>Training 3D-SRU-Net</p>
+<ul>
+<li>Batch Size : 32</li>
+<li>Epochs : 300</li>
+<li>Adam Optimizer Parameter
+<ul>
+<li>\(\beta_1\): 0.9</li>
+<li>Initial value : 5*10<!-- raw HTML omitted -->-4<!-- raw HTML omitted --></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="c-ablation-experiment-on-input-data">C. Ablation Experiment On Input Data</h4>
+<ul>
+<li>Input을 변경하면서 실험 진행.
+<figure>
+    <img src="/images/post/thin/fig06.PNG"/> 
+</figure>
+
+<figure>
+    <img src="/images/post/thin/tab02.PNG"/> 
+</figure>
+</li>
+<li>Axial 과 Sagittal 을 같이 사용했을 때가 좀 더 세부적인 구조, 적은 왜곡을 보임.
+<ul>
+<li>두 축의 영상이 서로 조합하여 reconstruction task를 향상.</li>
+</ul>
+</li>
+<li>Quantitive evaluation 에서도 더 높은 지표를 산출.</li>
+</ul>
+<h4 id="d-ablation-experiment-on-loss-function">D. Ablation Experiment On Loss Function</h4>
+<ul>
+<li>Loss를 변경하면서 실험 진행.
+<figure>
+    <img src="/images/post/thin/fig07.PNG"/> 
+</figure>
+
+<figure>
+    <img src="/images/post/thin/tab03.PNG"/> 
+</figure>
+</li>
+<li>Self-Adaptive Charbonnier Loss에 비해 \(\ell1 norm\) 이 흐린 영상을 생성.</li>
+<li>Without Gradient Correction Loss
+<ul>
+<li>덜 선명한 영상을 생성.</li>
+</ul>
+</li>
+<li>Without Adversarial Loss
+<ul>
+<li>덜 realistic 영상을 생성. <strong>-&gt; ?????그냥 쓴 말인가..</strong></li>
+</ul>
+</li>
+<li><strong>Table3 &hellip;지표 좀 이상..</strong></li>
+</ul>
+<h4 id="e-comparison-with-other--methods">E. Comparison With Other  Methods</h4>
+<ul>
+<li>다른 Method들과 비교.
+<figure>
+    <img src="/images/post/thin/fig08.PNG"/> 
+</figure>
+
+<figure>
+    <img src="/images/post/thin/tab04.PNG"/> 
+</figure>
+</li>
+<li>제안한 method로 생성된 image가 가장 Realistic하고 Ground truth 와 가장 비슷하다고 함.</li>
+<li>대부분 Quantitative evaluation 에서 제안한 method가 다른 것들을 다 뛰어넘음.</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<ul>
+<li><strong>제안한 Method 에선 Data preprocessing이 매우 중요하다&hellip;&hellip;</strong></li>
+</ul>
+
+        </div>
+
+        
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "jjerry_k" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h2>Join Our Newsletter</h2>
+        <p class="text-light px-md-5 py-4 border-left border-right border-primary">
+          뉴스레터 받으실&hellip;?</p>
+        <form action="#" class="row justify-content-center">
+          <div class="input-group col-md-8">
+            <input type="text" class="form-control" placeholder="Your Email Address">
+            <div class="input-group-append">
+              <button class="input-group-text btn btn-primary">Subscribe</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center mb-5">
+        <a href="https://jjerry-test.github.io"><img src="https://jjerry-test.github.io/images/logo.png" alt="Jerry"></a>
+      </div>
+               
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contact Me</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="tel:Top%20Secret"><i
+                class="ti-mobile mr-3 text-primary"></i>Top Secret</a></li>
+          
+                     
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Seoul, Korea of Republic</li>
+          
+                     
+          <li class="mb-3"><a class="text-dark" href="mailto:jaeyeol2931@gmail.com"><i
+                class="ti-email mr-3 text-primary"></i>jaeyeol2931@gmail.com</a>
+          
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.facebook.com/jerry.kim.566/">facebook</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://twitter.com/jjerry_k">twitter</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.instagram.com/jjjerry_k/">instagram</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://github.com/jjerry-k">github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.linkedin.com/in/jerry-kim-b8804216b/">linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/blog">Blog</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/deeplearning">Deeplearning</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/living">Living</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/python">Python</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/ubuntu">Ubuntu</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://jjerry-test.github.io/about">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://jjerry-test.github.io/blog">Post</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://jjerry-test.github.io/contact">Contact</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        | copyright © 2020 <a href="https://themefisher.com">Themefisher</a> All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://jjerry-test.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://jjerry-test.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/search/mark.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://jjerry-test.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Daily on Jerry</title>
+    <link>https://jjerry-test.github.io/tags/daily/</link>
+    <description>Recent content in Daily on Jerry</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 07 Sep 2018 18:30:46 +0600</lastBuildDate><atom:link href="https://jjerry-test.github.io/tags/daily/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>휴가</title>
+      <link>https://jjerry-test.github.io/blog/vacation/</link>
+      <pubDate>Fri, 07 Sep 2018 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/vacation/</guid>
+      <description>약 두 달정도 달려온 챌린지가 끝나고 처음으로 휴가를 얻었습니다.
+일단은 이번 주 쉬고 다음 주부터 다시 연구 시작.</description>
+    </item>
+    
+  </channel>
+</rss>

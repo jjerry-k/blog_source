@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on Jerry</title>
+    <link>https://jjerry-test.github.io/tags/docker/</link>
+    <description>Recent content in Docker on Jerry</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 24 Oct 2020 18:30:46 +0600</lastBuildDate><atom:link href="https://jjerry-test.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker Usage (1)</title>
+      <link>https://jjerry-test.github.io/blog/docker_usage_01/</link>
+      <pubDate>Sat, 24 Oct 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/docker_usage_01/</guid>
+      <description>Docker 에 대한 설명은 안합니다.
+사용법을 보러 오시는 분이라면 어느 정도 Docker 가 뭔지는 아실테니&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>자주 사용하는 Docker Command 정리</title>
+      <link>https://jjerry-test.github.io/blog/docker/</link>
+      <pubDate>Sun, 30 Aug 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/docker/</guid>
+      <description># nvidia docker 서비스 시작 sudo service nvidia-docker start # 특정 포트 터널링, 경로 마운트, Docker image:tag 를 이용하여 container 로 실행 docker run -ti -rm -p {호스트포트}:{도커포트} -v {호스트경로}:{도커경로} {IMAGE_NAME:tag} bash # 종료된 Container 삭제 docker rm {CONTAINER_NAEM} # Docker Image 삭제 docker rmi {IMAGE_NAME} # 종료된 Container를 삭제하지 않고 새로운 IMAGE로 생성 docker commit {CONTAINER_NAEM} {IMAGE_NAME:TAG} # Docker container 내에서 jupyter notebook 혹은 jupyter lab을 실행할때 사용되는 커맨드 CUDA_VISIBLE_DEVICES=0 jupyter notebook --ip=0.</description>
+    </item>
+    
+    <item>
+      <title>개인적인 도커 파일</title>
+      <link>https://jjerry-test.github.io/blog/dockerfile/</link>
+      <pubDate>Tue, 05 May 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/dockerfile/</guid>
+      <description>지극히 개인이 사용하기 위한 Dockerfile   환경을 만들 때마다 추가될 예정입니다.</description>
+    </item>
+    
+  </channel>
+</rss>

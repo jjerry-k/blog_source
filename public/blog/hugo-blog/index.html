@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Jerry</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="this is meta description">
+  <meta name="author" content="Jerry Kim">
+  <meta name="generator" content="Hugo 0.78.2" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://jjerry-test.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://jjerry-test.github.io/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-126636477-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+  <img src="https://jjerry-test.github.io/images/preloader.gif " alt="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://jjerry-test.github.io"><img class="img-fluid"
+          src="https://jjerry-test.github.io/images/logo.png" alt="Jerry"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.facebook.com/jerry.kim.566/"><i class="ti-facebook"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://twitter.com/jjerry_k"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/jjjerry_k/"><i class="ti-instagram"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/jjerry-k"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/jerry-kim-b8804216b/"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://jjerry-test.github.io"><img class="img-fluid"
+            src="https://jjerry-test.github.io/images/logo.png" alt="Jerry"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://jjerry-test.github.io/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://jjerry-test.github.io/blog">Post</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://jjerry-test.github.io/contact">Contact</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://jjerry-test.github.io/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <a href="/categories/blog"
+          class="text-primary">Blog</a>
+        
+        <h2>Hugo Blog</h2>
+        <div class="mb-3 post-meta">
+          <span>By Jerry Kim</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>23 November 2020</span>
+          
+        </div>
+        
+        <div class="content mb-5">
+          <p>이번에 Github Blog를 이전하게 되었습니다!</p>
+<p>기존에는 <a href="https://jekyllrb.com">Jekyll</a> 기반의 블로그를 사용했었는데요.</p>
+<p>이게 약간.. 편한 듯 불편한 듯(특히나 gem bundle&hellip;.관리).. 뭔가 부족한 느낌이였습니다.</p>
+<p>Jekyll이 아닌 다른 기반의 Generator 를 찾아보기 시작했습니다.</p>
+<p>후보군은 세 개가 있었습니다. Hexo, Hugo, Gatsby&hellip;</p>
+<p><a href="https://hexo.io/ko/">Hexo</a>는 Jekyll 보다는 낫지만 별로라는 평이 있었고 <a href="https://www.gatsbyjs.com">Gastby</a>는 프론트 알못인 저에겐 그냥 어렵&hellip;더군요.</p>
+<p>그래서 <a href="https://gohugo.io">Hugo</a>를 이용해보기로 했습니다.</p>
+<p>그럼 <code>Hugo를 이용한 블로그 세팅</code> 시작하겠습니다.</p>
+<h3 id="준비물">준비물</h3>
+<ul>
+<li>
+<p>2개의 github repository</p>
+<ul>
+<li>블로그 소스용: 이름 막 지어도 상관없음. ex) blog_source</li>
+<li>호스팅용: {Username}.github.io 로 만드셔야 합니다. ex) jjerry-k.github.io</li>
+</ul>
+</li>
+<li>
+<p>원하는 테마</p>
+<ul>
+<li><a href="https://themes.gohugo.io">https://themes.gohugo.io</a> 여기서 원하는걸 골라놓으세요.</li>
+</ul>
+</li>
+</ul>
+<h3 id="세팅-과정">세팅 과정</h3>
+<h4 id="1-repository-생성">1. Repository 생성</h4>
+<p>준비문에서 얘기했듯 두개의 repository를 준비합니다.</p>
+<ul>
+<li>
+<p>블로그 소스용
+<figure>
+    <img src="/images/post/hugo-blog/img_01.png"/> 
+</figure>
+</p>
+</li>
+<li>
+<p>호스팅용</p>
+<ul>
+<li>사진을 올려야하는데 저는 이미 &hellip; Jekyll로 쓰고 있던지라 &hellip; 패스</li>
+<li>블로그 소스용 repository 처럼 비어있도록 만들어주세요.</li>
+</ul>
+</li>
+</ul>
+<h4 id="2-hugo-설치-및-프로젝트-생성">2. Hugo 설치 및 프로젝트 생성.</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">brew install hugo
+
+hugo new site <span style="color:#f92672">{</span>프로젝트 이름<span style="color:#f92672">}</span>
+</code></pre></div><p>hugo를 설치하고 새 프로젝트를 생성합니다.</p>
+<p>저는 편의를 위해 프로젝트 이름을 <strong>blog_source</strong> 라고 했습니다.</p>
+<figure>
+    <img src="/images/post/hugo-blog/img_02.png"/> 
+</figure>
+
+<h4 id="3-테마-설치">3. 테마 설치</h4>
+<p>프로젝트 디렉토리에 themes 디렉토리가 보입니다.
+themes 디렉토리로 이동하여 위에서 골랐던 테마를 다운로드 합니다.
+저는 <a href="https://github.com/themefisher/liva-hugo">liva-hugo</a> 를 사용했습니다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd blog_source
+cd themes
+git clone https://github.com/themefisher/liva-hugo.git
+</code></pre></div><figure>
+    <img src="/images/post/hugo-blog/img_03.png"/> 
+</figure>
+
+<figure>
+    <img src="/images/post/hugo-blog/img_04.png"/> 
+</figure>
+
+<p>liva-hugo 는 이해가 쉽도록 exampleSite를 이용해보려고 합니다.
+blog_source/themes/liva-hugo/exampleSite 에 있는 content, static, config.toml 을 blog_source 에 있는 위치에 복사해줍니다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cp -r themes/liva-hugo/exampleSite/content/* ./content
+cp -r themes/liva-hugo/exampleSite/static/* ./static
+cp themes/liva-hugo/exampleSite/config.toml ./
+</code></pre></div><figure>
+    <img src="/images/post/hugo-blog/img_05.png"/> 
+</figure>
+
+<h4 id="4-서버-실행-및-글쓰기">4. 서버 실행 및 글쓰기</h4>
+<p>현재 블로그 상태가 어떤지 궁금합니다. 일단 hugo server를 실행시켜 봅니다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># 현재 위치: 프로젝트 디렉토리</span>
+hugo server -p <span style="color:#f92672">{</span>원하는 포트 번호<span style="color:#f92672">}</span> -D <span style="color:#75715e"># Default PORT 1313 </span>
+</code></pre></div><figure>
+    <img src="/images/post/hugo-blog/img_06.png"/> 
+</figure>
+
+<p>그리고 localhost:1313 로 접속을 하면 예시를 사이트 양식을 가져왔기 때문에 다음과 같이 나옵니다.
+<figure>
+    <img src="/images/post/hugo-blog/img_07.png"/> 
+</figure>
+</p>
+<p>포스팅을 하기 전에 다른 포스팅을 확인해봅니다.
+<figure>
+    <img src="/images/post/hugo-blog/img_08.png"/> 
+</figure>
+</p>
+<p>liva-hugo는 이러한 템플릿을 바탕으로 포스팅을 작성해야합니다.</p>
+<p>세부 내용은 직접 사용하시면서 익히시길&hellip;.</p>
+<p>자 그럼 포스팅을 한번 써보도록 합시다.</p>
+<p><code>hugo new blog/hello.md</code> 라고 입력을 해도 되고 <code>blog/hello.md 를 직접 생성</code>하셔도 됩니다.</p>
+<p>그 후 템플릿에 맞게 작성을 해줍니다.</p>
+<figure>
+    <img src="/images/post/hugo-blog/img_09.png"/> 
+</figure>
+
+<p>이렇게 작성 후 저장을 하면 블로그에 다음과 같이 글이 생성된 것을 볼 수 있습니다.</p>
+<figure>
+    <img src="/images/post/hugo-blog/img_10.png"/> 
+</figure>
+
+<p>hugo 공통적으로 템플릿에 <code>draft: </code> 부분을 <code>true</code>로 한다면 블로그에 반영되지 않습니다.</p>
+<p>반대로 <code>false</code> 를 적는다면 블로그에 반영이 됩니다.</p>
+<h4 id="5-github에-배포">5. Github에 배포</h4>
+<p>커맨드로 바로 적겠습니다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># 현재 위치: 프로젝트 디렉토리</span>
+git init
+git remote add origin https://github.com/jjerry-k/blog_source <span style="color:#75715e">#{블로그 소스용 repository}</span>
+git submodule add -b master https://github.com/jjerry-k/jjerry-k.github.io public <span style="color:#75715e">#{호스팅용 repository}</span>
+</code></pre></div><p>그 후 빌드 &amp; 배포를 합니다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># 현재 위치: 프로젝트 디렉토리</span>
+hugo -t liva-hugo <span style="color:#75715e"># hugo -t {테마 이름}</span>
+
+cd public
+git add .
+git commit -m <span style="color:#e6db74">&#34;Update&#34;</span>
+git push
+
+cd ..
+git add .
+git commit -m <span style="color:#e6db74">&#34;Update&#34;</span>
+git push
+</code></pre></div><p>1~5번 까지의 과정을 거친 후 {Username}.github.io 로 접속을 해보면 정상적으로 블로그가 생긴 것을 볼 수 있습니다.</p>
+<p>만약 새 글을 쓰고 싶다면?</p>
+<p>4번과 5번을 반복하시면 됩니다.</p>
+<h2 id="ps">P.S</h2>
+<ul>
+<li>블로그 이전 느므 힘들다&hellip;</li>
+</ul>
+
+        </div>
+
+        
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "jjerry_k" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h2>Join Our Newsletter</h2>
+        <p class="text-light px-md-5 py-4 border-left border-right border-primary">
+          뉴스레터 받으실&hellip;?</p>
+        <form action="#" class="row justify-content-center">
+          <div class="input-group col-md-8">
+            <input type="text" class="form-control" placeholder="Your Email Address">
+            <div class="input-group-append">
+              <button class="input-group-text btn btn-primary">Subscribe</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center mb-5">
+        <a href="https://jjerry-test.github.io"><img src="https://jjerry-test.github.io/images/logo.png" alt="Jerry"></a>
+      </div>
+               
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contact Me</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="tel:Top%20Secret"><i
+                class="ti-mobile mr-3 text-primary"></i>Top Secret</a></li>
+          
+                     
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Seoul, Korea of Republic</li>
+          
+                     
+          <li class="mb-3"><a class="text-dark" href="mailto:jaeyeol2931@gmail.com"><i
+                class="ti-email mr-3 text-primary"></i>jaeyeol2931@gmail.com</a>
+          
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.facebook.com/jerry.kim.566/">facebook</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://twitter.com/jjerry_k">twitter</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.instagram.com/jjjerry_k/">instagram</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://github.com/jjerry-k">github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.linkedin.com/in/jerry-kim-b8804216b/">linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/blog">Blog</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/deeplearning">Deeplearning</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/living">Living</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/python">Python</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/ubuntu">Ubuntu</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://jjerry-test.github.io/about">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://jjerry-test.github.io/blog">Post</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://jjerry-test.github.io/contact">Contact</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        | copyright © 2020 <a href="https://themefisher.com">Themefisher</a> All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://jjerry-test.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://jjerry-test.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/search/mark.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://jjerry-test.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>

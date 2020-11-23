@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Usage on Jerry</title>
+    <link>https://jjerry-test.github.io/tags/usage/</link>
+    <description>Recent content in Usage on Jerry</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Jul 2019 18:30:46 +0600</lastBuildDate><atom:link href="https://jjerry-test.github.io/tags/usage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python으로 DICOM 영상을 읽어보자!</title>
+      <link>https://jjerry-test.github.io/blog/dicom/</link>
+      <pubDate>Sat, 06 Jul 2019 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/dicom/</guid>
+      <description>예~~전에 NIfTI 파일을 load 하는 방법을 올렸었습니다!
+이번에는 Python에서 DICOM 포맷의 데이터를 load 하는 방법에 대한 포스팅을 해보려고 합니다.</description>
+    </item>
+    
+    <item>
+      <title>Seaborn Tutorial Part 1-A</title>
+      <link>https://jjerry-test.github.io/blog/part1a/</link>
+      <pubDate>Thu, 09 May 2019 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/part1a/</guid>
+      <description>Index  Index  A. Visualizing statistical relationships  Relating variables with scatter plots Emphasizing continuity with line plots  Aggregation and representing uncertainty Plotting subsets of data with semantic mappings Plotting with date data   Showing multiple relationships with facets      A.</description>
+    </item>
+    
+    <item>
+      <title>Python으로 NIfTI 영상을 읽어보자!</title>
+      <link>https://jjerry-test.github.io/blog/nifti/</link>
+      <pubDate>Wed, 23 Jan 2019 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/nifti/</guid>
+      <description>거의 한달 반&amp;hellip;만에 글을 씁니다..!
+이번에는 Python에서 NIfTI 포맷의 데이터를 load 하는 방법에 대한 포스팅을 해보려고 합니다.</description>
+    </item>
+    
+    <item>
+      <title>GPU를 골라서 써보자!</title>
+      <link>https://jjerry-test.github.io/blog/gpu_masking/</link>
+      <pubDate>Wed, 10 Oct 2018 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/gpu_masking/</guid>
+      <description>현재 저는 하나의 GPU 서버를 가지고 여러 명이 Deep Learning 을 돌려야 합니다.</description>
+    </item>
+    
+  </channel>
+</rss>

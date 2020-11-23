@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Jerry</title>
+    <link>https://jjerry-test.github.io/tags/hugo/</link>
+    <description>Recent content in Hugo on Jerry</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Nov 2020 20:41:18 +0900</lastBuildDate><atom:link href="https://jjerry-test.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo Blog</title>
+      <link>https://jjerry-test.github.io/blog/hugo-blog/</link>
+      <pubDate>Mon, 23 Nov 2020 20:41:18 +0900</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/hugo-blog/</guid>
+      <description>이번에 Github Blog를 이전하게 되었습니다!
+기존에는 Jekyll 기반의 블로그를 사용했었는데요.</description>
+    </item>
+    
+  </channel>
+</rss>

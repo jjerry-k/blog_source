@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Jerry</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="this is meta description">
+  <meta name="author" content="Jerry Kim">
+  <meta name="generator" content="Hugo 0.78.2" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://jjerry-test.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://jjerry-test.github.io/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-126636477-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+  <img src="https://jjerry-test.github.io/images/preloader.gif " alt="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://jjerry-test.github.io"><img class="img-fluid"
+          src="https://jjerry-test.github.io/images/logo.png" alt="Jerry"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.facebook.com/jerry.kim.566/"><i class="ti-facebook"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://twitter.com/jjerry_k"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/jjjerry_k/"><i class="ti-instagram"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/jjerry-k"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/jerry-kim-b8804216b/"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://jjerry-test.github.io"><img class="img-fluid"
+            src="https://jjerry-test.github.io/images/logo.png" alt="Jerry"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://jjerry-test.github.io/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://jjerry-test.github.io/blog">Post</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://jjerry-test.github.io/contact">Contact</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://jjerry-test.github.io/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <a href="/categories/living"
+          class="text-primary">Living</a>
+        
+        <h2>라즈베리파이로 미니 PC 만들기!</h2>
+        <div class="mb-3 post-meta">
+          <span>By Jerry Kim</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>10 July 2018</span>
+          
+        </div>
+        
+        <div class="content mb-5">
+          <p>근래에 라즈베리파이로 미니 PC를 만들었습니다!</p>
+<p>그래서 만드는 과정에 대해 글을 써보려고 합니다!</p>
+<p>제가 사용한 보드는&hellip;.
+<a href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/">https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/</a></p>
+<p>올해 출시한 라즈베리파이 3 B+ 입니다!(개인적으로 라즈베리를 처음 써봅니다&hellip;)</p>
+<p>방열판도 붙여줬지요!</p>
+<figure>
+    <img src="/images/post/pi/01.jpg"/> 
+</figure>
+
+<p>아래 사진은 제가 HDD를 장착 할 것이기 때문에&hellip;.SATA 확장보드&hellip;그리고 케이스, 어댑터 구매 내역입니다!</p>
+<figure>
+    <img src="/images/post/pi/02.jpg"/> 
+</figure>
+
+<p>솔직히&hellip;부품들 뚝딱 뚝딱 제작(조립이 맞을 듯&hellip;)하는 것 보다 알리발 상품들 기다리는게 더 힘들었어요&hellip;. 쥬륵&hellip;.</p>
+<p>7일 정도 기다린것 같네요&hellip;..</p>
+<p>박스 오자마자 정말 광속으로 뜯었습니다&hellip;..</p>
+<p>케이스
+<figure>
+    <img src="/images/post/pi/03.jpg"/> 
+</figure>
+</p>
+<p>SATA 확장보드
+<figure>
+    <img src="/images/post/pi/04.jpg"/> 
+</figure>
+</p>
+<p>전용 어댑터 (5V 4A)
+<figure>
+    <img src="/images/post/pi/05.jpg"/> 
+</figure>
+</p>
+<p>넘나&hellip;감동&hellip;</p>
+<p>금방 조립했습니다..</p>
+<figure>
+    <img src="/images/post/pi/06.jpg"/> 
+</figure>
+
+<p>조립하는데 집중해서 사진을 잘 안찍었어요&hellip;쥬륵&hellip;</p>
+<figure>
+    <img src="/images/post/pi/07.jpg"/> 
+</figure>
+
+<p>아&hellip;저 맨 아래에 다리는 안달아도 되는거였어요&hellip;.</p>
+<figure>
+    <img src="/images/post/pi/08.jpg"/> 
+</figure>
+
+<p>케이스를 분리하면 이렇게 생겼어요&hellip;(누가봐도 팬이 달릴 부분..)</p>
+<figure>
+    <img src="/images/post/pi/09.jpg"/> 
+</figure>
+
+<p>달아줍니다..</p>
+<figure>
+    <img src="/images/post/pi/10.jpg"/> 
+</figure>
+
+<p>차례 차례 전원 연결&hellip;</p>
+<figure>
+    <img src="/images/post/pi/11.jpg"/> 
+</figure>
+
+<p>뒷판을 조립하고!</p>
+<figure>
+    <img src="/images/post/pi/12.jpg"/> 
+</figure>
+
+<p>브릿지? 를 연결!</p>
+<figure>
+    <img src="/images/post/pi/13.jpg"/> 
+</figure>
+
+<p>어댑터 연결 후 켜시면 됩니다&hellip;
+좀 더 정확한 크기 확인을 위해 사진을 좀 찍어봤어요!</p>
+<figure>
+    <img src="/images/post/pi/14.jpg"/> 
+</figure>
+
+<p>제 주먹이랑 한 컷&hellip;</p>
+<figure>
+    <img src="/images/post/pi/15.jpg"/> 
+</figure>
+
+<p>마지막으로 제 12인치 맥북이랑 한컷&hellip;.</p>
+<figure>
+    <img src="/images/post/pi/16.jpg"/> 
+</figure>
+
+<p>처음으로 라즈베리파이를 사용해보면서&hellip;정말 재밌고 신기하네요 ㅎㅎㅎ
+(물론 가끔 설정하다가 뻑나면&hellip;짜증&hellip;.)</p>
+<p>나중엔 캠을 달아서 사물인식 같은 걸 해볼까 합니다!</p>
+<p>너무&hellip;.불친절한 글 같네요&hellip;.</p>
+<p>나중에 또 뭔가 재미난걸 하면 올리겠습니다!</p>
+<p>감사합니다!</p>
+
+        </div>
+
+        
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "jjerry_k" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h2>Join Our Newsletter</h2>
+        <p class="text-light px-md-5 py-4 border-left border-right border-primary">
+          뉴스레터 받으실&hellip;?</p>
+        <form action="#" class="row justify-content-center">
+          <div class="input-group col-md-8">
+            <input type="text" class="form-control" placeholder="Your Email Address">
+            <div class="input-group-append">
+              <button class="input-group-text btn btn-primary">Subscribe</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center mb-5">
+        <a href="https://jjerry-test.github.io"><img src="https://jjerry-test.github.io/images/logo.png" alt="Jerry"></a>
+      </div>
+               
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contact Me</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="tel:Top%20Secret"><i
+                class="ti-mobile mr-3 text-primary"></i>Top Secret</a></li>
+          
+                     
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Seoul, Korea of Republic</li>
+          
+                     
+          <li class="mb-3"><a class="text-dark" href="mailto:jaeyeol2931@gmail.com"><i
+                class="ti-email mr-3 text-primary"></i>jaeyeol2931@gmail.com</a>
+          
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.facebook.com/jerry.kim.566/">facebook</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://twitter.com/jjerry_k">twitter</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.instagram.com/jjjerry_k/">instagram</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://github.com/jjerry-k">github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.linkedin.com/in/jerry-kim-b8804216b/">linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/blog">Blog</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/deeplearning">Deeplearning</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/living">Living</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/python">Python</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/ubuntu">Ubuntu</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://jjerry-test.github.io/about">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://jjerry-test.github.io/blog">Post</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://jjerry-test.github.io/contact">Contact</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        | copyright © 2020 <a href="https://themefisher.com">Themefisher</a> All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://jjerry-test.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://jjerry-test.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/search/mark.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://jjerry-test.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>

@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Jerry</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="this is meta description">
+  <meta name="author" content="Jerry Kim">
+  <meta name="generator" content="Hugo 0.78.2" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://jjerry-test.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://jjerry-test.github.io/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-126636477-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+  <img src="https://jjerry-test.github.io/images/preloader.gif " alt="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://jjerry-test.github.io"><img class="img-fluid"
+          src="https://jjerry-test.github.io/images/logo.png" alt="Jerry"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.facebook.com/jerry.kim.566/"><i class="ti-facebook"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://twitter.com/jjerry_k"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/jjjerry_k/"><i class="ti-instagram"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/jjerry-k"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/jerry-kim-b8804216b/"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://jjerry-test.github.io"><img class="img-fluid"
+            src="https://jjerry-test.github.io/images/logo.png" alt="Jerry"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://jjerry-test.github.io/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://jjerry-test.github.io/blog">Post</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://jjerry-test.github.io/contact">Contact</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://jjerry-test.github.io/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <a href="/categories/deeplearning"
+          class="text-primary">Deep learning</a>
+        
+        <h2>NIPA x Docker !</h2>
+        <div class="mb-3 post-meta">
+          <span>By Jerry Kim</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>28 June 2020</span>
+          
+        </div>
+        
+        <div class="content mb-5">
+          <blockquote>
+<p>원래 NIPA GPU 서버를 대여받은 후에 포트 포워딩을 먼저 해줘야 합니다.
+하지만 그 부분에 대해선 보안적인 부분이 있기 때문에 생략하겠습니다.</p>
+</blockquote>
+<p>이번엔 NIPA 내 개인 환경 세팅에 대해 포스팅을 해보려 합니다.</p>
+<p>개인마다 원하는 환경이 다르기 때문에 정말 필요하죠.</p>
+<p>물론 기본적으로 설치된 Anaconda  환경으로도 충분할 수 있지만 살짝쿵 문제가 있습니다.</p>
+<p>문제에 대해 살펴보겠습니다.</p>
+<p>NIPA GPU 서버에 접속을 하면 다음과 같은 화면이 출력됩니다.</p>
+<figure>
+    <img src="/images/post/nipa_docker/Untitled.png"/> 
+</figure>
+
+<p>먼저 말씀드렸던 conda 환경으로 기본적으로 다양한 환경이 제공되네요.</p>
+<p>저의 경우 이번에 tf-nightly가 필요했습니다.</p>
+<p>그래서 TensorFlow2, python3.6 환경을 activate  한 후 설치를 시도했죠.</p>
+<figure>
+    <img src="/images/post/nipa_docker/Untitled_1.png"/> 
+</figure>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center">what&hellip;?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><img src="https://jjerry-k.github.io/public/img/nipa_docker/Untitled_2.png" alt="NIPA%20x%20Docker%20ef94d24dfbc64a6cae24a83a59bd352f/Untitled%202.png"></td>
+</tr>
+</tbody>
+</table>
+<p>음&hellip;.conda 버전의 문제인가 싶어서 base conda를 update  하려 했습니다.</p>
+<figure>
+    <img src="/images/post/nipa_docker/Untitled_3.png"/> 
+</figure>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center">what&hellip;?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><img src="https://jjerry-k.github.io/public/img/nipa_docker/Untitled_2.png" alt="NIPA%20x%20Docker%20ef94d24dfbc64a6cae24a83a59bd352f/Untitled%202.png"></td>
+</tr>
+</tbody>
+</table>
+<p>뭐야..이건 또 왜 안되는거야&hellip; 짜증이 났습니다.</p>
+<p>대충 <code>너무 옛날 버전의 conda니까 최소 4.8로 재설치 해주세요.</code> 라는 내용입니다.</p>
+<p><code>하....이건 좀 너무한데...그냥 Docker나 설치하자..</code> 라는 생각을 하게 되었습니다.</p>
+<p>그럼 Docker 설치에 대해 포스팅 해보겠습니다.</p>
+<p>Docker 에 대한 자세한 설명은 하지 않을 겁니다.</p>
+<p>홈페이지 혹은 Docker 에 대한 포스팅을 참고하시기 바랍니다.</p>
+<p>간단히 말씀드리면 OS 단계까지 가상환경을 만드는 겁니다.</p>
+<p>그럼 설치 방법에 대해 적겠습니다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># 2020.10.10 추가 사항</span>
+conda uninstall curl
+
+<span style="color:#75715e"># SET UP THE REPOSITORY</span>
+sudo apt-get update
+
+sudo apt-get install <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>    apt-transport-https <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>    ca-certificates <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>    curl <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>    gnupg-agent <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>    software-properties-common
+
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+sudo apt-key fingerprint 0EBFCD88
+
+sudo add-apt-repository <span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>   <span style="color:#e6db74">&#34;deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+</span><span style="color:#e6db74">   </span><span style="color:#66d9ef">$(</span>lsb_release -cs<span style="color:#66d9ef">)</span><span style="color:#e6db74"> \
+</span><span style="color:#e6db74">   stable&#34;</span>
+
+<span style="color:#75715e"># INSTALL DOCKER ENGINE</span>
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+
+<span style="color:#75715e"># VERIFY THAT DOCKER ENGINE IS INSTALLED CORRECTLY</span>
+sudo docker run hello-world
+</code></pre></div><p>만약에 제대로 설치 되었다면 마지막에 다음과 같은 출력이 남습니다</p>
+<figure>
+    <img src="/images/post/nipa_docker/Untitled_4.png"/> 
+</figure>
+
+<p>여기까지 하시면 기본 Docker 설치는 끝났습니다.</p>
+<p>하지만 이것만 설치하면 GPU 는 사용하지 못합니다.</p>
+<p>GPU를 쓰기 위해선 <a href="https://github.com/NVIDIA/nvidia-docker">nvidia-docker</a>를 설치를 해야 합니다.</p>
+<p>nvidia-docker는 간단히 말하면 docker 에서 데스크탑의 GPU를 사용할 수 있도록 nvidia에서 만든(?)것입니다.</p>
+<p>설치법은 다음과 같습니다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># Ubuntu 16.04/18.04/20.04, Debian Jessie/Stretch/Buster</span>
+<span style="color:#75715e"># Add the package repositories</span>
+distribution<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>. /etc/os-release;echo $ID$VERSION_ID<span style="color:#66d9ef">)</span>
+curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add -
+curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list
+
+sudo apt-get update <span style="color:#f92672">&amp;&amp;</span> sudo apt-get install -y nvidia-container-toolkit
+sudo systemctl restart docker
+
+<span style="color:#75715e"># Test nvidia-docker</span>
+sudo docker run --gpus all nvidia/cuda:10.0-base nvidia-smi
+</code></pre></div><p>이 또한 설치가 제대로 되었다면 마지막에 다음과 같이 <code>nvidia-smi</code> 출력이 나올 겁니다.</p>
+<figure>
+    <img src="/images/post/nipa_docker/Untitled_5.png"/> 
+</figure>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center">하&hellip;.편안&hellip;.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><img src="https://jjerry-k.github.io/public/img/nipa_docker/Untitled_6.png" alt="NIPA%20x%20Docker%20ef94d24dfbc64a6cae24a83a59bd352f/Untitled%206.png"></td>
+</tr>
+</tbody>
+</table>
+<p>이번엔 NIPA에 Docker 설치하는 과정을 포스팅 해봤습니다.</p>
+<p>공짜로 빌려주는 건 좋으나 환경 구축은 역시나&hellip;.해야 하네요.</p>
+<p>제가 쓰는 Docker image는 <a href="https://jjerry-k.github.io/living/2020/05/05/dockerfile/">개인적인 도커 파일</a> 에 있으니 참고하세요!</p>
+<h2 id="ps">P.S</h2>
+<ul>
+<li>2020.10.10 내용 추가
+<ul>
+<li>sudo usermod -aG docker {유저명} 을 수행하시면 sudo 명령어가 필요 없습니다!</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+
+        
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "jjerry_k" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h2>Join Our Newsletter</h2>
+        <p class="text-light px-md-5 py-4 border-left border-right border-primary">
+          뉴스레터 받으실&hellip;?</p>
+        <form action="#" class="row justify-content-center">
+          <div class="input-group col-md-8">
+            <input type="text" class="form-control" placeholder="Your Email Address">
+            <div class="input-group-append">
+              <button class="input-group-text btn btn-primary">Subscribe</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center mb-5">
+        <a href="https://jjerry-test.github.io"><img src="https://jjerry-test.github.io/images/logo.png" alt="Jerry"></a>
+      </div>
+               
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contact Me</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="tel:Top%20Secret"><i
+                class="ti-mobile mr-3 text-primary"></i>Top Secret</a></li>
+          
+                     
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Seoul, Korea of Republic</li>
+          
+                     
+          <li class="mb-3"><a class="text-dark" href="mailto:jaeyeol2931@gmail.com"><i
+                class="ti-email mr-3 text-primary"></i>jaeyeol2931@gmail.com</a>
+          
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.facebook.com/jerry.kim.566/">facebook</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://twitter.com/jjerry_k">twitter</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.instagram.com/jjjerry_k/">instagram</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://github.com/jjerry-k">github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.linkedin.com/in/jerry-kim-b8804216b/">linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/blog">Blog</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/deeplearning">Deeplearning</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/living">Living</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/python">Python</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/ubuntu">Ubuntu</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://jjerry-test.github.io/about">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://jjerry-test.github.io/blog">Post</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://jjerry-test.github.io/contact">Contact</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        | copyright © 2020 <a href="https://themefisher.com">Themefisher</a> All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://jjerry-test.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://jjerry-test.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/search/mark.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://jjerry-test.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>

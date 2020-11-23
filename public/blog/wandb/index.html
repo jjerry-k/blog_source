@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Jerry</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="this is meta description">
+  <meta name="author" content="Jerry Kim">
+  <meta name="generator" content="Hugo 0.78.2" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://jjerry-test.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://jjerry-test.github.io/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-126636477-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+  <img src="https://jjerry-test.github.io/images/preloader.gif " alt="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://jjerry-test.github.io"><img class="img-fluid"
+          src="https://jjerry-test.github.io/images/logo.png" alt="Jerry"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.facebook.com/jerry.kim.566/"><i class="ti-facebook"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://twitter.com/jjerry_k"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/jjjerry_k/"><i class="ti-instagram"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/jjerry-k"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/jerry-kim-b8804216b/"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://jjerry-test.github.io"><img class="img-fluid"
+            src="https://jjerry-test.github.io/images/logo.png" alt="Jerry"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://jjerry-test.github.io/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://jjerry-test.github.io/blog">Post</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://jjerry-test.github.io/contact">Contact</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://jjerry-test.github.io/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <a href="/categories/deeplearning"
+          class="text-primary">Deep learning</a>
+        
+        <h2>Weights &amp; Biases 가 뭐지??</h2>
+        <div class="mb-3 post-meta">
+          <span>By Jerry Kim</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>01 March 2020</span>
+          
+        </div>
+        
+        <div class="content mb-5">
+          <p>이번 포스팅에선 <a href="https://www.wandb.com/">Weights &amp; Biases</a> 라는 Tool 을 소개드리려 합니다.</p>
+<p>다음과 같은 특징을 강조하네요.</p>
+<ul>
+<li>Store hyper-parameters used in a training run</li>
+<li>Search, compare, and visualize training runs</li>
+<li>Analyze system usage metrics alongside runs</li>
+<li>Collaborate with team members</li>
+<li>Replicate historic results</li>
+<li>Run parameter sweeps</li>
+<li>Keep records of experiments available forever</li>
+</ul>
+<p>그럼 간단 사용법에 대해서 설명드리겠습니다.</p>
+<h3 id="sign-up-을-했다는-가정하에-진행합니다"><strong>Sign Up</strong> 을 했다는 가정하에 진행합니다.</h3>
+<h1 id="패키지-설치">패키지 설치</h1>
+<p><code>wandb</code> 패키지를 먼저 설치해줍니다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">pip install wandb
+</code></pre></div><h1 id="wandb-로그인">wandb 로그인</h1>
+<p>설치 후 Terminal (or 명령 프롬프트) 에 다음과 같이 입력합니다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">wandb login
+</code></pre></div><p>그러면 아래와 같은 화면이 나오면서 웹 브라우저가 켜집니다.</p>
+<figure>
+    <img src="/images/post/wandb/Untitled.png"/> 
+</figure>
+
+<figure>
+    <img src="/images/post/wandb/Untitled_1.png"/> 
+</figure>
+
+<p>Browser 에서 API키를 복사해주해서 Terminal (or 명령 프롬프트) 에 붙여넣기합니다.</p>
+<figure>
+    <img src="/images/post/wandb/Untitled_2.png"/> 
+</figure>
+
+<p>그럼 wandb 에 로그인 완료!</p>
+<figure>
+    <img src="/images/post/wandb/Untitled_3.png"/> 
+</figure>
+
+<h1 id="code-실행">Code 실행</h1>
+<p>간단한 MLP를 이용한 MNIST Classification 문제입니다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
+<span style="color:#75715e"># wandb initialization</span>
+<span style="color:#f92672">import</span> wandb
+wandb<span style="color:#f92672">.</span>init(project<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;test_project&#34;</span>)
+
+<span style="color:#f92672">import</span> os
+<span style="color:#f92672">import</span> numpy <span style="color:#f92672">as</span> np
+<span style="color:#f92672">from</span> matplotlib <span style="color:#f92672">import</span> pyplot <span style="color:#66d9ef">as</span> plt
+
+<span style="color:#f92672">import</span> tensorflow <span style="color:#f92672">as</span> tf
+<span style="color:#f92672">from</span> tensorflow.keras <span style="color:#f92672">import</span> models, layers, optimizers, losses, utils, datasets
+
+
+<span style="color:#75715e"># Import callback function</span>
+<span style="color:#f92672">from</span> wandb.keras <span style="color:#f92672">import</span> WandbCallback 
+
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;Packge Loaded!&#34;</span>)
+
+
+<span style="color:#75715e"># Data Loading</span>
+(train_x, train_y), (test_x, test_y) <span style="color:#f92672">=</span> datasets<span style="color:#f92672">.</span>mnist<span style="color:#f92672">.</span>load_data()
+train_x, test_x <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>reshape(train_x<span style="color:#f92672">/</span><span style="color:#ae81ff">255.</span>, [<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">784</span>]), np<span style="color:#f92672">.</span>reshape(test_x<span style="color:#f92672">/</span><span style="color:#ae81ff">255.</span>, [<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">784</span>])
+
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;Train Data&#39;s Shape : &#34;</span>, train_x<span style="color:#f92672">.</span>shape, train_y<span style="color:#f92672">.</span>shape)
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;Test Data&#39;s Shape : &#34;</span>, test_x<span style="color:#f92672">.</span>shape, test_y<span style="color:#f92672">.</span>shape)
+
+<span style="color:#75715e"># Network Building</span>
+<span style="color:#75715e">## Using Sequential</span>
+mlp <span style="color:#f92672">=</span> models<span style="color:#f92672">.</span>Sequential()
+mlp<span style="color:#f92672">.</span>add(layers<span style="color:#f92672">.</span>Dense(<span style="color:#ae81ff">256</span>, activation<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;relu&#39;</span>, input_shape<span style="color:#f92672">=</span>(<span style="color:#ae81ff">784</span>,)))
+mlp<span style="color:#f92672">.</span>add(layers<span style="color:#f92672">.</span>Dense(<span style="color:#ae81ff">128</span>, activation<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;relu&#39;</span>))
+mlp<span style="color:#f92672">.</span>add(layers<span style="color:#f92672">.</span>Dense(<span style="color:#ae81ff">10</span>, activation<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;softmax&#39;</span>))
+
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;Network Built!&#34;</span>)
+
+mlp<span style="color:#f92672">.</span>compile(optimizer<span style="color:#f92672">=</span>optimizers<span style="color:#f92672">.</span>Adam(), loss<span style="color:#f92672">=</span>losses<span style="color:#f92672">.</span>sparse_categorical_crossentropy, metrics<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;accuracy&#39;</span>])
+
+history <span style="color:#f92672">=</span> mlp<span style="color:#f92672">.</span>fit(train_x, train_y, epochs<span style="color:#f92672">=</span><span style="color:#ae81ff">10</span>, batch_size<span style="color:#f92672">=</span><span style="color:#ae81ff">16</span>, 
+                                    validation_data<span style="color:#f92672">=</span>(test_x, test_y), 
+                                    callbacks<span style="color:#f92672">=</span>[WandbCallback()]) <span style="color:#75715e"># callbacks 에 Wandbcallback 추가</span>
+</code></pre></div><h1 id="check-training">Check training</h1>
+<p>해당 코드를 실행시키고 <a href="https://app.wandb.ai/home">W&amp;B</a> 에 접속을 하면 다음과 같은 화면이 나옵니다.<br>
+위에서 <code>test_project</code> 라는 프로젝트에 세팅을 했기 때문에 확인을 해봅니다.<br>
+하나의 프로젝트에서 한번 실행하면 뭔지 모를 조합의 <code>Name</code>으로 실행 상태를 보여줍니다.
+저는 한번만 했기 때문에 <code>lyric-dream-3</code> 라는 이름으로 하나만 생겨있습니다.</p>
+<figure>
+    <img src="/images/post/wandb/Untitled_4.png"/> 
+</figure>
+
+<p><code>lyric-dream-3</code> 같이 이름을 클릭해서 무엇을 볼 수 있는지 살펴보겠습니다.</p>
+<h2 id="chart-탭">Chart 탭</h2>
+<p>Chart 탭에선 loss, epoch, metric 등과 같은 학습 관련 지표를 볼 수 있는 <code>CHARTS</code>와 모델 학습에 사용된 시스템을 모니터링 할 수 있는 <code>SYSTEM</code>이 있습니다.</p>
+<figure>
+    <img src="/images/post/wandb/Untitled_5.png"/> 
+</figure>
+
+<figure>
+    <img src="/images/post/wandb/Untitled_6.png"/> 
+</figure>
+
+<figure>
+    <img src="/images/post/wandb/Untitled_7.png"/> 
+</figure>
+
+<figure>
+    <img src="/images/post/wandb/Untitled_8.png"/> 
+</figure>
+
+<figure>
+    <img src="/images/post/wandb/Untitled_9.png"/> 
+</figure>
+
+<h2 id="system-탭">System 탭</h2>
+<p>System 탭에서는 Chart 탭에서 <code>SYSTEM</code> 과 동일한 그래프를 보여주네요.
+<figure>
+    <img src="/images/post/wandb/Untitled_10.png"/> 
+</figure>
+</p>
+<h2 id="model-탭">Model 탭</h2>
+<p>이름 그대로 학습하는 Model의 graph 구조를 볼 수 있습니다.
+<figure>
+    <img src="/images/post/wandb/Untitled_11.png"/> 
+</figure>
+</p>
+<h2 id="logs-탭">Logs 탭</h2>
+<p>여기선 학습 로그들이 저장됩니다.
+<figure>
+    <img src="/images/post/wandb/Untitled_12.png"/> 
+</figure>
+</p>
+<h2 id="files-탭">Files 탭</h2>
+<p>솔직히 보여주기만 해도 좋지만 저장도 해주면 좋겠죠.<br>
+Files 탭에는 현재 모델을 돌릴때 사용된 정보, 가장 성능이 좋았을 epoch 의 model, 돌리는 환경에 설치된 package 리스트 등의 정보가 저장됩니다.<br>
+물론 다운로드 가능!<br>
+<code>model-best.h5</code>는 graph 정보도 저장되어 있기 때문에 다운로드 후 load해서 바로 Inference 가능합니다!
+<figure>
+    <img src="/images/post/wandb/Untitled_13.png"/> 
+</figure>
+</p>
+<p><a href="https://www.wandb.com/">Weights &amp; Biases</a> 에 대해 정~~~말 간단히 알아봤습니다.<br>
+딱히 이런저런 기능은 추가를 하지 않고 기본적인 기능만 봤습니다.<br>
+추후에는 좀 더 다양한 기능과 프레임워크에 적용해보도록 하겠습니다.</p>
+<hr>
+<h1 id="200401-pytorch-예제-추가">200401 PyTorch 예제 추가</h1>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
+<span style="color:#75715e"># wandb initialization</span>
+<span style="color:#f92672">import</span> wandb
+wandb<span style="color:#f92672">.</span>init(project<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;test_project&#34;</span>)
+
+<span style="color:#75715e"># Importing Modules</span>
+<span style="color:#f92672">import</span> numpy <span style="color:#f92672">as</span> np
+<span style="color:#f92672">from</span> matplotlib <span style="color:#f92672">import</span> pyplot <span style="color:#66d9ef">as</span> plt
+
+<span style="color:#f92672">import</span> torch
+<span style="color:#f92672">from</span> torch <span style="color:#f92672">import</span> nn, optim
+<span style="color:#f92672">import</span> torch.nn.functional <span style="color:#f92672">as</span> F
+<span style="color:#f92672">from</span> torchvision <span style="color:#f92672">import</span> utils, datasets, transforms
+
+<span style="color:#75715e"># Loading Data</span>
+
+<span style="color:#75715e"># MNIST dataset</span>
+mnist_train <span style="color:#f92672">=</span> datasets<span style="color:#f92672">.</span>MNIST(root<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;./&#39;</span>,
+                          train<span style="color:#f92672">=</span>True,
+                          transform<span style="color:#f92672">=</span>transforms<span style="color:#f92672">.</span>ToTensor(),
+                          download<span style="color:#f92672">=</span>True)
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;Downloading Train Data Done ! &#34;</span>)
+
+mnist_test <span style="color:#f92672">=</span> datasets<span style="color:#f92672">.</span>MNIST(root<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;./&#39;</span>,
+                         train<span style="color:#f92672">=</span>False,
+                         transform<span style="color:#f92672">=</span>transforms<span style="color:#f92672">.</span>ToTensor(),
+                         download<span style="color:#f92672">=</span>True)
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;Downloading Test Data Done ! &#34;</span>)
+
+<span style="color:#75715e"># Defining Model</span>
+
+<span style="color:#75715e"># our model</span>
+<span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Model</span>(nn<span style="color:#f92672">.</span>Module):
+    <span style="color:#66d9ef">def</span> __init__(self):
+        super(Model, self)<span style="color:#f92672">.</span>__init__()
+        self<span style="color:#f92672">.</span>linear1 <span style="color:#f92672">=</span> nn<span style="color:#f92672">.</span>Linear(<span style="color:#ae81ff">784</span>, <span style="color:#ae81ff">256</span>)
+        self<span style="color:#f92672">.</span>linear2 <span style="color:#f92672">=</span> nn<span style="color:#f92672">.</span>Linear(<span style="color:#ae81ff">256</span>, <span style="color:#ae81ff">10</span>)
+    
+    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">forward</span>(self, X):
+        X <span style="color:#f92672">=</span> F<span style="color:#f92672">.</span>relu((self<span style="color:#f92672">.</span>linear1(X)))
+        X <span style="color:#f92672">=</span> self<span style="color:#f92672">.</span>linear2(X)
+        <span style="color:#66d9ef">return</span> X
+
+model <span style="color:#f92672">=</span> Model()
+criterion <span style="color:#f92672">=</span> nn<span style="color:#f92672">.</span>CrossEntropyLoss()
+optimizer <span style="color:#f92672">=</span> optim<span style="color:#f92672">.</span>Adam(model<span style="color:#f92672">.</span>parameters(), lr<span style="color:#f92672">=</span><span style="color:#ae81ff">0.001</span>)
+
+<span style="color:#75715e"># Logging model, Gradient, parameters on dashboard</span>
+wandb<span style="color:#f92672">.</span>watch(model)
+
+<span style="color:#75715e"># Training Phase</span>
+batch_size <span style="color:#f92672">=</span> <span style="color:#ae81ff">100</span>
+
+data_iter <span style="color:#f92672">=</span> torch<span style="color:#f92672">.</span>utils<span style="color:#f92672">.</span>data<span style="color:#f92672">.</span>DataLoader(mnist_train, batch_size<span style="color:#f92672">=</span><span style="color:#ae81ff">100</span>, shuffle<span style="color:#f92672">=</span>True, num_workers<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>)
+
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;Iteration maker Done !&#34;</span>)
+
+<span style="color:#75715e"># Training loop</span>
+<span style="color:#66d9ef">for</span> epoch <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">10</span>):
+    avg_loss <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+    total_batch <span style="color:#f92672">=</span> len(mnist_train) <span style="color:#f92672">//</span> batch_size
+    <span style="color:#66d9ef">for</span> i, (batch_img, batch_lab) <span style="color:#f92672">in</span> enumerate(data_iter):
+        X <span style="color:#f92672">=</span> batch_img<span style="color:#f92672">.</span>view(<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">28</span><span style="color:#f92672">*</span><span style="color:#ae81ff">28</span>)
+        Y <span style="color:#f92672">=</span> batch_lab
+        
+        y_pred <span style="color:#f92672">=</span> model<span style="color:#f92672">.</span>forward(X)
+        
+        loss <span style="color:#f92672">=</span> criterion(y_pred, Y)
+        <span style="color:#75715e"># Zero gradients, perform a backward pass, and update the weights.</span>
+        optimizer<span style="color:#f92672">.</span>zero_grad()
+        loss<span style="color:#f92672">.</span>backward()
+        optimizer<span style="color:#f92672">.</span>step()
+        
+        avg_loss <span style="color:#f92672">+=</span> loss
+        <span style="color:#66d9ef">if</span> (i<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>)<span style="color:#f92672">%</span><span style="color:#ae81ff">100</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span> :
+            <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;Epoch : &#34;</span>, epoch<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>, <span style="color:#e6db74">&#34;Iteration : &#34;</span>, i<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>, <span style="color:#e6db74">&#34; Loss : &#34;</span>, avg_loss<span style="color:#f92672">.</span>data<span style="color:#f92672">.</span>numpy()<span style="color:#f92672">/</span>(i<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>))
+
+    <span style="color:#75715e"># Logging metrics    </span>
+    wandb<span style="color:#f92672">.</span>log({<span style="color:#e6db74">&#39;epoch&#39;</span>: epoch<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>, <span style="color:#e6db74">&#34;loss&#34;</span>: avg_loss<span style="color:#f92672">.</span>data<span style="color:#f92672">.</span>numpy()<span style="color:#f92672">/</span>(i<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>)})
+
+    <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;Epoch : &#34;</span>, epoch<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>, <span style="color:#e6db74">&#34; Loss : &#34;</span>, avg_loss<span style="color:#f92672">.</span>data<span style="color:#f92672">.</span>numpy()<span style="color:#f92672">/</span>total_batch)
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;Training Done !&#34;</span>)
+
+<span style="color:#75715e"># Save final model</span>
+torch<span style="color:#f92672">.</span>save(model<span style="color:#f92672">.</span>state_dict(), <span style="color:#e6db74">&#34;model.h5&#34;</span>)
+wandb<span style="color:#f92672">.</span>save(<span style="color:#e6db74">&#39;model.h5&#39;</span>)
+
+<span style="color:#75715e"># Evaluation</span>
+
+test_img <span style="color:#f92672">=</span> mnist_test<span style="color:#f92672">.</span>data<span style="color:#f92672">.</span>view(<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">28</span><span style="color:#f92672">*</span><span style="color:#ae81ff">28</span>)<span style="color:#f92672">.</span>type(torch<span style="color:#f92672">.</span>FloatTensor)
+test_lab <span style="color:#f92672">=</span> mnist_test<span style="color:#f92672">.</span>targets
+outputs <span style="color:#f92672">=</span> model<span style="color:#f92672">.</span>forward(test_img)
+pred_val, pred_idx <span style="color:#f92672">=</span> torch<span style="color:#f92672">.</span>max(outputs<span style="color:#f92672">.</span>data, <span style="color:#ae81ff">1</span>)
+correct <span style="color:#f92672">=</span> (pred_idx <span style="color:#f92672">==</span> test_lab)<span style="color:#f92672">.</span>sum()
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Accuracy : &#39;</span>, correct<span style="color:#f92672">.</span>data<span style="color:#f92672">.</span>numpy()<span style="color:#f92672">/</span>len(test_img)<span style="color:#f92672">*</span><span style="color:#ae81ff">100</span>)
+
+<span style="color:#75715e"># Testing</span>
+
+r <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>random<span style="color:#f92672">.</span>randint(<span style="color:#ae81ff">0</span>, len(mnist_test)<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>)
+X_single_data <span style="color:#f92672">=</span> mnist_test<span style="color:#f92672">.</span>data[r:r <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>]<span style="color:#f92672">.</span>view(<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">28</span><span style="color:#f92672">*</span><span style="color:#ae81ff">28</span>)<span style="color:#f92672">.</span>float()
+Y_single_data <span style="color:#f92672">=</span> mnist_test<span style="color:#f92672">.</span>targets[r:r <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>]
+
+single_prediction <span style="color:#f92672">=</span> model(X_single_data)
+plt<span style="color:#f92672">.</span>imshow(X_single_data<span style="color:#f92672">.</span>data<span style="color:#f92672">.</span>view(<span style="color:#ae81ff">28</span>,<span style="color:#ae81ff">28</span>)<span style="color:#f92672">.</span>numpy(), cmap<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;gray&#39;</span>)
+
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Label : &#39;</span>, Y_single_data<span style="color:#f92672">.</span>data<span style="color:#f92672">.</span>numpy()[<span style="color:#ae81ff">0</span>])
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Prediction : &#39;</span>, torch<span style="color:#f92672">.</span>max(single_prediction<span style="color:#f92672">.</span>data, <span style="color:#ae81ff">1</span>)[<span style="color:#ae81ff">1</span>]<span style="color:#f92672">.</span>numpy()[<span style="color:#ae81ff">0</span>])
+</code></pre></div>
+        </div>
+
+        
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "jjerry_k" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h2>Join Our Newsletter</h2>
+        <p class="text-light px-md-5 py-4 border-left border-right border-primary">
+          뉴스레터 받으실&hellip;?</p>
+        <form action="#" class="row justify-content-center">
+          <div class="input-group col-md-8">
+            <input type="text" class="form-control" placeholder="Your Email Address">
+            <div class="input-group-append">
+              <button class="input-group-text btn btn-primary">Subscribe</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center mb-5">
+        <a href="https://jjerry-test.github.io"><img src="https://jjerry-test.github.io/images/logo.png" alt="Jerry"></a>
+      </div>
+               
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contact Me</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="tel:Top%20Secret"><i
+                class="ti-mobile mr-3 text-primary"></i>Top Secret</a></li>
+          
+                     
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Seoul, Korea of Republic</li>
+          
+                     
+          <li class="mb-3"><a class="text-dark" href="mailto:jaeyeol2931@gmail.com"><i
+                class="ti-email mr-3 text-primary"></i>jaeyeol2931@gmail.com</a>
+          
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.facebook.com/jerry.kim.566/">facebook</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://twitter.com/jjerry_k">twitter</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.instagram.com/jjjerry_k/">instagram</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://github.com/jjerry-k">github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.linkedin.com/in/jerry-kim-b8804216b/">linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/blog">Blog</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/deeplearning">Deeplearning</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/living">Living</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/python">Python</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/ubuntu">Ubuntu</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://jjerry-test.github.io/about">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://jjerry-test.github.io/blog">Post</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://jjerry-test.github.io/contact">Contact</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        | copyright © 2020 <a href="https://themefisher.com">Themefisher</a> All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://jjerry-test.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://jjerry-test.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/search/mark.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://jjerry-test.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>

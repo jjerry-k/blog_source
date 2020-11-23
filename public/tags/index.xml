@@ -1,10 +1,128 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Jerry&#39;s DevLog</title>
-    <link>https:jjerry-k.github.io/tags/</link>
-    <description>Recent content in Tags on Jerry&#39;s DevLog</description>
+    <title>Tags on Jerry</title>
+    <link>https://jjerry-test.github.io/tags/</link>
+    <description>Recent content in Tags on Jerry</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https:jjerry-k.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Nov 2020 20:41:18 +0900</lastBuildDate><atom:link href="https://jjerry-test.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo</title>
+      <link>https://jjerry-test.github.io/tags/hugo/</link>
+      <pubDate>Mon, 23 Nov 2020 20:41:18 +0900</pubDate>
+      
+      <guid>https://jjerry-test.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hardware</title>
+      <link>https://jjerry-test.github.io/tags/hardware/</link>
+      <pubDate>Mon, 16 Nov 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/tags/hardware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>https://jjerry-test.github.io/tags/tools/</link>
+      <pubDate>Sun, 15 Nov 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/tags/tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://jjerry-test.github.io/tags/docker/</link>
+      <pubDate>Sat, 24 Oct 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TensorFlow</title>
+      <link>https://jjerry-test.github.io/tags/tensorflow/</link>
+      <pubDate>Sat, 12 Sep 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/tags/tensorflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paper</title>
+      <link>https://jjerry-test.github.io/tags/paper/</link>
+      <pubDate>Fri, 21 Aug 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/tags/paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Setting</title>
+      <link>https://jjerry-test.github.io/tags/setting/</link>
+      <pubDate>Sun, 16 Aug 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/tags/setting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Macbook</title>
+      <link>https://jjerry-test.github.io/tags/macbook/</link>
+      <pubDate>Sun, 26 Apr 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/tags/macbook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Usage</title>
+      <link>https://jjerry-test.github.io/tags/usage/</link>
+      <pubDate>Sat, 06 Jul 2019 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/tags/usage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Command</title>
+      <link>https://jjerry-test.github.io/tags/command/</link>
+      <pubDate>Sat, 08 Dec 2018 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/tags/command/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jekyll</title>
+      <link>https://jjerry-test.github.io/tags/jekyll/</link>
+      <pubDate>Wed, 24 Oct 2018 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/tags/jekyll/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>https://jjerry-test.github.io/tags/markdown/</link>
+      <pubDate>Fri, 19 Oct 2018 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Daily</title>
+      <link>https://jjerry-test.github.io/tags/daily/</link>
+      <pubDate>Fri, 07 Sep 2018 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/tags/daily/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

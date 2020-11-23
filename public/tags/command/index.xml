@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Command on Jerry</title>
+    <link>https://jjerry-test.github.io/tags/command/</link>
+    <description>Recent content in Command on Jerry</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 08 Dec 2018 18:30:46 +0600</lastBuildDate><atom:link href="https://jjerry-test.github.io/tags/command/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>scp를 이용해서 파일 or 디렉토리 복사하기!</title>
+      <link>https://jjerry-test.github.io/blog/scp/</link>
+      <pubDate>Sat, 08 Dec 2018 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/scp/</guid>
+      <description>대부분이 그렇겠지만 딥러닝, 머신러닝 하시는 분들은 우분투 서버를 이용합니다.
+물론 저도 그렇구요.</description>
+    </item>
+    
+  </channel>
+</rss>

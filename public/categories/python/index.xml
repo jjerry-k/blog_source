@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Jerry</title>
+    <link>https://jjerry-test.github.io/categories/python/</link>
+    <description>Recent content in Python on Jerry</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 Sep 2019 18:30:46 +0600</lastBuildDate><atom:link href="https://jjerry-test.github.io/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>jupyter Lab 에서 단축키 설정하는 방법!</title>
+      <link>https://jjerry-test.github.io/blog/jupyter_shortcut/</link>
+      <pubDate>Sat, 07 Sep 2019 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/jupyter_shortcut/</guid>
+      <description>파이썬, 딥러닝을 하시는 분들 중 Jupyter 부류를 이용하시는 분들이 꽤 많습니다.</description>
+    </item>
+    
+    <item>
+      <title>jupyter (ipython) 여러 커널 사용하기!</title>
+      <link>https://jjerry-test.github.io/blog/multiple_kernel/</link>
+      <pubDate>Wed, 10 Jul 2019 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/multiple_kernel/</guid>
+      <description>Anaconda 를 사용하다보면 여러 가상환경을 만들게 됩니다. (아닐수도 있구요&amp;hellip;)
+그 후에 jupyter 를 사용하시는 분들이라면 대부분 이렇게 사용하실 겁니다.</description>
+    </item>
+    
+    <item>
+      <title>Python으로 DICOM 영상을 읽어보자!</title>
+      <link>https://jjerry-test.github.io/blog/dicom/</link>
+      <pubDate>Sat, 06 Jul 2019 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/dicom/</guid>
+      <description>예~~전에 NIfTI 파일을 load 하는 방법을 올렸었습니다!
+이번에는 Python에서 DICOM 포맷의 데이터를 load 하는 방법에 대한 포스팅을 해보려고 합니다.</description>
+    </item>
+    
+    <item>
+      <title>(개인적으로) 무.조.건 설치하는 Anaconda 패키지</title>
+      <link>https://jjerry-test.github.io/blog/conda_package/</link>
+      <pubDate>Sun, 30 Jun 2019 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/conda_package/</guid>
+      <description>이번 포스팅은 제가 많이 쓰는 패키지들에 대해서 적어보려고 합니다.
+추후에 포맷하고 다시 세팅할 수도 있으니까&amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>Seaborn Tutorial Part 1-A</title>
+      <link>https://jjerry-test.github.io/blog/part1a/</link>
+      <pubDate>Thu, 09 May 2019 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/part1a/</guid>
+      <description>Index  Index  A. Visualizing statistical relationships  Relating variables with scatter plots Emphasizing continuity with line plots  Aggregation and representing uncertainty Plotting subsets of data with semantic mappings Plotting with date data   Showing multiple relationships with facets      A.</description>
+    </item>
+    
+    <item>
+      <title>Python으로 NIfTI 영상을 읽어보자!</title>
+      <link>https://jjerry-test.github.io/blog/nifti/</link>
+      <pubDate>Wed, 23 Jan 2019 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/nifti/</guid>
+      <description>거의 한달 반&amp;hellip;만에 글을 씁니다..!
+이번에는 Python에서 NIfTI 포맷의 데이터를 load 하는 방법에 대한 포스팅을 해보려고 합니다.</description>
+    </item>
+    
+    <item>
+      <title>Anaconda 간단하게 사용하기!</title>
+      <link>https://jjerry-test.github.io/blog/anaconda/</link>
+      <pubDate>Tue, 23 Oct 2018 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/anaconda/</guid>
+      <description>저번 Python 설치 포스팅에서 pyenv로 설치 하는 법을 포스팅 했었습니다.</description>
+    </item>
+    
+    <item>
+      <title>Python Installation for mac</title>
+      <link>https://jjerry-test.github.io/blog/python4mac/</link>
+      <pubDate>Thu, 27 Sep 2018 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/python4mac/</guid>
+      <description># brew 설치. /usr/bin/ruby -e &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;#34; # wget 설치.</description>
+    </item>
+    
+  </channel>
+</rss>

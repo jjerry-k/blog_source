@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Jerry</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="this is meta description">
+  <meta name="author" content="Jerry Kim">
+  <meta name="generator" content="Hugo 0.78.2" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://jjerry-test.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://jjerry-test.github.io/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-126636477-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+  <img src="https://jjerry-test.github.io/images/preloader.gif " alt="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://jjerry-test.github.io"><img class="img-fluid"
+          src="https://jjerry-test.github.io/images/logo.png" alt="Jerry"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.facebook.com/jerry.kim.566/"><i class="ti-facebook"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://twitter.com/jjerry_k"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/jjjerry_k/"><i class="ti-instagram"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/jjerry-k"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/jerry-kim-b8804216b/"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://jjerry-test.github.io"><img class="img-fluid"
+            src="https://jjerry-test.github.io/images/logo.png" alt="Jerry"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://jjerry-test.github.io/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://jjerry-test.github.io/blog">Post</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://jjerry-test.github.io/contact">Contact</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://jjerry-test.github.io/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <a href="/categories/deeplearning"
+          class="text-primary">Deep learning</a>
+        
+        <h2>Neptune&hellip;? 은 또 뭐여..</h2>
+        <div class="mb-3 post-meta">
+          <span>By Jerry Kim</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>23 July 2020</span>
+          
+        </div>
+        
+        <div class="content mb-5">
+          <p>오늘은 <a href="https://neptune.ai/">neptune.ai</a> 라는 툴을 소개시켜 드리려 합니다.</p>
+<p>Jupyter는 아는데&hellip;. Neptune은 또 뭐여&hellip;. 암튼 이 분야는 참.. 태양계를 좋아하는 듯합니다.</p>
+<p>이는 NN 실험을 편하고 효율적으로 할 수 있게 도와주는 툴입니다.</p>
+<p>각 실험 세팅 별로 Hyper parameter, Metrics를 기록하고 시각화하여 비교할 수 있습니다.</p>
+<p>그리고 개인에겐 <strong>100GB의 저장소를 제공</strong>하기 때문에 타인과 공유도 가능해요!</p>
+<p>어찌보면 <a href="https://jjerry-k.github.io/deeplearning/2020/03/01/wandb/">Weights &amp; Biases</a> 랑 비슷하죠.</p>
+<p>다음은 <a href="https://docs.neptune.ai/">Neptune docs</a> 에서 가져온 Neptune의 특징입니다.</p>
+<ul>
+<li>data exploration and analysis → decision science → machine learning and deep learning 와 같은  과정을 수행하는데 적합.</li>
+<li>Python, Jupyter Notebook, R 에서 동작.</li>
+<li><a href="https://docs.neptune.ai/integrations/keras.html">Keras</a>, <a href="https://docs.neptune.ai/integrations/pytorch_lightning.html">PyTorch Lightning</a>, <a href="https://docs.neptune.ai/integrations/xgboost.html">XGBoost</a>, <a href="https://docs.neptune.ai/integrations/matplotlib.html">Matplotlib</a> 와 같은 ML, DL에 사용되는 Python 라이브러리를 연동(통합).</li>
+<li><a href="https://docs.neptune.ai/integrations/mlflow.html#">MLflow</a>, <a href="https://docs.neptune.ai/integrations/tensorboard.html#">TensorBoard</a> , <a href="https://docs.neptune.ai/integrations/sacred.html">Sacred</a> 와 같은 Tracking tool 과 연동(통합) 가능.</li>
+<li>AWS, GCP, Kubernetes, Azure 와 같은 Cloud 와도 원활히 작동.</li>
+</ul>
+<p>그럼 실제로 한번 써보도록 하겠습니다.</p>
+<blockquote>
+<p>Sign up 은 넘어갑니다.</p>
+</blockquote>
+<h2 id="1-기본-환경-구축">1. 기본 환경 구축</h2>
+<p>기존 환경에서 쓰실 분들은 쓰셔도 됩니다.</p>
+<p>저는 따로 환경을 만들어서 테스트를 했습니다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">conda create -n neptune python<span style="color:#f92672">=</span>3.7
+
+conda activate neptune
+
+conda install psutil matplotlib tensorflow-gpu <span style="color:#75715e"># 혹은 tensorflow</span>
+</code></pre></div><h2 id="2-neptune-설정">2. Neptune 설정</h2>
+<p>Neptune을 설치합니다.</p>
+<p>conda를 쓰시는 분들께 보통 conda install 로 설치하라고 말씀을 드리지만.. 이번엔 특별히 pip install로 설치를 추천드립니다.</p>
+<figure>
+    <img src="https://github.com/jjerry-k/jjerry-k.github.io/blob/master/public/img/neptune/Untitled.png?raw=true"/> 
+</figure>
+
+<p>설치 후 자신이 사용하는 OS에 맞춰서 API token을 PC에 기입(?) 해주세요.</p>
+<figure>
+    <img src="https://github.com/jjerry-k/jjerry-k.github.io/blob/master/public/img/neptune/Untitled_1.png?raw=true"/> 
+</figure>
+
+<p>여기까지 하면 세팅은 끝납니다. 그 이후에 <code>Run script</code>, <code>Result in UI</code> 부분은 하고 싶으신 분만 해보세요!</p>
+<h2 id="3-mnist-를-이용한-실험">3. Mnist 를 이용한 실험</h2>
+<p>다음과 같은 코드를 작성합니다.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> hashlib
+<span style="color:#f92672">import</span> os
+<span style="color:#f92672">import</span> tempfile
+
+<span style="color:#f92672">import</span> matplotlib.pyplot <span style="color:#f92672">as</span> plt
+<span style="color:#f92672">import</span> neptune
+<span style="color:#f92672">import</span> numpy <span style="color:#f92672">as</span> np
+<span style="color:#f92672">import</span> tensorflow <span style="color:#f92672">as</span> tf
+<span style="color:#f92672">from</span> tensorflow.keras <span style="color:#f92672">import</span> models, layers, optimizers, callbacks, datasets
+
+<span style="color:#75715e"># For Efficiency</span>
+gpus <span style="color:#f92672">=</span> tf<span style="color:#f92672">.</span>config<span style="color:#f92672">.</span>experimental<span style="color:#f92672">.</span>list_physical_devices(<span style="color:#e6db74">&#39;GPU&#39;</span>)
+<span style="color:#66d9ef">if</span> gpus:
+    <span style="color:#66d9ef">try</span>:
+        <span style="color:#66d9ef">for</span> gpu <span style="color:#f92672">in</span> gpus:
+            tf<span style="color:#f92672">.</span>config<span style="color:#f92672">.</span>experimental<span style="color:#f92672">.</span>set_memory_growth(gpu, True)
+        logical_gpus <span style="color:#f92672">=</span> tf<span style="color:#f92672">.</span>config<span style="color:#f92672">.</span>experimental<span style="color:#f92672">.</span>list_logical_devices(<span style="color:#e6db74">&#39;GPU&#39;</span>)
+        <span style="color:#66d9ef">print</span>(len(gpus), <span style="color:#e6db74">&#34;Physical GPUs,&#34;</span>, len(logical_gpus), <span style="color:#e6db74">&#34;Logical GPUs&#34;</span>)
+    <span style="color:#66d9ef">except</span> <span style="color:#a6e22e">RuntimeError</span> <span style="color:#66d9ef">as</span> e:
+        <span style="color:#66d9ef">print</span>(e)
+        
+    
+<span style="color:#75715e"># select project</span>
+neptune<span style="color:#f92672">.</span>init(<span style="color:#e6db74">&#39;jjerry-k/mnist&#39;</span>)
+
+<span style="color:#75715e"># Define parameters</span>
+PARAMS <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#39;batch_size&#39;</span>: <span style="color:#ae81ff">64</span>,
+          <span style="color:#e6db74">&#39;n_epochs&#39;</span>: <span style="color:#ae81ff">100</span>,
+          <span style="color:#e6db74">&#39;shuffle&#39;</span>: True,
+          <span style="color:#e6db74">&#39;learning_rate&#39;</span>: <span style="color:#ae81ff">0.001</span>,
+          <span style="color:#e6db74">&#39;early_stopping&#39;</span>: <span style="color:#ae81ff">10</span>,
+          <span style="color:#e6db74">&#39;optimizer&#39;</span>: <span style="color:#e6db74">&#39;Adam&#39;</span>,
+          }
+
+<span style="color:#75715e"># Create experiment</span>
+neptune<span style="color:#f92672">.</span>create_experiment(name<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;classification_example&#39;</span>,
+                          tags<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;classification&#39;</span>, <span style="color:#e6db74">&#39;MNIST&#39;</span>],
+                          params<span style="color:#f92672">=</span>PARAMS)
+
+<span style="color:#75715e"># Dataset</span>
+mnist <span style="color:#f92672">=</span> datasets<span style="color:#f92672">.</span>mnist
+(train_images, train_labels), (test_images, test_labels) <span style="color:#f92672">=</span> mnist<span style="color:#f92672">.</span>load_data()
+train_images <span style="color:#f92672">=</span> train_images <span style="color:#f92672">/</span> <span style="color:#ae81ff">255.0</span>
+test_images <span style="color:#f92672">=</span> test_images <span style="color:#f92672">/</span> <span style="color:#ae81ff">255.0</span>
+
+class_names <span style="color:#f92672">=</span> [str(i) <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">10</span>)]
+
+neptune<span style="color:#f92672">.</span>set_property(<span style="color:#e6db74">&#39;class_names&#39;</span>, class_names)
+
+<span style="color:#66d9ef">for</span> j, class_name <span style="color:#f92672">in</span> enumerate(class_names):
+    plt<span style="color:#f92672">.</span>figure(figsize<span style="color:#f92672">=</span>(<span style="color:#ae81ff">10</span>, <span style="color:#ae81ff">10</span>))
+    label_ <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>where(train_labels <span style="color:#f92672">==</span> j)
+    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">9</span>):
+        plt<span style="color:#f92672">.</span>subplot(<span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">3</span>, i <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>)
+        plt<span style="color:#f92672">.</span>xticks([])
+        plt<span style="color:#f92672">.</span>yticks([])
+        plt<span style="color:#f92672">.</span>grid(False)
+        plt<span style="color:#f92672">.</span>imshow(train_images[label_[<span style="color:#ae81ff">0</span>][i]], cmap<span style="color:#f92672">=</span>plt<span style="color:#f92672">.</span>cm<span style="color:#f92672">.</span>binary)
+        plt<span style="color:#f92672">.</span>xlabel(class_names[j])
+    neptune<span style="color:#f92672">.</span>log_image(<span style="color:#e6db74">&#39;example_images&#39;</span>, plt<span style="color:#f92672">.</span>gcf())
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">lr_scheduler</span>(epoch):
+    <span style="color:#66d9ef">if</span> epoch <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">10</span>:
+        new_lr <span style="color:#f92672">=</span> PARAMS[<span style="color:#e6db74">&#39;learning_rate&#39;</span>]
+    <span style="color:#66d9ef">else</span>:
+        new_lr <span style="color:#f92672">=</span> PARAMS[<span style="color:#e6db74">&#39;learning_rate&#39;</span>] <span style="color:#f92672">*</span> np<span style="color:#f92672">.</span>exp(<span style="color:#ae81ff">0.1</span> <span style="color:#f92672">*</span> ((epoch<span style="color:#f92672">//</span><span style="color:#ae81ff">50</span>)<span style="color:#f92672">*</span><span style="color:#ae81ff">50</span> <span style="color:#f92672">-</span> epoch))
+
+    neptune<span style="color:#f92672">.</span>log_metric(<span style="color:#e6db74">&#39;learning_rate&#39;</span>, new_lr)
+    <span style="color:#66d9ef">return</span> new_lr
+
+<span style="color:#75715e"># Model</span>
+model <span style="color:#f92672">=</span> models<span style="color:#f92672">.</span>Sequential([
+    layers<span style="color:#f92672">.</span>Flatten(input_shape<span style="color:#f92672">=</span>(<span style="color:#ae81ff">28</span>, <span style="color:#ae81ff">28</span>)),
+    layers<span style="color:#f92672">.</span>Dense(<span style="color:#ae81ff">128</span>, activation<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;relu&#39;</span>),
+    layers<span style="color:#f92672">.</span>Dense(len(class_names), activation<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;softmax&#39;</span>)
+])
+
+<span style="color:#66d9ef">if</span> PARAMS[<span style="color:#e6db74">&#39;optimizer&#39;</span>] <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;Adam&#39;</span>:
+    optimizer <span style="color:#f92672">=</span> optimizers<span style="color:#f92672">.</span>Adam(
+        learning_rate<span style="color:#f92672">=</span>PARAMS[<span style="color:#e6db74">&#39;learning_rate&#39;</span>],
+    )
+<span style="color:#66d9ef">elif</span> PARAMS[<span style="color:#e6db74">&#39;optimizer&#39;</span>] <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;Nadam&#39;</span>:
+    optimizer <span style="color:#f92672">=</span> optimizers<span style="color:#f92672">.</span>Nadam(
+        learning_rate<span style="color:#f92672">=</span>PARAMS[<span style="color:#e6db74">&#39;learning_rate&#39;</span>],
+    )
+<span style="color:#66d9ef">elif</span> PARAMS[<span style="color:#e6db74">&#39;optimizer&#39;</span>] <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;SGD&#39;</span>:
+    optimizer <span style="color:#f92672">=</span> optimizers<span style="color:#f92672">.</span>SGD(
+        learning_rate<span style="color:#f92672">=</span>PARAMS[<span style="color:#e6db74">&#39;learning_rate&#39;</span>],
+    )
+
+model<span style="color:#f92672">.</span>compile(optimizer<span style="color:#f92672">=</span>optimizer,
+              loss<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;sparse_categorical_crossentropy&#39;</span>,
+              metrics<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;accuracy&#39;</span>])
+
+<span style="color:#75715e"># Log model summary</span>
+model<span style="color:#f92672">.</span>summary(print_fn<span style="color:#f92672">=</span><span style="color:#66d9ef">lambda</span> x: neptune<span style="color:#f92672">.</span>log_text(<span style="color:#e6db74">&#39;model_summary&#39;</span>, x))
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">log_train_data</span>(logs):
+    neptune<span style="color:#f92672">.</span>log_metric(<span style="color:#e6db74">&#39;epoch_acc&#39;</span>, logs[<span style="color:#e6db74">&#39;accuracy&#39;</span>])
+    neptune<span style="color:#f92672">.</span>log_metric(<span style="color:#e6db74">&#39;epoch_loss&#39;</span>, logs[<span style="color:#e6db74">&#39;loss&#39;</span>])
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">log_val_data</span>(logs):
+    <span style="color:#75715e"># Evaluate model</span>
+    eval_metrics <span style="color:#f92672">=</span> model<span style="color:#f92672">.</span>evaluate(test_images, test_labels, verbose<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>)
+    <span style="color:#66d9ef">for</span> j, metric <span style="color:#f92672">in</span> enumerate(eval_metrics):
+        neptune<span style="color:#f92672">.</span>log_metric(<span style="color:#e6db74">&#39;eval_&#39;</span> <span style="color:#f92672">+</span> model<span style="color:#f92672">.</span>metrics_names[j], metric)
+        
+<span style="color:#75715e"># Training Network</span>
+model<span style="color:#f92672">.</span>fit(train_images, train_labels,
+          batch_size<span style="color:#f92672">=</span>PARAMS[<span style="color:#e6db74">&#39;batch_size&#39;</span>],
+          epochs<span style="color:#f92672">=</span>PARAMS[<span style="color:#e6db74">&#39;n_epochs&#39;</span>],
+          shuffle<span style="color:#f92672">=</span>PARAMS[<span style="color:#e6db74">&#39;shuffle&#39;</span>],
+          validation_data<span style="color:#f92672">=</span>[test_images, test_labels]
+          callbacks<span style="color:#f92672">=</span>[callbacks<span style="color:#f92672">.</span>LambdaCallback(on_epoch_end<span style="color:#f92672">=</span><span style="color:#66d9ef">lambda</span> epoch, logs: log_train_data(logs)),
+                     callbacks<span style="color:#f92672">.</span>LambdaCallback(on_epoch_end<span style="color:#f92672">=</span><span style="color:#66d9ef">lambda</span> epoch, logs: log_valdata(logs)),
+                     callbacks<span style="color:#f92672">.</span>EarlyStopping(patience<span style="color:#f92672">=</span>PARAMS[<span style="color:#e6db74">&#39;early_stopping&#39;</span>],
+                                                   monitor<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;accuracy&#39;</span>,
+                                                   restore_best_weights<span style="color:#f92672">=</span>True),
+                     callbacks<span style="color:#f92672">.</span>LearningRateScheduler(lr_scheduler)]
+          )
+
+<span style="color:#75715e"># Log model weights</span>
+<span style="color:#66d9ef">with</span> tempfile<span style="color:#f92672">.</span>TemporaryDirectory(dir<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;.&#39;</span>) <span style="color:#66d9ef">as</span> d:
+    prefix <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(d, <span style="color:#e6db74">&#39;model_weights&#39;</span>)
+    model<span style="color:#f92672">.</span>save_weights(os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(prefix, <span style="color:#e6db74">&#39;model&#39;</span>))
+    <span style="color:#66d9ef">for</span> item <span style="color:#f92672">in</span> os<span style="color:#f92672">.</span>listdir(prefix):
+        neptune<span style="color:#f92672">.</span>log_artifact(os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(prefix, item),
+                             os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(<span style="color:#e6db74">&#39;model_weights&#39;</span>, item))
+</code></pre></div><h2 id="4-결과-확인">4. 결과 확인</h2>
+<p>neptune에는 총 7개의 탭이 있습니다.</p>
+<p>각각 예시를 보시면 역할을 이해하실 수 있습니다.</p>
+<h3 id="charts">Charts</h3>
+<p>여기에는 <code>neptune.log_metric()</code>을 사용한 변수들이 <strong>그래프</strong>로 기록됩니다.</p>
+<figure>
+    <img src="https://github.com/jjerry-k/jjerry-k.github.io/blob/master/public/img/neptune/Untitled_2.png?raw=true"/> 
+</figure>
+
+<h3 id="log">Log</h3>
+<p>Charts에 기록된 변수의 값이 기록되고 추가적으로 <code>neptune.log_image()</code>, <code>neptune.log_text()</code> 를 사용한 변수 또한 기록됩니다.</p>
+<figure>
+    <img src="https://github.com/jjerry-k/jjerry-k.github.io/blob/master/public/img/neptune/Untitled_3.png?raw=true"/> 
+</figure>
+
+<h3 id="monitoring">Monitoring</h3>
+<p>리소스 모니터링과 standard error, standard output을 볼 수 있어요.</p>
+<figure>
+    <img src="https://github.com/jjerry-k/jjerry-k.github.io/blob/master/public/img/neptune/Untitled_4.png?raw=true"/> 
+</figure>
+
+<h3 id="artifacts">Artifacts</h3>
+<p>neptune에 원하는 파일을 전송하여 저장할 수 있습니다.</p>
+<figure>
+    <img src="https://github.com/jjerry-k/jjerry-k.github.io/blob/master/public/img/neptune/Untitled_5.png?raw=true"/> 
+</figure>
+
+<h3 id="source-code">Source code</h3>
+<p>생략</p>
+<figure>
+    <img src="https://github.com/jjerry-k/jjerry-k.github.io/blob/master/public/img/neptune/Untitled_6.png?raw=true"/> 
+</figure>
+
+<h3 id="parameters">Parameters</h3>
+<p>코드 상단에 적은 PARAMS 가 기록이 됩니다.</p>
+<figure>
+    <img src="https://github.com/jjerry-k/jjerry-k.github.io/blob/master/public/img/neptune/Untitled_7.png?raw=true"/> 
+</figure>
+
+<h3 id="detail">Detail</h3>
+<p>뭐&hellip;실험의 정보, 시간 등 기록이 되고 추가적으로 <code>neptune.set_property</code>를 이용하여 Properties 에 변수를 추가할 수 있어요!</p>
+<figure>
+    <img src="https://github.com/jjerry-k/jjerry-k.github.io/blob/master/public/img/neptune/Untitled_8.png?raw=true"/> 
+</figure>
+
+<p>wandb와 비슷한 역할을 하는 neptune.ai라는 tool에 대해 다루었습니다.</p>
+<p>음&hellip;.솔직히 wandb가 더 편한 듯 하네요. (코드가 짧아서)</p>
+<p>뭐 좀 더 다양하게 사용하면 이게 더 나을&hellip;수도?</p>
+<p>선택은 개인의 몫입니다.</p>
+<h2 id="ps">P.S.</h2>
+<ul>
+<li>점점&hellip;포스팅 주제 고갈&hellip;</li>
+</ul>
+
+        </div>
+
+        
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "jjerry_k" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h2>Join Our Newsletter</h2>
+        <p class="text-light px-md-5 py-4 border-left border-right border-primary">
+          뉴스레터 받으실&hellip;?</p>
+        <form action="#" class="row justify-content-center">
+          <div class="input-group col-md-8">
+            <input type="text" class="form-control" placeholder="Your Email Address">
+            <div class="input-group-append">
+              <button class="input-group-text btn btn-primary">Subscribe</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center mb-5">
+        <a href="https://jjerry-test.github.io"><img src="https://jjerry-test.github.io/images/logo.png" alt="Jerry"></a>
+      </div>
+               
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contact Me</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="tel:Top%20Secret"><i
+                class="ti-mobile mr-3 text-primary"></i>Top Secret</a></li>
+          
+                     
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Seoul, Korea of Republic</li>
+          
+                     
+          <li class="mb-3"><a class="text-dark" href="mailto:jaeyeol2931@gmail.com"><i
+                class="ti-email mr-3 text-primary"></i>jaeyeol2931@gmail.com</a>
+          
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.facebook.com/jerry.kim.566/">facebook</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://twitter.com/jjerry_k">twitter</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.instagram.com/jjjerry_k/">instagram</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://github.com/jjerry-k">github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.linkedin.com/in/jerry-kim-b8804216b/">linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/blog">Blog</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/deeplearning">Deeplearning</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/living">Living</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/python">Python</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/ubuntu">Ubuntu</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://jjerry-test.github.io/about">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://jjerry-test.github.io/blog">Post</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://jjerry-test.github.io/contact">Contact</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        | copyright © 2020 <a href="https://themefisher.com">Themefisher</a> All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://jjerry-test.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://jjerry-test.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/search/mark.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://jjerry-test.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>

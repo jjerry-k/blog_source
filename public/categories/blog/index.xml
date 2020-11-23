@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Jerry</title>
+    <link>https://jjerry-test.github.io/categories/blog/</link>
+    <description>Recent content in Blog on Jerry</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Nov 2020 20:41:18 +0900</lastBuildDate><atom:link href="https://jjerry-test.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo Blog</title>
+      <link>https://jjerry-test.github.io/blog/hugo-blog/</link>
+      <pubDate>Mon, 23 Nov 2020 20:41:18 +0900</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/hugo-blog/</guid>
+      <description>이번에 Github Blog를 이전하게 되었습니다!
+기존에는 Jekyll 기반의 블로그를 사용했었는데요.</description>
+    </item>
+    
+    <item>
+      <title>Jekyll Blog</title>
+      <link>https://jjerry-test.github.io/blog/gitblog/</link>
+      <pubDate>Wed, 24 Oct 2018 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/gitblog/</guid>
+      <description>안녕하세요! Jerry 입니다.
+요즘 깃헙으로 블로그를 하려고 하시는 분이 많은데요!</description>
+    </item>
+    
+    <item>
+      <title>Markdown 사용법</title>
+      <link>https://jjerry-test.github.io/blog/markdown/</link>
+      <pubDate>Fri, 19 Oct 2018 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/markdown/</guid>
+      <description>Markdown은 2004년 존그루버에 의해 만들어졌으며 쉽게 쓰고 읽을 수 있으며 HTML로 변환이 가능한 텍스트 기반의 마크업언어입니다.</description>
+    </item>
+    
+  </channel>
+</rss>

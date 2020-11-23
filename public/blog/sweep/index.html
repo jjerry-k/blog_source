@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Jerry</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="this is meta description">
+  <meta name="author" content="Jerry Kim">
+  <meta name="generator" content="Hugo 0.78.2" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://jjerry-test.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://jjerry-test.github.io/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-126636477-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+  <img src="https://jjerry-test.github.io/images/preloader.gif " alt="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://jjerry-test.github.io"><img class="img-fluid"
+          src="https://jjerry-test.github.io/images/logo.png" alt="Jerry"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.facebook.com/jerry.kim.566/"><i class="ti-facebook"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://twitter.com/jjerry_k"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/jjjerry_k/"><i class="ti-instagram"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/jjerry-k"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/jerry-kim-b8804216b/"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://jjerry-test.github.io"><img class="img-fluid"
+            src="https://jjerry-test.github.io/images/logo.png" alt="Jerry"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://jjerry-test.github.io/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://jjerry-test.github.io/blog">Post</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://jjerry-test.github.io/contact">Contact</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://jjerry-test.github.io/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <a href="/categories/deeplearning"
+          class="text-primary">Deep learning</a>
+        
+        <h2>Weights &amp; Biases Usage - [2]</h2>
+        <div class="mb-3 post-meta">
+          <span>By Jerry Kim</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>28 August 2020</span>
+          
+        </div>
+        
+        <div class="content mb-5">
+          <p>오늘은 Weights &amp; Biases 의 기능중 하나인 <code>sweep</code>에 대해서 알아보려고 합니다.</p>
+<p><code>sweep</code>은 정말 쉽게 말해서 <strong>Hyper parameter search and model optimization</strong> 을 쉽게 할 수 있도록 해주는 기능입니다.</p>
+<p>자세한 장단점에 대해서 궁금하신 분은 <a href="https://docs.wandb.com/sweeps">여기</a>를 눌러서 확인해주세요!</p>
+<p>그럼 사용법을 알아보겠습니다.</p>
+<h3 id="1-학습-스크립트-작성">1. 학습 스크립트 작성.</h3>
+<ul>
+<li><code>model.py</code>와 <code>train.py</code> 이렇게 두 개의 스크립트를 작성했습니다.</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># model.py</span>
+<span style="color:#f92672">import</span> tensorflow <span style="color:#f92672">as</span> tf
+<span style="color:#f92672">from</span> tensorflow.keras <span style="color:#f92672">import</span> models, layers, losses, optimizers
+<span style="color:#f92672">from</span> tensorflow.keras.applications <span style="color:#f92672">import</span> DenseNet121, DenseNet169, DenseNet201
+<span style="color:#f92672">from</span> tensorflow.keras.applications <span style="color:#f92672">import</span> VGG16, VGG19, Xception, InceptionResNetV2, InceptionV3
+<span style="color:#f92672">from</span> tensorflow.keras.applications <span style="color:#f92672">import</span> MobileNet, MobileNetV2, NASNetLarge, NASNetMobile
+<span style="color:#f92672">from</span> tensorflow.keras.applications <span style="color:#f92672">import</span> ResNet50, ResNet101, ResNet152, ResNet50V2, ResNet101V2, ResNet152V2
+
+model_dict <span style="color:#f92672">=</span> {
+    <span style="color:#e6db74">&#34;vgg16&#34;</span>: VGG16, 
+    <span style="color:#e6db74">&#34;vgg19&#34;</span>: VGG19,
+    <span style="color:#e6db74">&#34;resnet50&#34;</span>: ResNet50,
+    <span style="color:#e6db74">&#34;resnet101&#34;</span>: ResNet101,
+    <span style="color:#e6db74">&#34;resnet152&#34;</span>: ResNet152,
+    <span style="color:#e6db74">&#34;resnet50v2&#34;</span>: ResNet50V2,
+    <span style="color:#e6db74">&#34;resnet101v2&#34;</span>: ResNet101V2,
+    <span style="color:#e6db74">&#34;resnet152v2&#34;</span>: ResNet152V2,
+    <span style="color:#e6db74">&#34;densenet121&#34;</span>: DenseNet121,
+    <span style="color:#e6db74">&#34;densenet169&#34;</span>: DenseNet169,
+    <span style="color:#e6db74">&#34;densenet201&#34;</span>: DenseNet201,
+    <span style="color:#e6db74">&#34;mobilenet&#34;</span>: MobileNet,
+    <span style="color:#e6db74">&#34;mobilenetv2&#34;</span>: MobileNetV2,
+    <span style="color:#e6db74">&#34;xception&#34;</span>: Xception,
+    <span style="color:#e6db74">&#34;inceptionresnetv2&#34;</span>: InceptionResNetV2,
+    <span style="color:#e6db74">&#34;inceptionv3&#34;</span>: InceptionV3, 
+    <span style="color:#e6db74">&#34;nasnetlarge&#34;</span>: NASNetLarge,
+    <span style="color:#e6db74">&#34;nasnetmobile&#34;</span>: NASNetMobile    
+}
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">build_model</span>(config, num_classes<span style="color:#f92672">=</span><span style="color:#ae81ff">10</span>, name<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;model&#34;</span>):
+    <span style="color:#66d9ef">assert</span> config<span style="color:#f92672">.</span>model_name<span style="color:#f92672">.</span>lower() <span style="color:#f92672">in</span> model_dict<span style="color:#f92672">.</span>keys(), f<span style="color:#e6db74">&#34;Please, check pretrained model list {list(model_dict.keys())}&#34;</span>
+
+    last_activation <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;softmax&#34;</span> <span style="color:#66d9ef">if</span> num_classes <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">1</span> <span style="color:#66d9ef">else</span> <span style="color:#e6db74">&#34;sigmoid&#34;</span>
+
+    
+    base_model <span style="color:#f92672">=</span> model_dict[config<span style="color:#f92672">.</span>model_name<span style="color:#f92672">.</span>lower()](include_top<span style="color:#f92672">=</span>False, weights<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;imagenet&#34;</span>, pooling<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;avg&#34;</span>)
+
+    <span style="color:#66d9ef">if</span> config<span style="color:#f92672">.</span>freeze:
+        base_model<span style="color:#f92672">.</span>trainable <span style="color:#f92672">=</span> False
+    
+    output <span style="color:#f92672">=</span> layers<span style="color:#f92672">.</span>Dropout(config<span style="color:#f92672">.</span>dropout, name<span style="color:#f92672">=</span>f<span style="color:#e6db74">&#34;{name}_dropout&#34;</span>)(base_model<span style="color:#f92672">.</span>output)
+    output <span style="color:#f92672">=</span> layers<span style="color:#f92672">.</span>Dense(num_classes, last_activation, name<span style="color:#f92672">=</span>f<span style="color:#e6db74">&#34;{name}_output&#34;</span>)(output)
+
+    model <span style="color:#f92672">=</span> models<span style="color:#f92672">.</span>Model(base_model<span style="color:#f92672">.</span>input, output, name<span style="color:#f92672">=</span>name)
+    <span style="color:#66d9ef">return</span> model
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#train.py</span>
+<span style="color:#f92672">import</span> os
+<span style="color:#f92672">import</span> cv2 <span style="color:#f92672">as</span> cv
+<span style="color:#f92672">import</span> numpy <span style="color:#f92672">as</span> np
+<span style="color:#f92672">import</span> tensorflow <span style="color:#f92672">as</span> tf
+<span style="color:#f92672">from</span> tensorflow.keras <span style="color:#f92672">import</span> optimizers, utils
+
+<span style="color:#f92672">from</span> model <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>
+
+<span style="color:#f92672">import</span> wandb
+<span style="color:#f92672">from</span> wandb.keras <span style="color:#f92672">import</span> WandbCallback
+
+tf<span style="color:#f92672">.</span>random<span style="color:#f92672">.</span>set_seed(<span style="color:#ae81ff">42</span>)
+
+hyperparameter_defaults <span style="color:#f92672">=</span> dict(
+model_name<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mobilenet&#34;</span>,
+dropout <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.5</span>,
+freeze <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>,
+batch_size <span style="color:#f92672">=</span> <span style="color:#ae81ff">128</span>,
+learning_rate <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.001</span>,
+epochs <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>,
+GPUs<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;0&#34;</span>
+)
+
+wandb<span style="color:#f92672">.</span>init(project<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;usage_02&#34;</span>, config<span style="color:#f92672">=</span>hyperparameter_defaults)
+config <span style="color:#f92672">=</span> wandb<span style="color:#f92672">.</span>config
+
+os<span style="color:#f92672">.</span>environ[<span style="color:#e6db74">&#34;CUDA_DEVICE_ORDER&#34;</span>]<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;PCI_BUS_ID&#34;</span>
+os<span style="color:#f92672">.</span>environ[<span style="color:#e6db74">&#34;CUDA_VISIBLE_DEVICES&#34;</span>]<span style="color:#f92672">=</span>config<span style="color:#f92672">.</span>GPUs
+
+<span style="color:#75715e"># For Efficiency</span>
+gpus <span style="color:#f92672">=</span> tf<span style="color:#f92672">.</span>config<span style="color:#f92672">.</span>experimental<span style="color:#f92672">.</span>list_physical_devices(<span style="color:#e6db74">&#39;GPU&#39;</span>)
+<span style="color:#66d9ef">if</span> gpus:
+    <span style="color:#66d9ef">try</span>:
+        <span style="color:#66d9ef">for</span> gpu <span style="color:#f92672">in</span> gpus:
+            tf<span style="color:#f92672">.</span>config<span style="color:#f92672">.</span>experimental<span style="color:#f92672">.</span>set_memory_growth(gpu, True)
+        logical_gpus <span style="color:#f92672">=</span> tf<span style="color:#f92672">.</span>config<span style="color:#f92672">.</span>experimental<span style="color:#f92672">.</span>list_logical_devices(<span style="color:#e6db74">&#39;GPU&#39;</span>)
+        <span style="color:#66d9ef">print</span>(len(gpus), <span style="color:#e6db74">&#34;Physical GPUs,&#34;</span>, len(logical_gpus), <span style="color:#e6db74">&#34;Logical GPUs&#34;</span>)
+    <span style="color:#66d9ef">except</span> <span style="color:#a6e22e">RuntimeError</span> <span style="color:#66d9ef">as</span> e:
+        <span style="color:#66d9ef">print</span>(e)
+
+<span style="color:#75715e"># Data Prepare</span>
+
+URL <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;https://storage.googleapis.com/download.tensorflow.org/example_images/flower_photos.tgz&#39;</span>
+path_to_zip  <span style="color:#f92672">=</span> tf<span style="color:#f92672">.</span>keras<span style="color:#f92672">.</span>utils<span style="color:#f92672">.</span>get_file(<span style="color:#e6db74">&#39;flower_photos.tgz&#39;</span>, origin<span style="color:#f92672">=</span>URL, extract<span style="color:#f92672">=</span>True)
+
+PATH <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>dirname(path_to_zip), <span style="color:#e6db74">&#39;flower_photos&#39;</span>)
+
+category_list <span style="color:#f92672">=</span> [i <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> os<span style="color:#f92672">.</span>listdir(PATH) <span style="color:#66d9ef">if</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>isdir(os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(PATH, i)) ]
+<span style="color:#66d9ef">print</span>(category_list)
+
+num_classes <span style="color:#f92672">=</span> len(category_list)
+img_size <span style="color:#f92672">=</span> <span style="color:#ae81ff">128</span>
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">read_img</span>(path, img_size):
+    img <span style="color:#f92672">=</span> cv<span style="color:#f92672">.</span>imread(path)
+    img <span style="color:#f92672">=</span> cv<span style="color:#f92672">.</span>cvtColor(img, cv<span style="color:#f92672">.</span>COLOR_BGR2RGB)
+    img <span style="color:#f92672">=</span> cv<span style="color:#f92672">.</span>resize(img, (img_size, img_size))
+    <span style="color:#66d9ef">return</span> img
+
+imgs_tr <span style="color:#f92672">=</span> []
+labs_tr <span style="color:#f92672">=</span> []
+
+imgs_val <span style="color:#f92672">=</span> []
+labs_val <span style="color:#f92672">=</span> []
+
+<span style="color:#66d9ef">for</span> i, category <span style="color:#f92672">in</span> enumerate(category_list):
+    path <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(PATH, category)
+    imgs_list <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>listdir(path)
+    <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;Total &#39;</span><span style="color:#e6db74">%s</span><span style="color:#e6db74">&#39; images : </span><span style="color:#e6db74">%d</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">%</span>(category, len(imgs_list)))
+    ratio <span style="color:#f92672">=</span> int(np<span style="color:#f92672">.</span>round(<span style="color:#ae81ff">0.05</span> <span style="color:#f92672">*</span> len(imgs_list)))
+    <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">%s</span><span style="color:#e6db74"> Images for Training : </span><span style="color:#e6db74">%d</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">%</span>(category, len(imgs_list[ratio:])))
+    <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">%s</span><span style="color:#e6db74"> Images for Validation : </span><span style="color:#e6db74">%d</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">%</span>(category, len(imgs_list[:ratio])))
+    <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;=============================&#34;</span>)
+
+    imgs <span style="color:#f92672">=</span> [read_img(os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(path, img),img_size) <span style="color:#66d9ef">for</span> img <span style="color:#f92672">in</span> imgs_list]
+    labs <span style="color:#f92672">=</span> [i]<span style="color:#f92672">*</span>len(imgs_list)
+
+    imgs_tr <span style="color:#f92672">+=</span> imgs[ratio:]
+    labs_tr <span style="color:#f92672">+=</span> labs[ratio:]
+    
+    imgs_val <span style="color:#f92672">+=</span> imgs[:ratio]
+    labs_val <span style="color:#f92672">+=</span> labs[:ratio]
+
+imgs_tr <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array(imgs_tr)<span style="color:#f92672">/</span><span style="color:#ae81ff">255.</span>
+labs_tr <span style="color:#f92672">=</span> utils<span style="color:#f92672">.</span>to_categorical(np<span style="color:#f92672">.</span>array(labs_tr), num_classes)
+
+imgs_val <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array(imgs_val)<span style="color:#f92672">/</span><span style="color:#ae81ff">255.</span>
+labs_val <span style="color:#f92672">=</span> utils<span style="color:#f92672">.</span>to_categorical(np<span style="color:#f92672">.</span>array(labs_val), num_classes)
+
+<span style="color:#66d9ef">print</span>(imgs_tr<span style="color:#f92672">.</span>shape, labs_tr<span style="color:#f92672">.</span>shape)
+<span style="color:#66d9ef">print</span>(imgs_val<span style="color:#f92672">.</span>shape, labs_val<span style="color:#f92672">.</span>shape)
+
+<span style="color:#75715e"># Build Network</span>
+strategy <span style="color:#f92672">=</span> tf<span style="color:#f92672">.</span>distribute<span style="color:#f92672">.</span>MirroredStrategy()
+
+<span style="color:#66d9ef">with</span> strategy<span style="color:#f92672">.</span>scope():
+    model <span style="color:#f92672">=</span> build_model(config, num_classes)
+    loss <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;binary_crossentropy&#39;</span> <span style="color:#66d9ef">if</span> num_classes<span style="color:#f92672">==</span><span style="color:#ae81ff">1</span> <span style="color:#66d9ef">else</span> <span style="color:#e6db74">&#39;categorical_crossentropy&#39;</span>
+    model<span style="color:#f92672">.</span>compile(optimizer<span style="color:#f92672">=</span>optimizers<span style="color:#f92672">.</span>Adam(config<span style="color:#f92672">.</span>learning_rate), loss<span style="color:#f92672">=</span>loss, metrics<span style="color:#f92672">=</span>[<span style="color:#e6db74">&#39;acc&#39;</span>])
+
+<span style="color:#75715e"># Training Network</span>
+
+model<span style="color:#f92672">.</span>fit(x<span style="color:#f92672">=</span>imgs_tr, y<span style="color:#f92672">=</span>labs_tr, batch_size<span style="color:#f92672">=</span>config<span style="color:#f92672">.</span>batch_size, epochs<span style="color:#f92672">=</span>config<span style="color:#f92672">.</span>epochs, 
+            callbacks <span style="color:#f92672">=</span> [WandbCallback()], 
+            validation_data<span style="color:#f92672">=</span>(imgs_val, labs_val))
+</code></pre></div><h3 id="2-기본-값으로-학습-진행">2. 기본 값으로 학습 진행.</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">python train<span style="color:#f92672">.</span>py
+</code></pre></div><p>그 후에 Weights &amp; Biases 로 가보면 다음과 같이 프로젝트가 만들어진 것을 확인 할 수 있습니다.</p>
+<figure>
+    <img src="/images/post/sweep/Untitled.png"/> 
+</figure>
+
+<h3 id="3-sweep-configuration">3. sweep configuration</h3>
+<p>프로젝트 창에서 왼쪽에 <strong>빗자루 모양 아이콘</strong>을 누른 후에 오른쪽 상단에 <strong>Create sweep</strong> 를 눌러줍니다. ****</p>
+<figure>
+    <img src="/images/post/sweep/Untitled_1.png"/> 
+</figure>
+
+<p>그러면 다음과 같은 창이 나오는데요. 이제 hyper parameter search를 어떻게 할건지 세팅하는 단계입니다.</p>
+<figure>
+    <img src="/images/post/sweep/Untitled_2.png"/> 
+</figure>
+
+<p>저는 다음과 같이 세팅을 했습니다.</p>
+<p>이렇게 하면 grid search&hellip;니까&hellip;.</p>
+<p>2 * 5 * 3 * 2 * 3 = 180 개의 결과가 나오겠군요&hellip;</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">program</span>: <span style="color:#ae81ff">train.py</span>
+<span style="color:#f92672">method</span>: <span style="color:#ae81ff">grid</span>
+<span style="color:#f92672">metric</span>:
+  <span style="color:#f92672">name</span>: <span style="color:#ae81ff">loss</span>
+  <span style="color:#f92672">goal</span>: <span style="color:#ae81ff">minimize</span>
+<span style="color:#f92672">parameters</span>:
+  <span style="color:#f92672">GPUs</span>:
+    <span style="color:#f92672">value</span>: <span style="color:#e6db74">&#34;0&#34;</span>
+  <span style="color:#f92672">epochs</span>:
+    <span style="color:#f92672">value</span>: <span style="color:#ae81ff">10</span>
+  <span style="color:#f92672">freeze</span>:
+    <span style="color:#f92672">values</span>: [<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">1</span>]
+  <span style="color:#f92672">dropout</span>:
+    <span style="color:#f92672">values</span>: [<span style="color:#ae81ff">0.1</span>, <span style="color:#ae81ff">0.2</span>, <span style="color:#ae81ff">0.4</span>, <span style="color:#ae81ff">0.5</span>, <span style="color:#ae81ff">0.7</span>]
+  <span style="color:#f92672">batch_size</span>:
+    <span style="color:#f92672">values</span>: [<span style="color:#ae81ff">64</span>, <span style="color:#ae81ff">128</span>, <span style="color:#ae81ff">256</span>]
+  <span style="color:#f92672">model_name</span>:
+    <span style="color:#f92672">values</span>: [<span style="color:#ae81ff">mobilenet, mobilenetv2]</span>
+  <span style="color:#f92672">learning_rate</span>:
+    <span style="color:#f92672">values</span>: [<span style="color:#ae81ff">0.001</span>, <span style="color:#ae81ff">0.005</span>, <span style="color:#ae81ff">0.0005</span>]
+</code></pre></div><p>그리고 Initialize Sweep 를 눌러줍니다! 그러면 다음과 같은 화면이 나올거에요!</p>
+<figure>
+    <img src="/images/post/sweep/Untitled_3.png"/> 
+</figure>
+
+<h3 id="4-sweep-실행">4. Sweep 실행</h3>
+<p>가운데에 적혀있는 커맨드를 터미널에서 실행시켜줍니다!</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">wandb agent <span style="color:#f92672">{</span>sweep-id<span style="color:#f92672">}</span>
+</code></pre></div><p>그러면 터미널에 wandb: Starting wandb agent 🕵️ 이런 문구와 함께 세팅대로 Network를 학습하게 됩니다!</p>
+<p>이제 잠시 티타임을&hellip;가집니다.. (잠깐이 아닐 수도 있음..)</p>
+<figure>
+    <img src="/images/post/sweep/Untitled_4.png"/> 
+</figure>
+
+<h3 id="5-결과-확인">5. 결과 확인</h3>
+<p>Weights &amp; Biases 화면에서 <strong>View Sweep</strong> 을 눌러주세요!</p>
+<p>그리고 좌측에 Plot 아이콘을 누르면 다음과 같은 화면이 나옵니다!</p>
+<p>원래는 위에 Chart Panel 있는데 접어놨습니다.</p>
+<p>이 Panel은 기본적으로 세 개의 그래프로 구성되어 있습니다.</p>
+<ul>
+<li>각 학습 별 결과 분포도</li>
+<li>hyper parameter와 목표 값( 저는 loss ) 간의 중요도, 상관관계</li>
+<li>각 학습 별 Parallel graph</li>
+</ul>
+<figure>
+    <img src="/images/post/sweep/Untitled_5.png"/> 
+</figure>
+
+<p>이번엔 Hyper parameter tuning을 편하게 할 수 있는 Weighs &amp; Biases의 Sweep에 대해 알아봤습니다.</p>
+<p>일일히 값을 변경하지 않고 지정해 놓으면 알아서 진행을 할테니..사용자는 좀 쉴&hellip;&hellip;수 있겠죠..? (아닐 듯..)</p>
+<p>그럼 포스팅을 마치겠습니다! 감사합니다!</p>
+<h2 id="ps">P.S</h2>
+<ul>
+<li>
+<p>wandb sweep 실행을 background 에서 하는 방법&hellip;?</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">nohup wandb agent <span style="color:#f92672">{</span>sweep_id<span style="color:#f92672">}</span> &gt; nohup.out
+</code></pre></div></li>
+<li>
+<p>이 다음은 뭐 하지&hellip;</p>
+</li>
+</ul>
+
+        </div>
+
+        
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "jjerry_k" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h2>Join Our Newsletter</h2>
+        <p class="text-light px-md-5 py-4 border-left border-right border-primary">
+          뉴스레터 받으실&hellip;?</p>
+        <form action="#" class="row justify-content-center">
+          <div class="input-group col-md-8">
+            <input type="text" class="form-control" placeholder="Your Email Address">
+            <div class="input-group-append">
+              <button class="input-group-text btn btn-primary">Subscribe</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center mb-5">
+        <a href="https://jjerry-test.github.io"><img src="https://jjerry-test.github.io/images/logo.png" alt="Jerry"></a>
+      </div>
+               
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contact Me</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="tel:Top%20Secret"><i
+                class="ti-mobile mr-3 text-primary"></i>Top Secret</a></li>
+          
+                     
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Seoul, Korea of Republic</li>
+          
+                     
+          <li class="mb-3"><a class="text-dark" href="mailto:jaeyeol2931@gmail.com"><i
+                class="ti-email mr-3 text-primary"></i>jaeyeol2931@gmail.com</a>
+          
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.facebook.com/jerry.kim.566/">facebook</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://twitter.com/jjerry_k">twitter</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.instagram.com/jjjerry_k/">instagram</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://github.com/jjerry-k">github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.linkedin.com/in/jerry-kim-b8804216b/">linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/blog">Blog</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/deeplearning">Deeplearning</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/living">Living</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/python">Python</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/ubuntu">Ubuntu</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://jjerry-test.github.io/about">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://jjerry-test.github.io/blog">Post</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://jjerry-test.github.io/contact">Contact</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        | copyright © 2020 <a href="https://themefisher.com">Themefisher</a> All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://jjerry-test.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://jjerry-test.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/search/mark.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://jjerry-test.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>

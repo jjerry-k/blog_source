@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hardware on Jerry</title>
+    <link>https://jjerry-test.github.io/tags/hardware/</link>
+    <description>Recent content in Hardware on Jerry</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Nov 2020 18:30:46 +0600</lastBuildDate><atom:link href="https://jjerry-test.github.io/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>개인적인 CODNS CRONTAB</title>
+      <link>https://jjerry-test.github.io/blog/codns/</link>
+      <pubDate>Mon, 16 Nov 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/codns/</guid>
+      <description>현재 D-Link 공유기를 사용중인데 올해 초? D-Link 측에서 DDNS 서비스를 종료한다는 공지가 떴습니다.</description>
+    </item>
+    
+    <item>
+      <title>D-Link ddns 서비스 종료</title>
+      <link>https://jjerry-test.github.io/blog/dlink_ddns/</link>
+      <pubDate>Sun, 31 May 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/dlink_ddns/</guid>
+      <description>D-Link의 DIR-815L 을 잘 쓰고 있었습니다&amp;hellip;
+라즈베리파이와 연결하여 DDNS 도해놓고..</description>
+    </item>
+    
+    <item>
+      <title>Raspberry pi 4 에 Transmission 세팅하기</title>
+      <link>https://jjerry-test.github.io/blog/rpi_transmission/</link>
+      <pubDate>Mon, 20 Apr 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/rpi_transmission/</guid>
+      <description>Raspberry pi 4 &amp;amp; Transmission Container  1. Docker Install curl -fsSL get.</description>
+    </item>
+    
+    <item>
+      <title>첫 기계식 키보드 !</title>
+      <link>https://jjerry-test.github.io/blog/keyboard/</link>
+      <pubDate>Fri, 01 Feb 2019 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/keyboard/</guid>
+      <description>늦었지만 키보드 자랑&amp;hellip;
+바밀로 저소음흑축 108키 입니다.
+넘나 영롱하다&amp;hellip;
+    </description>
+    </item>
+    
+    <item>
+      <title>라즈베리파이로 미니 PC 만들기!</title>
+      <link>https://jjerry-test.github.io/blog/raspberry-mini-pc/</link>
+      <pubDate>Tue, 10 Jul 2018 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/raspberry-mini-pc/</guid>
+      <description>근래에 라즈베리파이로 미니 PC를 만들었습니다!
+그래서 만드는 과정에 대해 글을 써보려고 합니다!</description>
+    </item>
+    
+    <item>
+      <title>데스크탑 조립기</title>
+      <link>https://jjerry-test.github.io/blog/desktop/</link>
+      <pubDate>Fri, 04 Aug 2017 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/desktop/</guid>
+      <description>Building Desktop 학부생 연구원으로 연구실에서 공부와 연구를 하고 있지만..
+개인용 데스크탑이 없어서 노트북이 굉장히 고생을 많이 했습니다.</description>
+    </item>
+    
+  </channel>
+</rss>

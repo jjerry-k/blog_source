@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jekyll on Jerry</title>
+    <link>https://jjerry-test.github.io/tags/jekyll/</link>
+    <description>Recent content in Jekyll on Jerry</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Oct 2018 18:30:46 +0600</lastBuildDate><atom:link href="https://jjerry-test.github.io/tags/jekyll/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jekyll Blog</title>
+      <link>https://jjerry-test.github.io/blog/gitblog/</link>
+      <pubDate>Wed, 24 Oct 2018 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/gitblog/</guid>
+      <description>안녕하세요! Jerry 입니다.
+요즘 깃헙으로 블로그를 하려고 하시는 분이 많은데요!</description>
+    </item>
+    
+  </channel>
+</rss>

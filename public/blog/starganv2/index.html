@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Jerry</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="this is meta description">
+  <meta name="author" content="Jerry Kim">
+  <meta name="generator" content="Hugo 0.78.2" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://jjerry-test.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://jjerry-test.github.io/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-126636477-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+  <img src="https://jjerry-test.github.io/images/preloader.gif " alt="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://jjerry-test.github.io"><img class="img-fluid"
+          src="https://jjerry-test.github.io/images/logo.png" alt="Jerry"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.facebook.com/jerry.kim.566/"><i class="ti-facebook"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://twitter.com/jjerry_k"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/jjjerry_k/"><i class="ti-instagram"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/jjerry-k"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/jerry-kim-b8804216b/"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://jjerry-test.github.io"><img class="img-fluid"
+            src="https://jjerry-test.github.io/images/logo.png" alt="Jerry"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://jjerry-test.github.io/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://jjerry-test.github.io/blog">Post</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://jjerry-test.github.io/contact">Contact</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://jjerry-test.github.io/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <a href="/categories/deeplearning"
+          class="text-primary">Deep learning</a>
+        
+        <h2>Review: StarGAN v2</h2>
+        <div class="mb-3 post-meta">
+          <span>By Jerry Kim</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>04 March 2020</span>
+          
+        </div>
+        
+        <div class="content mb-5">
+          <h1 id="stargan-v2-diverse-image-synthessis-for-multiple-domains">StarGAN v2: Diverse Image Synthessis for Multiple Domains</h1>
+<p>Author: Yunjey Choi, Youngjung Uh, Jaejun Yoo, Jung-Woo Ha<br>
+Date: Dec 04, 2019<br>
+URL: <a href="https://arxiv.org/abs/1912.01865">https://arxiv.org/abs/1912.01865</a></p>
+<h1 id="abstract">Abstract</h1>
+<ul>
+<li>
+<p>Image translation 을 잘 하는 Model을 학습하려면 다음 사항을 만족해야함</p>
+<ul>
+<li>Diversity of generated images</li>
+<li>Scalability over multiple domains</li>
+</ul>
+</li>
+<li>
+<p>기존의 방법들은 limited diversity, multiple models(networks)를 다룸.</p>
+</li>
+<li>
+<p>StarGAN v2는 두 조건 모두 만족.</p>
+</li>
+</ul>
+<h1 id="introduction">Introduction</h1>
+<ul>
+<li>Domain: 시각적으로 구별되는 범주</li>
+<li>Style: 각 영상이 가지는 독특한 외관적 특성</li>
+</ul>
+<figure>
+    <img src="/images/post/starganv2/Untitled.png"/> 
+</figure>
+
+<h1 id="stargan-v2">StarGAN v2</h1>
+<h2 id="proposed-framework">Proposed framework</h2>
+<figure>
+    <img src="/images/post/starganv2/Untitled_1.png"/> 
+</figure>
+
+<ul>
+<li>
+<p>4개의 Network 로 구성.</p>
+</li>
+<li>
+<p>Generator (<code>G</code>)</p>
+<ul>
+<li>Image <code>x</code>와 Style code <code>s</code>를 입력으로 받아 새로운 영상을 생성.</li>
+<li><a href="https://arxiv.org/abs/1703.06868">adaptive instance normalization (AdaIN)</a> 사용.</li>
+</ul>
+<p><img src="https://jjerry-k.github.io/public/img/starganv2/Untitled_2.png" alt="https://jjerry-k.github.io/public/img/starganv2/Untitled_2.png"></p>
+</li>
+<li>
+<p>Mapping network (<code>F</code>)</p>
+<ul>
+<li>Latent code <code>z</code>와 Domain code <code>y</code>를 입력으로 받아 Style code <code>s</code>생성.</li>
+<li>Multi Layer Perceptron 구조.</li>
+</ul>
+<p><img src="https://jjerry-k.github.io/public/img/starganv2/Untitled_3.png" alt="https://jjerry-k.github.io/public/img/starganv2/Untitled_3.png"></p>
+</li>
+<li>
+<p>Style encoder (<code>E</code>)</p>
+<ul>
+<li>Image <code>x</code>와 Domain code <code>y</code>를 입력으로 받아 <code>x</code>에서 Style code <code>s</code>를 추출.</li>
+</ul>
+</li>
+<li>
+<p>Discriminator (<code>D</code>)</p>
+<ul>
+<li>Image <code>x</code>를 입력으로 받아 Domain code <code>y</code>와 Real/Fake 분류.</li>
+</ul>
+<p><img src="https://jjerry-k.github.io/public/img/starganv2/Untitled_4.png" alt="https://jjerry-k.github.io/public/img/starganv2/Untitled_4.png"></p>
+</li>
+</ul>
+<h2 id="training-objectives">Training objectives</h2>
+<ul>
+<li>Adversarial objective
+<ul>
+<li>GAN 에서 기본적으로 사용되는 Loss</li>
+</ul>
+</li>
+</ul>
+<p>$$\mathcal{L}_{adv}=\mathbb{E}_{\mathrm{x},y}[\log{D_y}(\mathrm{x})] + \mathbb{E}_{\mathrm{x}, \tilde{y}, \mathrm{z}}[\log{(1-D_{\tilde{y}}(G(\mathrm{x}, \tilde{\mathrm{s}})))}$$</p>
+<ul>
+<li>Style reconstruction
+<ul>
+<li><code>G(x, s)</code> 를 Style encoder <code>E</code> 에 넣어 <code>s</code> 추출 후 입력 <code>s</code>와 비교</li>
+</ul>
+</li>
+</ul>
+<p>$$\mathcal{L}_{sty}=\mathbb{E}_{\mathrm{x},\tilde{y}, \mathrm{z}}[\parallel\tilde{\mathrm{s}}-E_{\tilde{y}}(G(\mathrm{x}, \tilde{\mathrm{s}}))\parallel_1]$$</p>
+<ul>
+<li>Style diversification
+<ul>
+<li><code>G</code>가 다양한 Image를 생성할 수 있도록 Regularization 하는 역할.</li>
+<li><code>z1, z2</code> 가 <code>F</code>에 의해 생성된 <code>s1, s2</code>와 입력 <code>x</code>를 <code>G</code>의 입력으로 새로운 영상 생성.</li>
+<li>L1 Norm 계산.</li>
+</ul>
+</li>
+</ul>
+<p>$$\mathcal{L}_{ds}=\mathbb{E}_{\mathrm{x},\tilde{y}, \mathrm{z}_1, \mathrm{z}_2}[\parallel G(\mathrm{x}, \tilde{\mathrm{s}}_1) - G(\mathrm{x}, \tilde{\mathrm{s}}_2) \parallel_1]$$</p>
+<ul>
+<li>Preserving source characteristics
+<ul>
+<li>Cycle GAN 의 cycle consistency loss.</li>
+<li>target domain의 style 을 적용한 영상을 다시 <code>E(x)</code>로 추출된 s를 이용하여 <code>x'</code>로 reconstruction 한 후 L1 Norm 계산.</li>
+</ul>
+</li>
+</ul>
+<p>$$\mathcal{L}_{cyc}=\mathbb{E}_{\mathrm{x}, y, \tilde{y}, \mathrm{z}}[\parallel \mathrm{x} - G(G(\mathrm{x}, \tilde{\mathrm{s}}), \hat{\mathrm{s}})\parallel_1]$$</p>
+<ul>
+<li>
+<p>Full objective</p>
+<p>$$\mathcal{L}_D = -\mathcal{L}_{adv} \ \mathcal{L}_{F, G, E}=\mathcal{L}_{adv} + \lambda_{sty} \mathcal{L}_{sty} - \lambda_{ds} \mathcal{L}_{ds} + \lambda_{cyc} \mathcal{L}_{cyc}$$</p>
+<ul>
+<li>About \(\lambda\)</li>
+</ul>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Dataset</th>
+<th style="text-align:center">sty</th>
+<th style="text-align:center">ds</th>
+<th style="text-align:center">cyc</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">CelebA-HQ</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">1</td>
+</tr>
+<tr>
+<td style="text-align:center">AFHQ</td>
+<td style="text-align:center">0.3</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">0.1</td>
+</tr>
+</tbody>
+</table>
+<h1 id="experiments">Experiments</h1>
+<ul>
+<li>
+<p>Baselines</p>
+<ul>
+<li><a href="https://arxiv.org/abs/1804.04732">MUNIT</a></li>
+<li><a href="https://arxiv.org/abs/1808.00948">DRIT</a></li>
+<li><a href="https://arxiv.org/abs/1903.05628">MSGAN</a></li>
+<li><a href="https://arxiv.org/abs/1711.09020">StarGAN</a></li>
+</ul>
+</li>
+<li>
+<p>Datasets</p>
+<ul>
+<li><a href="http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html">CelebA-HQ</a></li>
+<li><a href="https://github.com/clovaai/stargan-v2/blob/master/download.sh">AFHQ</a></li>
+</ul>
+</li>
+<li>
+<p>Evaluation metrics</p>
+<ul>
+<li><a href="https://arxiv.org/abs/1706.08500">Frechet inception distance (FID)</a></li>
+<li><a href="https://arxiv.org/abs/1801.03924">Learned perceptual image patch similarity (LPIPS)</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="analysis-of-individual-components">Analysis of individual components</h2>
+<ul>
+<li>StarGAN에서 본 연구에서 제안하는 방법들을 하나하나 넣어가면서 성능 실험.</li>
+<li>정량적 평가를 보면 추가할 때마다 좋아지는 것을 볼 수 있음.</li>
+</ul>
+<figure>
+    <img src="/images/post/starganv2/Untitled_5.png"/> 
+</figure>
+
+<ul>
+<li>각 단계별 생성한 영상의 결과</li>
+</ul>
+<figure>
+    <img src="/images/post/starganv2/Untitled_6.png"/> 
+</figure>
+
+<h2 id="comparison-on-diverse-image-synthesis">Comparison on diverse image synthesis</h2>
+<ul>
+<li>다른 방법들과 비교</li>
+<li>Latent-guided synthesis ( Latent code 만을 이용하여 생성 )</li>
+</ul>
+<figure>
+    <img src="/images/post/starganv2/Untitled_7.png"/> 
+</figure>
+
+<figure>
+    <img src="/images/post/starganv2/Untitled_8.png"/> 
+</figure>
+
+<ul>
+<li>Referenc-guided synthesis ( Style code 를 이용한 생성 )</li>
+</ul>
+<figure>
+    <img src="/images/post/starganv2/Untitled_9.png"/> 
+</figure>
+
+<figure>
+    <img src="/images/post/starganv2/Untitled_10.png"/> 
+</figure>
+
+<ul>
+<li>Human evaluation
+<ul>
+<li>방법 별로 100개의 sample 생성 후 사람이 판단.</li>
+</ul>
+</li>
+</ul>
+<figure>
+    <img src="/images/post/starganv2/Untitled_11.png"/> 
+</figure>
+
+<h1 id="result">Result</h1>
+<ul>
+<li>겁나&hellip;.잘 생성함&hellip;</li>
+</ul>
+<figure>
+    <img src="/images/post/starganv2/Untitled_12.png"/> 
+</figure>
+
+<figure>
+    <img src="/images/post/starganv2/Untitled_13.png"/> 
+</figure>
+
+
+        </div>
+
+        
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "jjerry_k" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h2>Join Our Newsletter</h2>
+        <p class="text-light px-md-5 py-4 border-left border-right border-primary">
+          뉴스레터 받으실&hellip;?</p>
+        <form action="#" class="row justify-content-center">
+          <div class="input-group col-md-8">
+            <input type="text" class="form-control" placeholder="Your Email Address">
+            <div class="input-group-append">
+              <button class="input-group-text btn btn-primary">Subscribe</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center mb-5">
+        <a href="https://jjerry-test.github.io"><img src="https://jjerry-test.github.io/images/logo.png" alt="Jerry"></a>
+      </div>
+               
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contact Me</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="tel:Top%20Secret"><i
+                class="ti-mobile mr-3 text-primary"></i>Top Secret</a></li>
+          
+                     
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Seoul, Korea of Republic</li>
+          
+                     
+          <li class="mb-3"><a class="text-dark" href="mailto:jaeyeol2931@gmail.com"><i
+                class="ti-email mr-3 text-primary"></i>jaeyeol2931@gmail.com</a>
+          
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.facebook.com/jerry.kim.566/">facebook</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://twitter.com/jjerry_k">twitter</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.instagram.com/jjjerry_k/">instagram</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://github.com/jjerry-k">github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.linkedin.com/in/jerry-kim-b8804216b/">linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/blog">Blog</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/deeplearning">Deeplearning</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/living">Living</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/python">Python</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/ubuntu">Ubuntu</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://jjerry-test.github.io/about">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://jjerry-test.github.io/blog">Post</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://jjerry-test.github.io/contact">Contact</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        | copyright © 2020 <a href="https://themefisher.com">Themefisher</a> All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://jjerry-test.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://jjerry-test.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/search/mark.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://jjerry-test.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>

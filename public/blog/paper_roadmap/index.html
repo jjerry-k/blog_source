@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Jerry</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="this is meta description">
+  <meta name="author" content="Jerry Kim">
+  <meta name="generator" content="Hugo 0.78.2" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://jjerry-test.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://jjerry-test.github.io/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-126636477-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+  <img src="https://jjerry-test.github.io/images/preloader.gif " alt="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://jjerry-test.github.io"><img class="img-fluid"
+          src="https://jjerry-test.github.io/images/logo.png" alt="Jerry"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.facebook.com/jerry.kim.566/"><i class="ti-facebook"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://twitter.com/jjerry_k"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/jjjerry_k/"><i class="ti-instagram"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/jjerry-k"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/jerry-kim-b8804216b/"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://jjerry-test.github.io"><img class="img-fluid"
+            src="https://jjerry-test.github.io/images/logo.png" alt="Jerry"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://jjerry-test.github.io/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://jjerry-test.github.io/blog">Post</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://jjerry-test.github.io/contact">Contact</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://jjerry-test.github.io/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <a href="/categories/deeplearning"
+          class="text-primary">Deep learning</a>
+        
+        <h2>Paper Reading Roadmap</h2>
+        <div class="mb-3 post-meta">
+          <span>By Jerry Kim</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>21 August 2020</span>
+          
+        </div>
+        
+        <div class="content mb-5">
+          <blockquote>
+<p>본 포스팅은 <a href="http://dsba.korea.ac.kr">고려대학교 산업경영공학부 Data Science &amp; Business Analytics 연구실</a>의 <a href="https://www.facebook.com/groups/TensorFlowKR/permalink/1275047779502944/">강필성 교수님의 자료</a>를 정리한 포스팅입니다.</p>
+</blockquote>
+<hr>
+<h1 id="contents-of-posting">Contents of Posting</h1>
+<ul>
+<li><a href="#contents-of-posting">Contents of Posting</a></li>
+<li><a href="#paper-reading-roadmap">Paper Reading Roadmap</a>
+<ul>
+<li><a href="#ml-basics">ML Basics</a></li>
+<li><a href="#data-mining">Data Mining</a>
+<ul>
+<li><a href="#general">General</a></li>
+<li><a href="#patter-mining">Patter Mining</a></li>
+<li><a href="#clustering">Clustering</a></li>
+</ul>
+</li>
+<li><a href="#artificial-intelligence">Artificial Intelligence</a>
+<ul>
+<li><a href="#general-1">General</a></li>
+<li><a href="#reinforcement-learning">Reinforcement Learning</a></li>
+<li><a href="#transfer-learning">Transfer Learning</a></li>
+</ul>
+</li>
+<li><a href="#supervised-learning">Supervised Learning</a>
+<ul>
+<li><a href="#kernel-machines">Kernel Machines</a></li>
+<li><a href="#ensemble">Ensemble</a></li>
+</ul>
+</li>
+<li><a href="#semi-supervvised-learning">Semi-supervvised Learning</a></li>
+<li><a href="#unsupervised-learning">Unsupervised Learning</a></li>
+<li><a href="#neural-network">Neural Network</a>
+<ul>
+<li><a href="#general-2">General</a></li>
+<li><a href="#structure">Structure</a></li>
+<li><a href="#learning-strategies">Learning Strategies</a></li>
+</ul>
+</li>
+<li><a href="#nlp">NLP</a>
+<ul>
+<li><a href="#general-3">General</a></li>
+<li><a href="#topic-modeling">Topic Modeling</a></li>
+<li><a href="#repersentation-learning">Repersentation Learning</a></li>
+<li><a href="#classification">Classification</a></li>
+<li><a href="#summarization">Summarization</a></li>
+<li><a href="#machine-translation">Machine Translation</a></li>
+<li><a href="#question-answering">Question Answering</a></li>
+</ul>
+</li>
+<li><a href="#vision">Vision</a>
+<ul>
+<li><a href="#classification-1">Classification</a></li>
+<li><a href="#object-detection">Object Detection</a></li>
+<li><a href="#localization--segmentation">Localization &amp; Segmentation</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="paper-reading-roadmap">Paper Reading Roadmap</h1>
+<h2 id="ml-basics">ML Basics</h2>
+<ul>
+<li>The matrix calculus you need for deep learning</li>
+<li>Statistical Modeling: The Two Cultures</li>
+<li>Machine learning: Trends, perspectives, and prospects</li>
+<li>An introduction to ROC analysis</li>
+<li>Learning from imbalanced data</li>
+<li>Variational inference: A review for statisticians</li>
+<li>The expectation-maximization algorithm</li>
+<li>Dimension Reduction: A Guided Tour</li>
+</ul>
+<h2 id="data-mining">Data Mining</h2>
+<h3 id="general">General</h3>
+<ul>
+<li><a href="https://dl.acm.org/doi/10.1145/1132960.1132963">Interestingness Measures for Data Mining: A Survey</a></li>
+<li><a href="http://ilpubs.stanford.edu:8090/422/1/1999-66.pdf">The PageRank citation ranking: Bringing order to the web</a></li>
+<li><a href="https://link.springer.com/content/pdf/10.1007/978-3-642-28108-2_19.pdf">Process Mining Manifesto</a></li>
+<li><a href="https://www.jmlr.org/papers/volume3/guyon03a/guyon03a.pdf">An Introduction to Variable and Feature Selection</a></li>
+</ul>
+<h3 id="patter-mining">Patter Mining</h3>
+<ul>
+<li><a href="https://web.stanford.edu/class/cs345d-01/rl/ar-mining.pdf">Fast Algorithm for Mining Association Rules</a></li>
+<li><a href="https://dl.acm.org/doi/10.1145/3314107">A survey of sequential pattern mining</a></li>
+<li><a href="https://arxiv.org/pdf/1805.10515.pdf">A Survey of Parallel Sequential Pattern Mining</a></li>
+</ul>
+<h3 id="clustering">Clustering</h3>
+<ul>
+<li><a href="https://www.aaai.org/Papers/KDD/1996/KDD96-037.pdf">A density-based algorithm for discovering clusters in large spatial databases with noise</a></li>
+<li><a href="http://users.eecs.northwestern.edu/~yingliu/datamining_papers/survey.pdf">Data Clustering: A Review</a></li>
+<li><a href="https://cs.nju.edu.cn/zhouzh/zhouzh.files/course/dm/reading/reading06/grabmeier_dmkd02.pdf">Techniques of Cluster Algorithms in Data Mining</a></li>
+<li><a href="https://www.cc.gatech.edu/~isbell/reading/papers/berkhin02survey.pdf">Survey of Clustering Data Mining Techniques</a></li>
+<li><a href="https://web.itu.edu.tr/sgunduz/courses/verimaden/paper/validity_survey.pdf">On Clustering Validation Techniques</a></li>
+<li><a href="https://cran.r-project.org/web/packages/clValid/vignettes/clValid.pdf">clValid: An R Package for Cluster Validation</a></li>
+</ul>
+<h2 id="artificial-intelligence">Artificial Intelligence</h2>
+<h3 id="general-1">General</h3>
+<ul>
+<li><a href="https://www.iro.umontreal.ca/~lisa/pointeurs/TR1312.pdf">Learning Deep Architectures for AI</a></li>
+<li><a href="https://arxiv.org/pdf/1206.5538.pdf">Representation learning: A review and new perspectives</a></li>
+<li><a href="https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf">Generative Adversarial Networks</a></li>
+<li><a href="https://www.nature.com/articles/nature14544">From evolutionary computation to the evolution of things</a></li>
+<li><a href="https://www.nature.com/articles/nature14541">Probabilistic machine learning and artificial intelligence</a></li>
+<li><a href="https://arxiv.org/pdf/1908.00709.pdf">AutoML: A Survey of the State-of-the-Art</a></li>
+</ul>
+<h3 id="reinforcement-learning">Reinforcement Learning</h3>
+<ul>
+<li><a href="https://deepmind.com/research/publications/human-level-control-through-deep-reinforcement-learning">Human-level control through deep reinforcement</a></li>
+<li><a href="https://deepmind.com/research/publications/mastering-game-go-deep-neural-networks-tree-search">Mastering the game of Go with deep neural networks and tree search</a></li>
+<li><a href="https://arxiv.org/pdf/1811.12560.pdf">An Introduction to Deep Reinforcement Learning</a></li>
+<li><a href="https://arxiv.org/pdf/1803.10122.pdf">World Models</a></li>
+</ul>
+<h3 id="transfer-learning">Transfer Learning</h3>
+<ul>
+<li><a href="https://papers.nips.cc/paper/5027-zero-shot-learning-through-cross-modal-transfer.pdf">Zero-shot learning through cross-modal transfer</a></li>
+<li><a href="https://arxiv.org/pdf/1708.01547.pdf">Lifelong Learning with Dynamically Expandable Networks</a></li>
+</ul>
+<h2 id="supervised-learning">Supervised Learning</h2>
+<h3 id="kernel-machines">Kernel Machines</h3>
+<ul>
+<li><a href="https://pdfs.semanticscholar.org/2eb2/ca05a79d1d81033237aad416ad4a1ce90a70.pdf">An Introduction to Kernel-based Learning Algorithms</a></li>
+<li><a href="https://www.di.ens.fr/~mallat/papiers/svmtutorial.pdf">A Tutorial on Support Vector Machine for Pattern Recognition</a></li>
+<li><a href="https://alex.smola.org/papers/2003/SmoSch03b.pdf">A Tutorial on Support Vector Regression</a></li>
+<li><a href="http://is.tuebingen.mpg.de/fileadmin/user_upload/files/publications/pdf3353.pdf">A Tutorial on nu-Support Vector Machines</a></li>
+</ul>
+<h3 id="ensemble">Ensemble</h3>
+<ul>
+<li><a href="https://www.stat.berkeley.edu/~breiman/bagging.pdf">Bagging Predictors</a></li>
+<li><a href="https://www.stat.berkeley.edu/~breiman/randomforest2001.pdf">Random Forests</a></li>
+<li><a href="https://cseweb.ucsd.edu/~yfreund/papers/IntroToBoosting.pdf">A short introduction to boosting</a></li>
+<li><a href="https://statweb.stanford.edu/~jhf/ftp/trebst.pdf">Greedy Function Approximation: A Gradient Boosting Machine</a></li>
+<li><a href="https://www.frontiersin.org/articles/10.3389/fnbot.2013.00021/full">Gradient Boosting Machine, A Tutorial</a></li>
+<li><a href="https://arxiv.org/pdf/1603.02754.pdf">XGBoost: A Scalable Tree Boosting System</a></li>
+<li><a href="https://papers.nips.cc/paper/6907-lightgbm-a-highly-efficient-gradient-boosting-decision-tree.pdf">LightGBM: A Highly Efficient Gradient Boosting Decision Tree</a></li>
+<li><a href="https://papers.nips.cc/paper/7898-catboost-unbiased-boosting-with-categorical-features.pdf">CatBoost : unbiased boosting with categorical features</a></li>
+</ul>
+<h2 id="semi-supervvised-learning">Semi-supervvised Learning</h2>
+<ul>
+<li><a href="https://www.cs.cmu.edu/~avrim/Papers/cotrain.pdf">Combining Labeled and Unlabeled Data with Co-Training</a></li>
+<li><a href="https://papers.nips.cc/paper/5352-semi-supervised-learning-with-deep-generative-models.pdf">Semi-supervised Learning with Deep Generative Models</a></li>
+<li><a href="https://arxiv.org/pdf/1609.02907.pdf">Semi-Supervised Classification with Graph Convolutional Networks</a></li>
+<li><a href="https://papers.nips.cc/paper/8749-mixmatch-a-holistic-approach-to-semi-supervised-learning.pdf">MixMatch: A Holistic Approach to Semi-Supervised Learning</a></li>
+<li><a href="https://arxiv.org/pdf/1911.09785.pdf">ReMixMatch: Semi-Supervised Learning with Distribution Alignment and Augmentation Anchoring</a></li>
+<li><a href="https://arxiv.org/pdf/2001.07685.pdf">FixMatch: Simplifying Semi-Supervised Learning with Consistency and Confidence</a></li>
+</ul>
+<h2 id="unsupervised-learning">Unsupervised Learning</h2>
+<ul>
+<li><a href="http://cucis.ece.northwestern.edu/projects/DMS/publications/AnomalyDetection.pdf">Anomaly Detection: A Survey</a></li>
+<li><a href="https://arxiv.org/pdf/1901.03407.pdf">Deep Learning for Anomaly Detection: A Survey</a></li>
+<li><a href="https://www.sciencedirect.com/science/article/abs/pii/S016516841300515X">A Review of Novelty Detection</a></li>
+<li><a href="https://www.dbs.ifi.lmu.de/Publikationen/Papers/LOF.pdf">LOF: Identifying Density-Based Local Outliers</a></li>
+<li><a href="http://homepage.tudelft.nl/a9p19/papers/ML_SVDD_04.pdf">Support Vector Data Description</a></li>
+<li><a href="https://cs.nju.edu.cn/zhouzh/zhouzh.files/publication/icdm08b.pdf?q=isolation-forest">Isolation Forest</a></li>
+<li><a href="https://cs.nju.edu.cn/zhouzh/zhouzh.files/publication/tkdd11.pdf">Isolation-based Anomaly Detection</a></li>
+<li><a href="https://www.cs.utah.edu/~lifeifei/papers/deeplog.pdf">DeepLog: Anomaly Detection and Diagnosis from System Logs through Deep Learning</a></li>
+</ul>
+<h2 id="neural-network">Neural Network</h2>
+<h3 id="general-2">General</h3>
+<ul>
+<li><a href="https://www.cs.toronto.edu/~hinton/absps/NatureDeepReview.pdf">Deep learning</a></li>
+</ul>
+<h3 id="structure">Structure</h3>
+<ul>
+<li><a href="https://www.bioinf.jku.at/publications/older/2604.pdf">Long Short-Term Memory</a></li>
+<li><a href="https://arxiv.org/pdf/1503.04069.pdf">LSTM: A Search Space Odyssey</a></li>
+<li><a href="https://arxiv.org/pdf/1412.3555.pdf">Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling Sequence to sequence learning with neural networks</a></li>
+<li><a href="https://arxiv.org/pdf/1410.3916.pdf">Memory Networks</a></li>
+<li><a href="https://papers.nips.cc/paper/5846-end-to-end-memory-networks.pdf">End-To-End Memory Networks</a></li>
+<li><a href="https://deepmind.com/blog/article/wavenet-generative-model-raw-audio">WaveNet: A Generative Model for Raw Audio</a></li>
+<li><a href="https://arxiv.org/pdf/1906.02691.pdf">An Introduction to Variational Autoencoders</a></li>
+<li><a href="https://arxiv.org/pdf/1901.00596.pdf">A Comprehensive Survey on Graph Neural Networks</a></li>
+</ul>
+<h3 id="learning-strategies">Learning Strategies</h3>
+<ul>
+<li><a href="https://arxiv.org/pdf/1502.03167.pdf">Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift</a></li>
+<li><a href="https://jmlr.org/papers/volume15/srivastava14a.old/srivastava14a.pdf">Dropout: A Simple Way to Prevent Neural Networks from Overtting</a></li>
+<li><a href="https://arxiv.org/pdf/1412.6980.pdf">ADAM: A Method for Stochastic Optimization</a></li>
+<li><a href="https://arxiv.org/pdf/1609.04747.pdf">An overview of gradient descent optimization algorithms</a></li>
+<li><a href="https://arxiv.org/pdf/1607.06450.pdf">Layer normalization</a></li>
+<li><a href="https://openaccess.thecvf.com/content_ECCV_2018/papers/Yuxin_Wu_Group_Normalization_ECCV_2018_paper.pdf">Group normalization</a></li>
+</ul>
+<h2 id="nlp">NLP</h2>
+<h3 id="general-3">General</h3>
+<ul>
+<li><a href="https://www.jmlr.org/papers/volume12/collobert11a/collobert11a.pdf">Natural Language Processing (Almost) from Scratch</a></li>
+<li><a href="https://science.sciencemag.org/content/349/6245/261">Advances in natural language processing</a></li>
+<li><a href="https://arxiv.org/pdf/1708.02709.pdf">Recent trends in deep learning based natural language processing</a></li>
+</ul>
+<h3 id="topic-modeling">Topic Modeling</h3>
+<ul>
+<li>An introduction to latent semantic analysis</li>
+<li>Probabilistic latent semantic analysis</li>
+<li>Probabilistic topic models</li>
+<li><a href="https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf">Latent Dirichlet Allocation</a></li>
+</ul>
+<h3 id="repersentation-learning">Repersentation Learning</h3>
+<ul>
+<li><a href="https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf">A Neural Probabilistic Language Model</a></li>
+<li><a href="https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf">Distributed representations of words and phrases and their compositionality</a></li>
+<li><a href="https://arxiv.org/pdf/1301.3781.pdf">Efficient Estimation of Word Representations in Vector Space</a></li>
+<li><a href="https://nlp.stanford.edu/pubs/glove.pdf">Glove: Global vectors for word representation</a></li>
+<li><a href="https://arxiv.org/pdf/1406.1078.pdf">Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation</a></li>
+<li><a href="https://arxiv.org/pdf/1607.04606.pdf">Enriching word vectors with subword information</a></li>
+<li><a href="https://arxiv.org/pdf/1810.04805.pdf">Bert: Pre-training of deep bidirectional transformers for language understanding</a></li>
+<li><a href="https://arxiv.org/pdf/1802.05365.pdf">Deep contextualized word representations</a></li>
+<li><a href="https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf">Improving language understanding by generative pre-training</a></li>
+<li><a href="https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf">Language models are unsupervised multitask learners</a></li>
+<li><a href="https://arxiv.org/pdf/2005.14165.pdf">Language Models are Few-Shot Learners</a></li>
+</ul>
+<h3 id="classification">Classification</h3>
+<ul>
+<li><a href="https://arxiv.org/pdf/1408.5882.pdf">Convolutional neural networks for sentence classification</a></li>
+<li><a href="https://arxiv.org/pdf/1801.07883.pdf">Deep learning for sentiment analysis: A survey</a></li>
+</ul>
+<h3 id="summarization">Summarization</h3>
+<ul>
+<li><a href="https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf">TextRank: Bringing Order into Texts</a></li>
+<li><a href="https://arxiv.org/pdf/1509.00685.pdf">A Neural Attention Model for Abstractive Sentence Summarization</a></li>
+</ul>
+<h3 id="machine-translation">Machine Translation</h3>
+<ul>
+<li><a href="https://arxiv.org/pdf/1409.1259.pdf">On the Properties of Neural Machine Translation: Encoder-Decoder Approaches</a></li>
+<li><a href="https://www-nlp.stanford.edu/pubs/emnlp15_attn.pdf">Effective Approaches to Attention-based Neural Machine Translation</a></li>
+<li><a href="https://arxiv.org/pdf/1409.0473.pdf">Neural Machine Translation by Jointly Learning to Aligh and Translate</a></li>
+<li><a href="https://arxiv.org/pdf/1609.08144.pdf">Google&rsquo;s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation</a></li>
+<li><a href="https://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf">Attention is all you need</a></li>
+</ul>
+<h3 id="question-answering">Question Answering</h3>
+<ul>
+<li><a href="https://arxiv.org/pdf/1505.00468.pdf">VQA: Visual Question Answering</a></li>
+<li><a href="https://arxiv.org/pdf/1506.07285.pdf">Ask Me Anything: Dynamic Memory Networks for Natural Language Processing</a></li>
+<li><a href="https://arxiv.org/pdf/1606.05250.pdf">Squad: 100,000+ questions for machine comprehension of text</a></li>
+<li><a href="https://arxiv.org/pdf/1806.03822.pdf">Know what you don&rsquo;t know: Unanswerable questions for SQuAD</a></li>
+</ul>
+<h2 id="vision">Vision</h2>
+<h3 id="classification-1">Classification</h3>
+<ul>
+<li><a href="https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf">Imagenet classification with deep convolutional neural networks</a></li>
+<li><a href="https://arxiv.org/pdf/1311.2901.pdf">Visualizing and understanding convolutional networks</a></li>
+<li><a href="https://arxiv.org/pdf/1409.1556.pdf">Very Deep Convolutional Networks for Large-Scale Image Recognition</a></li>
+<li><a href="https://arxiv.org/pdf/1409.4842.pdf">Going deeper with convolutions</a></li>
+<li><a href="https://arxiv.org/pdf/1512.03385.pdf">Deep residual learning for image recognition</a></li>
+<li><a href="https://arxiv.org/pdf/1608.06993.pdf">Densely Connected Convolutional Networks</a></li>
+</ul>
+<h3 id="object-detection">Object Detection</h3>
+<ul>
+<li><a href="https://arxiv.org/pdf/1312.6229.pdf">Overfeat: Integrated recognition, localization and detection using convolutional networks</a></li>
+<li><a href="https://arxiv.org/pdf/1311.2524.pdf">Rich feature hierarchies for accurate object detection and semantic segmentation</a></li>
+<li><a href="https://arxiv.org/pdf/1504.08083.pdf">Fast R-CNN</a></li>
+<li><a href="https://arxiv.org/pdf/1506.01497.pdf">Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks</a></li>
+<li><a href="https://arxiv.org/pdf/1506.02640.pdf">You Only Look Once: Unified, Real-Time Object Detection</a></li>
+<li><a href="https://arxiv.org/pdf/1612.08242.pdf">YOLO9000: Better, Faster, Stronger</a></li>
+<li><a href="https://arxiv.org/pdf/1804.02767.pdf">YOLOv3: An Incremental Improvement</a></li>
+<li><a href="https://arxiv.org/pdf/2004.10934.pdf">YOLOv4: Optimal Speed and Accuracy of Object Detection</a></li>
+</ul>
+<h3 id="localization--segmentation">Localization &amp; Segmentation</h3>
+<ul>
+<li><a href="https://arxiv.org/pdf/1505.04597.pdf">U-Net: Convolutional Networks for Biomedical Image Segmentation</a></li>
+<li><a href="https://arxiv.org/pdf/1512.04150.pdf">Learning deep features for discriminative localization</a></li>
+<li><a href="https://arxiv.org/pdf/1610.02391.pdf">Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization</a></li>
+</ul>
+
+        </div>
+
+        
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "jjerry_k" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h2>Join Our Newsletter</h2>
+        <p class="text-light px-md-5 py-4 border-left border-right border-primary">
+          뉴스레터 받으실&hellip;?</p>
+        <form action="#" class="row justify-content-center">
+          <div class="input-group col-md-8">
+            <input type="text" class="form-control" placeholder="Your Email Address">
+            <div class="input-group-append">
+              <button class="input-group-text btn btn-primary">Subscribe</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center mb-5">
+        <a href="https://jjerry-test.github.io"><img src="https://jjerry-test.github.io/images/logo.png" alt="Jerry"></a>
+      </div>
+               
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contact Me</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="tel:Top%20Secret"><i
+                class="ti-mobile mr-3 text-primary"></i>Top Secret</a></li>
+          
+                     
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Seoul, Korea of Republic</li>
+          
+                     
+          <li class="mb-3"><a class="text-dark" href="mailto:jaeyeol2931@gmail.com"><i
+                class="ti-email mr-3 text-primary"></i>jaeyeol2931@gmail.com</a>
+          
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.facebook.com/jerry.kim.566/">facebook</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://twitter.com/jjerry_k">twitter</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.instagram.com/jjjerry_k/">instagram</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://github.com/jjerry-k">github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.linkedin.com/in/jerry-kim-b8804216b/">linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/blog">Blog</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/deeplearning">Deeplearning</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/living">Living</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/python">Python</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/ubuntu">Ubuntu</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://jjerry-test.github.io/about">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://jjerry-test.github.io/blog">Post</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://jjerry-test.github.io/contact">Contact</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        | copyright © 2020 <a href="https://themefisher.com">Themefisher</a> All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://jjerry-test.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://jjerry-test.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/search/mark.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://jjerry-test.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>

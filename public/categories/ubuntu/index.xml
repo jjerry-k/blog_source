@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ubuntu on Jerry</title>
+    <link>https://jjerry-test.github.io/categories/ubuntu/</link>
+    <description>Recent content in Ubuntu on Jerry</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 24 Oct 2020 18:30:46 +0600</lastBuildDate><atom:link href="https://jjerry-test.github.io/categories/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker Usage (1)</title>
+      <link>https://jjerry-test.github.io/blog/docker_usage_01/</link>
+      <pubDate>Sat, 24 Oct 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/docker_usage_01/</guid>
+      <description>Docker 에 대한 설명은 안합니다.
+사용법을 보러 오시는 분이라면 어느 정도 Docker 가 뭔지는 아실테니&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>자주 사용하는 Docker Command 정리</title>
+      <link>https://jjerry-test.github.io/blog/docker/</link>
+      <pubDate>Sun, 30 Aug 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/docker/</guid>
+      <description># nvidia docker 서비스 시작 sudo service nvidia-docker start # 특정 포트 터널링, 경로 마운트, Docker image:tag 를 이용하여 container 로 실행 docker run -ti -rm -p {호스트포트}:{도커포트} -v {호스트경로}:{도커경로} {IMAGE_NAME:tag} bash # 종료된 Container 삭제 docker rm {CONTAINER_NAEM} # Docker Image 삭제 docker rmi {IMAGE_NAME} # 종료된 Container를 삭제하지 않고 새로운 IMAGE로 생성 docker commit {CONTAINER_NAEM} {IMAGE_NAME:TAG} # Docker container 내에서 jupyter notebook 혹은 jupyter lab을 실행할때 사용되는 커맨드 CUDA_VISIBLE_DEVICES=0 jupyter notebook --ip=0.</description>
+    </item>
+    
+    <item>
+      <title>개인적인 Vim 설정</title>
+      <link>https://jjerry-test.github.io/blog/vimrc/</link>
+      <pubDate>Sun, 16 Aug 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/vimrc/</guid>
+      <description>지극히 개인이 사용하기 위한 vimrc   마음껏 편하신대로 Copy &amp;amp; Paste 하세요!</description>
+    </item>
+    
+    <item>
+      <title>개인적인 도커 파일</title>
+      <link>https://jjerry-test.github.io/blog/dockerfile/</link>
+      <pubDate>Tue, 05 May 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/dockerfile/</guid>
+      <description>지극히 개인이 사용하기 위한 Dockerfile   환경을 만들 때마다 추가될 예정입니다.</description>
+    </item>
+    
+    <item>
+      <title>scp를 이용해서 파일 or 디렉토리 복사하기!</title>
+      <link>https://jjerry-test.github.io/blog/scp/</link>
+      <pubDate>Sat, 08 Dec 2018 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/scp/</guid>
+      <description>대부분이 그렇겠지만 딥러닝, 머신러닝 하시는 분들은 우분투 서버를 이용합니다.
+물론 저도 그렇구요.</description>
+    </item>
+    
+    <item>
+      <title>GPU를 골라서 써보자!</title>
+      <link>https://jjerry-test.github.io/blog/gpu_masking/</link>
+      <pubDate>Wed, 10 Oct 2018 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/gpu_masking/</guid>
+      <description>현재 저는 하나의 GPU 서버를 가지고 여러 명이 Deep Learning 을 돌려야 합니다.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu CUDA &amp; Cudnn 설치하기</title>
+      <link>https://jjerry-test.github.io/blog/cuda/</link>
+      <pubDate>Thu, 08 Sep 2016 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/cuda/</guid>
+      <description>환경 구축&amp;hellip;. Deep Learning을 하는데 GPU를 사용해야하니 CUDA와 cuDNN을 설치하기로 하죠.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu 한글 설정</title>
+      <link>https://jjerry-test.github.io/blog/setting/</link>
+      <pubDate>Sat, 20 Aug 2016 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/setting/</guid>
+      <description>우분투를 설치를 했으나!!!! 한글 키보드를 설정을 해야합니다. 그럼 시작해볼까요. (이번에도 사진 촤라라락.</description>
+    </item>
+    
+    <item>
+      <title>Windows 10 &amp; Ubuntu 16.04 듀얼부팅</title>
+      <link>https://jjerry-test.github.io/blog/dualboot/</link>
+      <pubDate>Tue, 16 Aug 2016 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/dualboot/</guid>
+      <description>Deep Learning을 하기 위해 windows를 사용할 수도 있겠지만&amp;hellip;
+저는 Ubuntu를 사용하기로 했습니다.</description>
+    </item>
+    
+  </channel>
+</rss>

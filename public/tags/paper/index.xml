@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paper on Jerry</title>
+    <link>https://jjerry-test.github.io/tags/paper/</link>
+    <description>Recent content in Paper on Jerry</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Aug 2020 18:30:46 +0600</lastBuildDate><atom:link href="https://jjerry-test.github.io/tags/paper/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Paper Reading Roadmap</title>
+      <link>https://jjerry-test.github.io/blog/paper_roadmap/</link>
+      <pubDate>Fri, 21 Aug 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/paper_roadmap/</guid>
+      <description>본 포스팅은 고려대학교 산업경영공학부 Data Science &amp;amp; Business Analytics 연구실의 강필성 교수님의 자료를 정리한 포스팅입니다.</description>
+    </item>
+    
+    <item>
+      <title>Review: Cycle GAN</title>
+      <link>https://jjerry-test.github.io/blog/cycle_gan/</link>
+      <pubDate>Tue, 11 Aug 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/cycle_gan/</guid>
+      <description>Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks Author: Jun-Yan Zhu∗, Taesung Park∗, Phillip Isola, Alexei A.</description>
+    </item>
+    
+    <item>
+      <title>Review: Pix2Pix</title>
+      <link>https://jjerry-test.github.io/blog/pix2pix/</link>
+      <pubDate>Mon, 10 Aug 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/pix2pix/</guid>
+      <description>Image-to-Image Translation with Conditional Adversarial Networks Author: Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, Alexei A.</description>
+    </item>
+    
+    <item>
+      <title>Review: DETR</title>
+      <link>https://jjerry-test.github.io/blog/detr/</link>
+      <pubDate>Sat, 13 Jun 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/detr/</guid>
+      <description>End-to-End Object Detection with Transformers Author: Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, and Sergey Zagoruyko Date: May 27, 2020 URL: https://ai.</description>
+    </item>
+    
+    <item>
+      <title>Review: ShuffleNetV2</title>
+      <link>https://jjerry-test.github.io/blog/shufflenetv2/</link>
+      <pubDate>Sat, 09 May 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/shufflenetv2/</guid>
+      <description>ShuffleNet V2: Practical Guidelines for Efficient CNN Architecture Design Author: Ningning Ma, Xiangyu Zhang, Hai-Tao Zheng, Jian Sun</description>
+    </item>
+    
+    <item>
+      <title>Review: ResNeXt</title>
+      <link>https://jjerry-test.github.io/blog/resnext/</link>
+      <pubDate>Fri, 08 May 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/resnext/</guid>
+      <description>Aggregated Residual Transformations for Deep Neural Networks Author: Saining Xie, Ross Girshick, Piotr Dollár, Zhuowen Tu, Kaiming He</description>
+    </item>
+    
+    <item>
+      <title>Review: ShuffleNetV1</title>
+      <link>https://jjerry-test.github.io/blog/shufflenetv1/</link>
+      <pubDate>Thu, 07 May 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/shufflenetv1/</guid>
+      <description>ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices Author: Xiangyu Zhang, Xinyu Zhou, Mengxiao Lin, Jian Sun</description>
+    </item>
+    
+    <item>
+      <title>Review: CutMix</title>
+      <link>https://jjerry-test.github.io/blog/cutmix/</link>
+      <pubDate>Wed, 06 May 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/cutmix/</guid>
+      <description>CutMix: Regularization Strategy to Train Strong Classifiers with Localizable Features Author: Sangdoo Yun, Dongyoon Han, Seong Joon Oh, Sanghyuk Chun, Junsuk Choe, Youngjoon Yoo</description>
+    </item>
+    
+    <item>
+      <title>Review: EfficientNet</title>
+      <link>https://jjerry-test.github.io/blog/efficientnet/</link>
+      <pubDate>Sat, 02 May 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/efficientnet/</guid>
+      <description>EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks Author: Mingxing Tan, Quoc V.</description>
+    </item>
+    
+    <item>
+      <title>Review: CBAM</title>
+      <link>https://jjerry-test.github.io/blog/cbam/</link>
+      <pubDate>Thu, 30 Apr 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/cbam/</guid>
+      <description>CBAM: Convolutional Block Attention Module Author: Sanghyun Woo, Jongchan Park, Joon-Young Lee, In So Kweon</description>
+    </item>
+    
+    <item>
+      <title>Review: BAM</title>
+      <link>https://jjerry-test.github.io/blog/bam/</link>
+      <pubDate>Wed, 29 Apr 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/bam/</guid>
+      <description>BAM: Bottleneck Attention Module Author: Jongchan Park, Sanghyun Woo, Joon-Young Lee, In So Kweon</description>
+    </item>
+    
+    <item>
+      <title>Review: MobileNet V3</title>
+      <link>https://jjerry-test.github.io/blog/mobilenetv3/</link>
+      <pubDate>Tue, 28 Apr 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/mobilenetv3/</guid>
+      <description>Searching for MobileNetV3 Author: Andrew G. Howard, Mark Sandler, Grace Chu, Liang-Chieh Chen, Bo Chen, Mingxing Tan, Weijun Wang, Yukun Zhu, Ruoming Pang, Vijay Vasudevan, Quoc V.</description>
+    </item>
+    
+    <item>
+      <title>Review: MobileNet V2</title>
+      <link>https://jjerry-test.github.io/blog/mobilenetv2/</link>
+      <pubDate>Mon, 27 Apr 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/mobilenetv2/</guid>
+      <description>MobileNetV2: Inverted Residuals and Linear Bottlenecks Author: Mark Sandler, Andrew G.</description>
+    </item>
+    
+    <item>
+      <title>Review: StarGAN v2</title>
+      <link>https://jjerry-test.github.io/blog/starganv2/</link>
+      <pubDate>Wed, 04 Mar 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/starganv2/</guid>
+      <description>StarGAN v2: Diverse Image Synthessis for Multiple Domains Author: Yunjey Choi, Youngjung Uh, Jaejun Yoo, Jung-Woo Ha</description>
+    </item>
+    
+    <item>
+      <title>Review: StarGAN v1</title>
+      <link>https://jjerry-test.github.io/blog/starganv1/</link>
+      <pubDate>Mon, 02 Mar 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/starganv1/</guid>
+      <description>StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation Author: Yunjey Choi, Youngjung Uh, Jaejun Yoo, Jung-Woo Ha</description>
+    </item>
+    
+    <item>
+      <title>Review: MobileNet V1</title>
+      <link>https://jjerry-test.github.io/blog/mobilenetv1/</link>
+      <pubDate>Wed, 26 Feb 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/mobilenetv1/</guid>
+      <description>MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications Author: Andrew G.</description>
+    </item>
+    
+    <item>
+      <title>Review: Xception</title>
+      <link>https://jjerry-test.github.io/blog/xception/</link>
+      <pubDate>Sun, 16 Feb 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/xception/</guid>
+      <description>Xception: Deep Learning with Depthwise Separable Convolution Author: Franc¸ois Chollet</description>
+    </item>
+    
+    <item>
+      <title>Review: MRI interpolation using Deep Learning</title>
+      <link>https://jjerry-test.github.io/blog/thin/</link>
+      <pubDate>Fri, 05 Jul 2019 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/thin/</guid>
+      <description>Deep Generative Adversarial Networks for Thin-Section Infant MR Image Reconstruction  Jiaqi Gu1, Zezu Li1, YuanYuan Wans1, 3, Haowei Yang2, Zhongwei Qiao2, and Jinhua Yu1, 3 1School of Information Science and Technology, Fudan University, Shanghai 200433, China</description>
+    </item>
+    
+    <item>
+      <title>Review: YOLO</title>
+      <link>https://jjerry-test.github.io/blog/yolo/</link>
+      <pubDate>Fri, 29 Mar 2019 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/yolo/</guid>
+      <description>You Only Look Once: Unified, Real-Time, Object detection   편의상 bounding box -&amp;gt; bbox</description>
+    </item>
+    
+  </channel>
+</rss>

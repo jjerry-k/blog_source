@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Living on Jerry</title>
+    <link>https://jjerry-test.github.io/categories/living/</link>
+    <description>Recent content in Living on Jerry</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Nov 2020 18:30:46 +0600</lastBuildDate><atom:link href="https://jjerry-test.github.io/categories/living/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>개인적인 CODNS CRONTAB</title>
+      <link>https://jjerry-test.github.io/blog/codns/</link>
+      <pubDate>Mon, 16 Nov 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/codns/</guid>
+      <description>현재 D-Link 공유기를 사용중인데 올해 초? D-Link 측에서 DDNS 서비스를 종료한다는 공지가 떴습니다.</description>
+    </item>
+    
+    <item>
+      <title>D-Link ddns 서비스 종료</title>
+      <link>https://jjerry-test.github.io/blog/dlink_ddns/</link>
+      <pubDate>Sun, 31 May 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/dlink_ddns/</guid>
+      <description>D-Link의 DIR-815L 을 잘 쓰고 있었습니다&amp;hellip;
+라즈베리파이와 연결하여 DDNS 도해놓고..</description>
+    </item>
+    
+    <item>
+      <title>개인적인 맥북 세팅법</title>
+      <link>https://jjerry-test.github.io/blog/macbook-setup/</link>
+      <pubDate>Sun, 26 Apr 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/macbook-setup/</guid>
+      <description>After MacOS Install 1. Install applications  Kakao Talk Between Snap  Add Terminal shortcut   Speedtest Magnet MenuBar Stats  Add MenuBar Stats Plugins Manager https://www.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry pi 4 에 Transmission 세팅하기</title>
+      <link>https://jjerry-test.github.io/blog/rpi_transmission/</link>
+      <pubDate>Mon, 20 Apr 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/rpi_transmission/</guid>
+      <description>Raspberry pi 4 &amp;amp; Transmission Container  1. Docker Install curl -fsSL get.</description>
+    </item>
+    
+    <item>
+      <title>맥북 Atom 완벽 제거</title>
+      <link>https://jjerry-test.github.io/blog/macbook_auto_start/</link>
+      <pubDate>Sun, 14 Apr 2019 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/macbook_auto_start/</guid>
+      <description>안녕하세요! Jerry 입니다!
+오늘은 .. Atom 에디터를 완벽히 지우는 법에 대해 간단 포스팅을 하려고 합니다.</description>
+    </item>
+    
+    <item>
+      <title>첫 기계식 키보드 !</title>
+      <link>https://jjerry-test.github.io/blog/keyboard/</link>
+      <pubDate>Fri, 01 Feb 2019 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/keyboard/</guid>
+      <description>늦었지만 키보드 자랑&amp;hellip;
+바밀로 저소음흑축 108키 입니다.
+넘나 영롱하다&amp;hellip;
+    </description>
+    </item>
+    
+    <item>
+      <title>Mac Terminal Customizing</title>
+      <link>https://jjerry-test.github.io/blog/terminal/</link>
+      <pubDate>Wed, 07 Nov 2018 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/terminal/</guid>
+      <description>저는 터미널을 마음대로 바꾸는걸 좋아합니다.
+기본 터미널을 대체할 앱이 있긴하지만 추가적으로 설치하는걸 안좋아해서.</description>
+    </item>
+    
+    <item>
+      <title>휴가</title>
+      <link>https://jjerry-test.github.io/blog/vacation/</link>
+      <pubDate>Fri, 07 Sep 2018 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/vacation/</guid>
+      <description>약 두 달정도 달려온 챌린지가 끝나고 처음으로 휴가를 얻었습니다.
+일단은 이번 주 쉬고 다음 주부터 다시 연구 시작.</description>
+    </item>
+    
+    <item>
+      <title>라즈베리파이로 미니 PC 만들기!</title>
+      <link>https://jjerry-test.github.io/blog/raspberry-mini-pc/</link>
+      <pubDate>Tue, 10 Jul 2018 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/raspberry-mini-pc/</guid>
+      <description>근래에 라즈베리파이로 미니 PC를 만들었습니다!
+그래서 만드는 과정에 대해 글을 써보려고 합니다!</description>
+    </item>
+    
+    <item>
+      <title>데스크탑 조립기</title>
+      <link>https://jjerry-test.github.io/blog/desktop/</link>
+      <pubDate>Fri, 04 Aug 2017 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/desktop/</guid>
+      <description>Building Desktop 학부생 연구원으로 연구실에서 공부와 연구를 하고 있지만..
+개인용 데스크탑이 없어서 노트북이 굉장히 고생을 많이 했습니다.</description>
+    </item>
+    
+  </channel>
+</rss>

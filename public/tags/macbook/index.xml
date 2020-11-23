@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Macbook on Jerry</title>
+    <link>https://jjerry-test.github.io/tags/macbook/</link>
+    <description>Recent content in Macbook on Jerry</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Apr 2020 18:30:46 +0600</lastBuildDate><atom:link href="https://jjerry-test.github.io/tags/macbook/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>개인적인 맥북 세팅법</title>
+      <link>https://jjerry-test.github.io/blog/macbook-setup/</link>
+      <pubDate>Sun, 26 Apr 2020 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/macbook-setup/</guid>
+      <description>After MacOS Install 1. Install applications  Kakao Talk Between Snap  Add Terminal shortcut   Speedtest Magnet MenuBar Stats  Add MenuBar Stats Plugins Manager https://www.</description>
+    </item>
+    
+    <item>
+      <title>맥북 Atom 완벽 제거</title>
+      <link>https://jjerry-test.github.io/blog/macbook_auto_start/</link>
+      <pubDate>Sun, 14 Apr 2019 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/macbook_auto_start/</guid>
+      <description>안녕하세요! Jerry 입니다!
+오늘은 .. Atom 에디터를 완벽히 지우는 법에 대해 간단 포스팅을 하려고 합니다.</description>
+    </item>
+    
+    <item>
+      <title>Mac Terminal Customizing</title>
+      <link>https://jjerry-test.github.io/blog/terminal/</link>
+      <pubDate>Wed, 07 Nov 2018 18:30:46 +0600</pubDate>
+      
+      <guid>https://jjerry-test.github.io/blog/terminal/</guid>
+      <description>저는 터미널을 마음대로 바꾸는걸 좋아합니다.
+기본 터미널을 대체할 앱이 있긴하지만 추가적으로 설치하는걸 안좋아해서.</description>
+    </item>
+    
+  </channel>
+</rss>

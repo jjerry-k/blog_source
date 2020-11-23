@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Jerry</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="this is meta description">
+  <meta name="author" content="Jerry Kim">
+  <meta name="generator" content="Hugo 0.78.2" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://jjerry-test.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://jjerry-test.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://jjerry-test.github.io/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-126636477-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+  <img src="https://jjerry-test.github.io/images/preloader.gif " alt="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://jjerry-test.github.io"><img class="img-fluid"
+          src="https://jjerry-test.github.io/images/logo.png" alt="Jerry"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.facebook.com/jerry.kim.566/"><i class="ti-facebook"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://twitter.com/jjerry_k"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/jjjerry_k/"><i class="ti-instagram"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/jjerry-k"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/jerry-kim-b8804216b/"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://jjerry-test.github.io"><img class="img-fluid"
+            src="https://jjerry-test.github.io/images/logo.png" alt="Jerry"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://jjerry-test.github.io/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://jjerry-test.github.io/blog">Post</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://jjerry-test.github.io/contact">Contact</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://jjerry-test.github.io/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <a href="/categories/deeplearning"
+          class="text-primary">Deep learning</a>
+        
+        <h2>Review: ShuffleNetV2</h2>
+        <div class="mb-3 post-meta">
+          <span>By Jerry Kim</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>09 May 2020</span>
+          
+        </div>
+        
+        <div class="content mb-5">
+          <h1 id="shufflenet-v2-practical-guidelines-for-efficient-cnn-architecture-design">ShuffleNet V2: Practical Guidelines for Efficient CNN Architecture Design</h1>
+<p>Author: Ningning Ma, Xiangyu Zhang, Hai-Tao Zheng, Jian Sun<br>
+Date: Jul 30, 2018<br>
+URL: <a href="https://arxiv.org/abs/1807.11164">https://arxiv.org/abs/1807.11164</a></p>
+<h1 id="introduction">Introduction</h1>
+<ul>
+<li>CNN 계열이 AlexNet 부터 정확도, 속도가 많이 발전하고 있음.</li>
+<li>실제로는 제한된 컴퓨팅 파워에서(Mobile과 같은) 최고의 성능을 내는데 목표로 하고 있음.</li>
+<li>이로 인해 Xception, MobileNet, ShuffleNet 등이 개발 되었음.</li>
+<li>지금까지는 모델의 연산량을 이용하여 모델의 효율성을 판단하였으나 적합한 지표가 아님을 주장.</li>
+<li>FLOPs와 speed 간의 성능 비교가 옳지 않은 주요 이유가 두 가지.
+<ul>
+<li>memory access cost(MAC): 메모리 접근량(사용량)</li>
+<li>depending on the platform</li>
+</ul>
+</li>
+</ul>
+<figure>
+    <img src="/images/post/shufflenetv2/Untitled.png"/> 
+</figure>
+
+<h1 id="practical-guidelines-for-ecient-network-design">Practical Guidelines for Ecient Network Design</h1>
+<ul>
+<li>본 연구는 GPU 하드웨어(1080ti), ARM 하드웨어(Snapdragon 810) 이 두 가지 환경에서 실험.</li>
+<li>모델의 Runtime을 쪼개보면 다음과 같은 차트가 그려짐.</li>
+<li>FLOPs는 Convolution 에 대해 설명하기 떄문에 비교 지표로 적절하지 못함을 강조.</li>
+</ul>
+<figure>
+    <img src="/images/post/shufflenetv2/Untitled_1.png"/> 
+</figure>
+
+<ul>
+<li>위 문제를 근거로 다음과 같이 여러 개의 가이드 라인을 제시.</li>
+</ul>
+<h2 id="g1-equal-channel-width-minimizes-memory-access-cost-mac">G1) Equal channel width minimizes memory access cost (MAC)</h2>
+<ul>
+<li>근래에 많이 사용되는 depthwise separable convoltuion에서 연산량의 대부분은 pointwise convolution 이 차지.</li>
+<li>1x1 convolution 이 차지하는 연산량은 다음과 같음.</li>
+</ul>
+<p>$$h, w: \text{the spatial size of the input feature map} $$
+$$c_1, c_2: \text{Number of channels about input and output }$$
+$$B=hwc_1c_2, \text{ FLOPs of the }1 \times 1 \text{ convolution}$$</p>
+<ul>
+<li>현 상황에서 MAC의 수식은 다음과 같음.</li>
+</ul>
+<p>$$MAC = hw(c_1+c_2) +c_1c_2 = hwc_1 + hwc_2 + c_1c_2$$
+$$hwc_1: \text{Number of input feature map&rsquo;s element}$$
+$$hwc_2: \text{Number of output feature map&rsquo;s element}$$
+$$c_1c_2: \text{Number of filter&rsquo;s element}$$</p>
+<ul>
+<li>MAC의 lower bound 는 다음과 같음.</li>
+</ul>
+<p>$$MAC \ge 2\sqrt{hwB} + \frac{B}{hw} \to 2hw\sqrt{c_1c_2} + c_1c_2$$</p>
+<ul>
+<li>\(c_1 = c_2\) 이면 MAC가 최소.</li>
+<li>전체 연산량은 고정해놓고 \(c_1:c_2\)의 비율을 바꿔가면서 runtime 비교.</li>
+<li>1:1일때가 가장 빠른 성능을 보임.</li>
+</ul>
+<figure>
+    <img src="/images/post/shufflenetv2/Untitled_2.png"/> 
+</figure>
+
+<blockquote>
+<p><em>It reaches the lower bound when the numbers of input and output channels are equal.</em></p>
+</blockquote>
+<h2 id="g2-excessive-group-convolution-increases-mac">G2) Excessive group convolution increases MAC</h2>
+<ul>
+<li>Group convolution 이 많은 네트워크의 핵심이지만 Groups가 커지면 MAC을 증가시킴. → 안쓸 수는 없으니 적당히 쓰는게 좋다.</li>
+<li>그룹에 따라 연산량이 줄어들기 때문에 B는 다음과 같음.</li>
+</ul>
+<p>$$B=\frac{hwc_1c_2}{g}$$</p>
+<p>$$MAC = hw(c_1+c_2) + \frac{c_1c_2}{g} $$
+$$ = hwc_1 + hwc_2 + \frac{c_1c_2}{g}$$
+$$ = hwc_1 + \frac{Bg}{c_1} + \frac{B}{hw}$$</p>
+<ul>
+<li>Groups 에 따라 runtime 비교.</li>
+</ul>
+<figure>
+    <img src="/images/post/shufflenetv2/Untitled_3.png"/> 
+</figure>
+
+<blockquote>
+<p><em>The group number should be carefully chosen based on the target platform and task. It is unwise to use a large group number simply because this may enable using more channels, because the benet of accuracy increase can easily be outweighed by the rapidly increasing computational cost.</em></p>
+</blockquote>
+<h2 id="g3-network-fragmentation-reduces-degree-of-parallelism">G3) Network fragmentation reduces degree of parallelism</h2>
+<ul>
+<li>Inception 과 같이 여러 branch를 parallel하게 구성할 경우 성능은 좋아졌지만 효율성은 감소시킴. → GPU 같은 자원에는 어울리지 않음.</li>
+<li>Fragmentation 에 따른 runtime 비교.</li>
+</ul>
+<figure>
+    <img src="/images/post/shufflenetv2/Untitled_4.png"/> 
+</figure>
+
+<figure>
+    <img src="/images/post/shufflenetv2/Untitled_5.png"/> 
+</figure>
+
+<blockquote>
+<p><em>Fragmented structure has been shown benecial for accuracy, it could decrease eciency because it is unfriendly for devices with strong parallel computing powers like GPU. It also introduces extra overheads such as kernel launching and synchronization.</em></p>
+</blockquote>
+<h2 id="g4-element-wise-operations-are-non-negligible">G4) Element-wise operations are non-negligible</h2>
+<ul>
+<li>
+<p>Activation, Add 와 같은 Element-wise operation들의 비율이 꽤 존재. Figure 2 참고</p>
+</li>
+<li>
+<p>이 연산은 FLOPs는 적지만 상대적으로 MAC은 큼.</p>
+</li>
+<li>
+<p>Depthwise convolution 또한 element-wise 여서 MAC/FLOPs 가 클 것이라 생각.</p>
+</li>
+<li>
+<p>각 상황에 대한 runtime 비교.</p>
+</li>
+</ul>
+<figure>
+    <img src="/images/post/shufflenetv2/Untitled_6.png"/> 
+</figure>
+
+<blockquote>
+<p><em>We observe around 20% speedup is obtained on both GPU and ARM, after ReLU and shortcut are removed.</em></p>
+</blockquote>
+<h2 id="conclusion-and-discussions">Conclusion and Discussions</h2>
+<ol>
+<li>use &ldquo;balanced convolutions (equal channel width);</li>
+<li>be aware of the cost of using group convolution;</li>
+<li>reduce the degree of fragmentation;</li>
+<li>reduce element-wise operations.</li>
+</ol>
+<ul>
+<li>다른 네트워크들에 대한 고찰
+<ul>
+<li>
+<p>ShuffleNet V1</p>
+<ul>
+<li>Heavily group convolutions → G2</li>
+<li>Bottleneck-like building blocks → G1</li>
+<li>Residual Block → G3</li>
+<li>Element-wise operation→ G4</li>
+</ul>
+</li>
+<li>
+<p>MobileNet V2</p>
+<ul>
+<li>Inverted bottleneck structure → G1</li>
+</ul>
+</li>
+<li>
+<p>Depthwise convolution &amp; ReLU</p>
+<ul>
+<li>Element-wise operation → G4</li>
+</ul>
+</li>
+<li>
+<p>NAS</p>
+<ul>
+<li>Highly fragmentation → G3</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="shuenet-v2-an-ecient-architecture">ShueNet V2: an Ecient Architecture</h1>
+<h2 id="review-of-shuenet-v1">Review of ShueNet v1</h2>
+<ul>
+<li>G1, G2, G3, G4 모두 지키지 않음.</li>
+<li>이를 해결한 구조가 ShuffleNet V2 의 유닛 (Fig 3 (c), Fig 3 (d))</li>
+</ul>
+<figure>
+    <img src="/images/post/shufflenetv2/Untitled_7.png"/> 
+</figure>
+
+<h2 id="channel-split-and-shuenet-v2">Channel Split and ShueNet V2</h2>
+<ul>
+<li>
+<p>Fig 3 (c)</p>
+<ul>
+<li>Input feature 을 절반으로 나눠 두개의 branch 생성.</li>
+<li>Left branch는 아무 연산도 진행 X. → G3 에 대한 회피법.</li>
+<li>Right branch는 동일한 Number of filter로 1x1 Conv → 3x3 DWConv → 1x1 Conv 수행. → G1에 대한 회피법.</li>
+<li>1x1 Conv 는 Group 을 나누지 않음 → G2에 대한 회피법.</li>
+<li>Residual Block의 Add operation 을 Concatenate 로 변경 → G4에 대한 회피법.</li>
+</ul>
+</li>
+<li>
+<p>Fig 3 (d)</p>
+<ul>
+<li>Downsampling block</li>
+<li>Input feature 그대로 두개의 branch 생성.</li>
+<li>Number of filter는 모두 동일</li>
+</ul>
+</li>
+<li>
+<p>네트워크 구조</p>
+</li>
+</ul>
+<figure>
+    <img src="/images/post/shufflenetv2/Untitled_8.png"/> 
+</figure>
+
+<h2 id="analysis-of-network-accuracy">Analysis of Network Accuracy</h2>
+<ul>
+<li>ShuffleNet V2는 효율적이며 성능도 좋음.
+<ul>
+<li>더 많은 channel, 더 큰 network를 만들 수 있음.</li>
+<li>DenseNet 이나 CondenseNet 처럼 feature reuse 과 매우 유사함.</li>
+</ul>
+</li>
+<li>DenseNet의 feature reuse 패턴과 ShuffleNet V2의 feature reuse 패턴 비교.</li>
+<li>붉을 수록 Source layer와 Target layer의 연결성이 강하다는 의미.</li>
+<li>DenseNet과 같이 ShuffleNet V2에서도 Target layer가 멀어질 수록 연결성이 약함.</li>
+</ul>
+<figure>
+    <img src="/images/post/shufflenetv2/Untitled_9.png"/> 
+</figure>
+
+<h1 id="experiment">Experiment</h1>
+<ul>
+<li>총 4개의 모델과 비교.
+<ul>
+<li>ShuffleNet V1</li>
+<li>MobileNet V2</li>
+<li>Xception</li>
+<li>DenseNet</li>
+</ul>
+</li>
+</ul>
+<figure>
+    <img src="/images/post/shufflenetv2/Untitled_10.png"/> 
+</figure>
+
+<h3 id="accuracy-vs-flops">Accuracy vs. FLOPs</h3>
+<ul>
+<li>연산량을 40 MFLOPs 로 고정시키고 Network 를 구성한 후 성능 비교. (Table 8 상단)</li>
+</ul>
+<h3 id="inference-speed-vs-flopsaccuracy">Inference Speed vs. FLOPs/Accuracy</h3>
+<ul>
+<li>연산량을 특정 값 범위로 고정시키고 runtime 비교. (Fig 1 참조)</li>
+</ul>
+<figure>
+    <img src="/images/post/shufflenetv2/Untitled_11.png"/> 
+</figure>
+
+<h3 id="compared-with-mobilenet-v1">Compared with MobileNet v1</h3>
+<ul>
+<li>MobileNet V1의 경우 Accuracy가 좋지 않으나  GPU runtime은 가장 빠름.</li>
+<li>이는 위에서 제시한 가이드 라인을 어느 정도 가장 잘 만족하기 때문.</li>
+</ul>
+<h3 id="compared-automatic-model-search">Compared automatic model search</h3>
+<ul>
+<li>NAS 는 매우 느리지만 제시한 가이드 라인을 만족하고 speed에 대한 metric을 사용한다면 충분히 좋은 성능을 보일 것.</li>
+</ul>
+<h3 id="compatibility-with-other-methods">Compatibility with other methods</h3>
+<ul>
+<li>Squeeze-and-excitation 과 같은 module과 같이 사용할 수 있음.</li>
+<li>속도는 떨어지나 정확도는 상승. (Table 8 하단)</li>
+</ul>
+<h3 id="generalization-to-large-models">Generalization to Large Models</h3>
+<ul>
+<li>2GFLOPs 이상의 큰 모델을 생성할 수 있음.</li>
+<li>50개의 레이어를 가진 모델을 생성해도 ResNet-50 과 비교하여 적은 연산량, 뛰어난 성능을 보임. (Table 6 상단)</li>
+<li>SE module, residual block을 사용하여 더욱 깊게 만들어도 상대적으로 연산량이 적으면서 뛰어난 성능을 보임. (Table 6 하단)</li>
+</ul>
+<figure>
+    <img src="/images/post/shufflenetv2/Untitled_12.png"/> 
+</figure>
+
+<h3 id="object-detection">Object Detection</h3>
+<ul>
+<li><a href="https://arxiv.org/abs/1711.07264">Light-Head RCNN</a> 사용.</li>
+<li>Classification 에서 성능이 별로였던 Xception 이 Detection 에선 성능이 좋음. → Receptive Field가 크기 때문이라고 생각.</li>
+<li>3x3 depthwise convolution 을 추가하여 Receptive Field를 키워보니 (ShuffleNet V2*) runtime은 늘었으나 성능이 증가함.</li>
+</ul>
+<figure>
+    <img src="/images/post/shufflenetv2/Untitled_13.png"/> 
+</figure>
+
+<h2 id="ps">P.S</h2>
+<ul>
+<li>어려웠다.</li>
+<li>항상 가이드 라인을 지키면서 모델을 설계할 수 있을까?</li>
+</ul>
+
+        </div>
+
+        
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "jjerry_k" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h2>Join Our Newsletter</h2>
+        <p class="text-light px-md-5 py-4 border-left border-right border-primary">
+          뉴스레터 받으실&hellip;?</p>
+        <form action="#" class="row justify-content-center">
+          <div class="input-group col-md-8">
+            <input type="text" class="form-control" placeholder="Your Email Address">
+            <div class="input-group-append">
+              <button class="input-group-text btn btn-primary">Subscribe</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center mb-5">
+        <a href="https://jjerry-test.github.io"><img src="https://jjerry-test.github.io/images/logo.png" alt="Jerry"></a>
+      </div>
+               
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contact Me</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="tel:Top%20Secret"><i
+                class="ti-mobile mr-3 text-primary"></i>Top Secret</a></li>
+          
+                     
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Seoul, Korea of Republic</li>
+          
+                     
+          <li class="mb-3"><a class="text-dark" href="mailto:jaeyeol2931@gmail.com"><i
+                class="ti-email mr-3 text-primary"></i>jaeyeol2931@gmail.com</a>
+          
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.facebook.com/jerry.kim.566/">facebook</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://twitter.com/jjerry_k">twitter</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.instagram.com/jjjerry_k/">instagram</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://github.com/jjerry-k">github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://www.linkedin.com/in/jerry-kim-b8804216b/">linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/blog">Blog</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/deeplearning">Deeplearning</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/living">Living</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/python">Python</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="/categories/ubuntu">Ubuntu</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://jjerry-test.github.io/about">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://jjerry-test.github.io/blog">Post</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://jjerry-test.github.io/contact">Contact</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        | copyright © 2020 <a href="https://themefisher.com">Themefisher</a> All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://jjerry-test.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://jjerry-test.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/search/mark.js"></script>
+
+<script src="https://jjerry-test.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://jjerry-test.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>
