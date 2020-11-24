@@ -16,9 +16,9 @@
 
     // featured post slider
     $('.featured-post-slider').slick({
-      infinite: true,
-      vertical: true,
-      verticalSwiping: true,
+      infinite: false,
+      vertical: false,
+      verticalSwiping: false,
       arrows: false,
       dots: true,
       responsive: [{

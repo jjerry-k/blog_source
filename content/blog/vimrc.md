@@ -4,7 +4,7 @@ date: 2020-08-16T18:30:46+06:00
 draft: false
 
 #post thumb
-image: #"images/featured-post/post-1.jpg"
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Vimlogo.svg/544px-Vimlogo.svg.png"
 
 # meta description
 description: "this is meta description"
@@ -17,14 +17,13 @@ tags:
   - "Setting"
 
 # post type
-type: "post"
+type: "featured"
 ---
 
-# 지극히 개인이 사용하기 위한 vimrc
+지극히 개인이 사용하기 위한 vimrc
 
----
 
-- 마음껏 편하신대로 Copy & Paste 하세요!
+마음껏 편하신대로 Copy & Paste 하세요!
 
 ```vim
 call plug#begin('~/.vim/plugged')

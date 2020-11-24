@@ -4,7 +4,7 @@ date: 2020-08-11T18:30:46+06:00
 draft: false
 
 #post thumb
-image: #"images/featured-post/post-1.jpg"
+image: "https://junyanz.github.io/CycleGAN/images/failure_putin.jpg"
 
 # meta description
 description: "this is meta description"
@@ -32,9 +32,9 @@ URL: https://arxiv.org/abs/1703.10593
 - 하지만 실제 환경에선 이런 paired data를 구하기 힘듦.
 - 본 논문은 unpaired data 상황에서 Network가 image-to-image 를 잘 학습하는 것에 초점을 맞춤.
 
-{{< figure src="/images/post/cyclegan/Untitled.png" title="image" >}}
+{{< figure src="/images/post/cyclegan/Untitled.png" >}}
 
-{{< figure src="/images/post/cyclegan/Untitled_1.png" title="image" >}}
+{{< figure src="/images/post/cyclegan/Untitled_1.png" >}}
 
 # Formulation
 
@@ -60,7 +60,7 @@ $$\mathcal{L}(G, F, D\_X, D_Y) = \mathcal{L}\_{GAN}(G, D\_Y, X, Y) + \mathcal{L}
 
 $$G^\*,F^\* = argmin_{G, F}argmax_{D_X, D_Y}\mathcal{L}(G, F, D_X, D_Y)$$
 
-{{< figure src="/images/post/cyclegan/Untitled_2.png" title="image" >}}
+{{< figure src="/images/post/cyclegan/Untitled_2.png" >}}
 
 # Implementation
 
@@ -77,11 +77,11 @@ $$G^\*,F^\* = argmin_{G, F}argmax_{D_X, D_Y}\mathcal{L}(G, F, D_X, D_Y)$$
 
 # Result
 
-{{< figure src="/images/post/cyclegan/Untitled_3.png" title="image" >}}
+{{< figure src="/images/post/cyclegan/Untitled_3.png" >}}
 
-{{< figure src="/images/post/cyclegan/Untitled_4.png" title="image" >}}
+{{< figure src="/images/post/cyclegan/Untitled_4.png" >}}
 
-{{< figure src="/images/post/cyclegan/Untitled_5.png" title="image" >}}
+{{< figure src="/images/post/cyclegan/Untitled_5.png" >}}
 
 ## P.S
 

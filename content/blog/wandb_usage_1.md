@@ -4,7 +4,7 @@ date: 2020-08-27T18:30:46+06:00
 draft: false
 
 #post thumb
-image: #"images/featured-post/post-1.jpg"
+image: "https://assets.website-files.com/5ac6b7f2924c656f2b13a88c/5e54ccdeb845e49a782c6cfd_wandb-logo.svg"
 
 # meta description
 description: "this is meta description"

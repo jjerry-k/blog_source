@@ -4,7 +4,7 @@ date: 2020-07-20T18:30:46+06:00
 draft: false
 
 #post thumb
-image: #"images/featured-post/post-1.jpg"
+image: "https://github.com/lutzroeder/netron/raw/main/.github/logo.svg"
 
 # meta description
 description: "this is meta description"

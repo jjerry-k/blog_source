@@ -4,7 +4,7 @@ date: 2020-07-23T18:30:46+06:00
 draft: false
 
 #post thumb
-image: #"images/featured-post/post-1.jpg"
+image: "https://neptune.ai/wp-content/uploads/2020/03/neptune-ai-blue-horizontal.svg"
 
 # meta description
 description: "this is meta description"

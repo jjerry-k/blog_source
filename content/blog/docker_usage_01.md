@@ -4,7 +4,7 @@ date: 2020-10-24T18:30:46+06:00
 draft: false
 
 #post thumb
-image: #"images/featured-post/post-1.jpg"
+image: "https://www.docker.com/sites/default/files/d8/styles/role_icon/public/2019-07/Moby-logo.png?itok=sYH_JEaJ"
 
 # meta description
 description: "this is meta description"
@@ -17,7 +17,7 @@ tags:
   - "Docker"
 
 # post type
-type: "post"
+type: "featured"
 ---
 
 Docker 에 대한 설명은 안합니다. 

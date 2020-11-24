@@ -4,7 +4,7 @@ date: 2020-11-23T20:41:18+09:00
 draft: false
 
 #post thumb
-image: #"images/featured-post/post-1.jpg"
+image: "https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg"
 
 # meta description
 description: "this is meta description"
@@ -17,7 +17,7 @@ tags:
   - "Hugo"
 
 # post type
-type: "post"
+type: "featured"
 ---
 
 이번에 Github Blog를 이전하게 되었습니다!

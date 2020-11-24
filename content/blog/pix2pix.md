@@ -4,7 +4,7 @@ date: 2020-08-10T18:30:46+06:00
 draft: false
 
 #post thumb
-image: #"images/featured-post/post-1.jpg"
+image: "https://phillipi.github.io/pix2pix/images/edges2cats.jpg"
 
 # meta description
 description: "this is meta description"
