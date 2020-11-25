@@ -4,7 +4,7 @@ title = "Jerry's DevLog"
 theme = "liva-hugo"
 summaryLength = "10"
 paginate = 6
-disqusShortname = "jjerry_k"
+disqusShortname = "jjerry-k"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

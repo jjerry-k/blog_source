@@ -222,16 +222,39 @@
 /* markdown style */
 .content {
   * {
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
+  h1 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    margin-top: 15px;
+    margin-bottom: 8px;
+  }
+  
+  h4
+  {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  h5 {
+    margin-top: 10px;
     margin-bottom: 5px;
   }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
   h6 {
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
   }
 
   ol {
@@ -244,16 +267,17 @@
     li {
       position: relative;
       padding-left: 20px;
-      margin-bottom: 15px;
+      font-size: 17px;
+      margin-bottom: 10px;
       list-style-type: none;
 
       &::before {
         position: absolute;
         content: "\e71b";
         font-family: $icon-font;
-        font-size: 14px;
+        font-size: 17px;
         left: 0;
-        top: 1px;
+        // top: 1px;
         color: $primary-color;
         transition: .3s ease;
       }
