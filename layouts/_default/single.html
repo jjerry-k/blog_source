@@ -24,10 +24,7 @@
         </div>
 
         <!-- comments -->
-        <!-- {{ template "_internal/disqus.html" . }} -->
-        {{ if .Site.DisqusShortname }}
-        <script id="dsq-count-scr" src="//{{ .Site.DisqusShortname }}.disqus.com/count.js" async></script>
-        {{ end }}
+        {{ partial "disqus.html" . }}
       </div>
     </div>
   </div>
