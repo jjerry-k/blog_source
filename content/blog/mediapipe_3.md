@@ -73,3 +73,5 @@ cap.release()
 {{< figure src="/images/post/mediapipe/pose_output.gif" >}}
 
 
+## P.S
+- 다음엔....bazel 버전을..?
