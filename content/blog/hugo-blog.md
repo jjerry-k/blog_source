@@ -71,6 +71,7 @@ hugo를 설치하고 새 프로젝트를 생성합니다.
 
 #### 3. 테마 설치
 프로젝트 디렉토리에 themes 디렉토리가 보입니다. 
+
 themes 디렉토리로 이동하여 위에서 골랐던 테마를 다운로드 합니다.
 저는 [liva-hugo](https://github.com/themefisher/liva-hugo) 를 사용했습니다.
 
@@ -85,6 +86,7 @@ git clone https://github.com/themefisher/liva-hugo.git
 {{< figure src="/images/post/hugo-blog/img_04.png" >}}
 
 liva-hugo 는 이해가 쉽도록 exampleSite를 이용해보려고 합니다. 
+
 blog_source/themes/liva-hugo/exampleSite 에 있는 content, static, config.toml 을 blog_source 에 있는 위치에 복사해줍니다. 
 ```bash
 cp -r themes/liva-hugo/exampleSite/content/* ./content
@@ -101,11 +103,14 @@ hugo server -p {원하는 포트 번호} -D # Default PORT 1313
 ```
 {{< figure src="/images/post/hugo-blog/img_06.png" >}}
 
+
 그리고 localhost:1313 로 접속을 하면 예시를 사이트 양식을 가져왔기 때문에 다음과 같이 나옵니다. 
+
 {{< figure src="/images/post/hugo-blog/img_07.png" >}}
 
 
 포스팅을 하기 전에 다른 포스팅을 확인해봅니다. 
+
 {{< figure src="/images/post/hugo-blog/img_08.png" >}}
 
 liva-hugo는 이러한 템플릿을 바탕으로 포스팅을 작성해야합니다.
