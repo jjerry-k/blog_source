@@ -44,8 +44,8 @@ URL: https://arxiv.org/abs/1610.02357
 - Lenet -> AlexNet (2012) -> ZFNet (2013) -> VGG (2014) -> Inception 종류 ... -> Inception-ResNet (2015)
 - Inception 스타일의 기본 구성 요소는 Inception module.
 - Figure 1은 Inception V3 의 표준 Inception Module.
-
-    ![https://jjerry-k.github.io/public/img/xception/Untitled.png](https://jjerry-k.github.io/public/img/xception/Untitled.png)
+    
+    {{< figure src="/images/post/xception/Untitled.png" >}}
 
 - Inception 모델은 위와 같은 모듈을 Stack 한 것. VGG-Style 네트워크는 단순히 Convolution layer를 Stack.
 - 실험적으로 Inception-style 이 VGG-style보다 적은 parameter로 다양한, 많은 feature를 학습 할 수 있다는 것을 보임.
@@ -58,11 +58,11 @@ URL: https://arxiv.org/abs/1610.02357
 - Inception의 가설은 채널 채널, 공간의 correlation 이 분리되어 있으므로 동시에 매핑하는 것은 좋지 않다는 것.
 - Figure 2는 3x3 conv와 1x1 conv만 사용한 단순화한 Inception 모듈.
 
-    ![https://jjerry-k.github.io/public/img/xception/Untitled_1.png](https://jjerry-k.github.io/public/img/xception/Untitled_1.png)
+    {{< figure src="/images/post/xception/Untitled_1.png" >}}
 
 - Figure 3은 Figure 2의 Inception 모듈에서 하나의 큰 1x1 Convolution과 3x3 Convolution들로 재구성한 것.
 
-    ![https://jjerry-k.github.io/public/img/xception/Untitled_2.png](https://jjerry-k.github.io/public/img/xception/Untitled_2.png)
+    {{< figure src="/images/post/xception/Untitled_2.png" >}}
 
 - 이 방법이 Inception 의 가설보다 뛰어난 가설을 만드는 것이 합리적인 것일지, 채널과 공간을 독립적으로 매핑할 수 있는지 의문.
 
@@ -70,7 +70,7 @@ URL: https://arxiv.org/abs/1610.02357
 
 - Figure 4 처럼 Inception 모듈 구성.
 
-    ![https://jjerry-k.github.io/public/img/xception/Untitled_3.png](https://jjerry-k.github.io/public/img/xception/Untitled_3.png)
+    {{< figure src="/images/post/xception/Untitled_3.png" >}}
 
 - 1x1 Convolution 적용하여 채널의 correlation 매핑, 그 후 각각의 channel별로 공간의 correlation 매핑
 - 이를 **An “extreme” version of an Inception module** 이라고 칭함.
@@ -145,21 +145,21 @@ URL: https://arxiv.org/abs/1610.02357
 
 - 두 데이터 모두 Xception이 좋은 성능을 보임.
 
-    ![https://jjerry-k.github.io/public/img/xception/Untitled_5.png](https://jjerry-k.github.io/public/img/xception/Untitled_5.png)
+    {{< figure src="/images/post/xception/Untitled_5.png" >}}
 
-    ![https://jjerry-k.github.io/public/img/xception/Untitled_6.png](https://jjerry-k.github.io/public/img/xception/Untitled_6.png)
+    {{< figure src="/images/post/xception/Untitled_6.png" >}}
 
-    ![https://jjerry-k.github.io/public/img/xception/Untitled_7.png](https://jjerry-k.github.io/public/img/xception/Untitled_7.png)
+    {{< figure src="/images/post/xception/Untitled_7.png" >}}
 
-    ![https://jjerry-k.github.io/public/img/xception/Untitled_8.png](https://jjerry-k.github.io/public/img/xception/Untitled_8.png)
+    {{< figure src="/images/post/xception/Untitled_8.png" >}}
 
-    ![https://jjerry-k.github.io/public/img/xception/Untitled_9.png](https://jjerry-k.github.io/public/img/xception/Untitled_9.png)
+    {{< figure src="/images/post/xception/Untitled_9.png" >}}
 
 ### **4.5.2 Size and speed**
 
 - Parameter가 늘지 않으면서 성능 향상을 보이기에 Xception이 효율적인 모델.
 
-    ![https://jjerry-k.github.io/public/img/xception/Untitled_10.png](https://jjerry-k.github.io/public/img/xception/Untitled_10.png)
+    {{< figure src="/images/post/xception/Untitled_10.png" >}}
 
 ### **4.6 Effect of the residual connections**
 
@@ -173,7 +173,7 @@ URL: https://arxiv.org/abs/1610.02357
 - Depthwise separable convolution은 depthwise → pointwise convolution으로 구성되어있음.
 - 그 중간에 activation function에 대한 ablation study 진행.
 
-    ![https://jjerry-k.github.io/public/img/xception/Untitled_12.png](https://jjerry-k.github.io/public/img/xception/Untitled_12.png)
+    {{< figure src="/images/post/xception/Untitled_12.png" >}}
 
 - [Inception module에 대한 연구](https://arxiv.org/pdf/1512.00567.pdf)와 반대되는 결과 도출.
 
