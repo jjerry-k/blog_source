@@ -11,10 +11,10 @@ description: "this is meta description"
 math: true
 
 # taxonomies
-categories: "DeepLearning"
-  - 
-tags: "TensorFlow"
-  - 
+categories: 
+  - "DeepLearning"
+tags: 
+  - "TensorFlow"
 
 # post type
 type: "post"
