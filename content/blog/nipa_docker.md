@@ -45,7 +45,7 @@ NIPA GPU 서버에 접속을 하면 다음과 같은 화면이 출력됩니다.
 
 |what...?|
 |:--:|
-|![NIPA%20x%20Docker%20ef94d24dfbc64a6cae24a83a59bd352f/Untitled%202.png](https://jjerry-k.github.io/public/img/nipa_docker/Untitled_2.png)|
+|{{< figure src="/images/post/nipa_docker/Untitled_2.png" >}}|
 
 음....conda 버전의 문제인가 싶어서 base conda를 update  하려 했습니다.
 
@@ -53,7 +53,7 @@ NIPA GPU 서버에 접속을 하면 다음과 같은 화면이 출력됩니다.
 
 |what...?|
 |:--:|
-|![NIPA%20x%20Docker%20ef94d24dfbc64a6cae24a83a59bd352f/Untitled%202.png](https://jjerry-k.github.io/public/img/nipa_docker/Untitled_2.png)|
+|{{< figure src="/images/post/nipa_docker/Untitled_2.png" >}}|
 
 뭐야..이건 또 왜 안되는거야... 짜증이 났습니다. 
 
@@ -136,7 +136,7 @@ sudo docker run --gpus all nvidia/cuda:10.0-base nvidia-smi
 
 |하....편안....|
 |:--:|
-|![NIPA%20x%20Docker%20ef94d24dfbc64a6cae24a83a59bd352f/Untitled%206.png](https://jjerry-k.github.io/public/img/nipa_docker/Untitled_6.png)|
+|{{< figure src="/images/post/nipa_docker/Untitled_6.png" >}}|
 
 이번엔 NIPA에 Docker 설치하는 과정을 포스팅 해봤습니다. 
 
