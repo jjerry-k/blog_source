@@ -10,4 +10,3 @@ description: "this is meta description"
 type : "contact"
 ---
 
-안녕하세요!
