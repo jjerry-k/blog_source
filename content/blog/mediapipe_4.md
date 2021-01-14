@@ -4,7 +4,7 @@ date: 2021-01-12T01:14:36+09:00
 draft: false
 
 #post thumb
-image: "/images/post/mediapipe/holi_example.gif"
+image: "https://google.github.io/mediapipe/images/mediapipe_small.png"
 
 # meta description
 description: "this is meta description"
