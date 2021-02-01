@@ -1,7 +1,7 @@
 ---
 title: "Configuration"
 date: 2021-01-31T20:56:18+09:00
-draft: true
+draft: false
 
 #post thumb
 image: "images/post/configuration/configuration.png"
