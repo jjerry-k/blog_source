@@ -1,7 +1,7 @@
 ---
 title: "M1 Macbook Pro 열흘 사용기"
 date: 2021-02-10T20:43:43+09:00
-draft: true
+draft: false
 
 #post thumb
 image: "https://www.apple.com/v/mac/m1/a/images/overview/m1_hero__gayysked51ym_large.jpg"
