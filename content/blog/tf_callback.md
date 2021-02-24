@@ -1,7 +1,7 @@
 ---
 title: "About TensorFlow Callback "
 date: 2021-02-22T19:32:50+09:00
-draft: true
+draft: false
 
 #post thumb
 image: "images/gallery/tf_logo.png"
