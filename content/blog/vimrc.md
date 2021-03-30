@@ -25,6 +25,9 @@ type: "featured"
 
 마음껏 편하신대로 Copy & Paste 하세요!
 
+추가적으로 vim-plug 링크...  
+[https://github.com/junegunn/vim-plug](https://github.com/junegunn/vim-plug)
+
 ```vim
 call plug#begin('~/.vim/plugged')
 Plug 'davidhalter/jedi-vim'
@@ -33,10 +36,10 @@ Plug 'jeetsukumaran/vim-pythonsense'
 Plug 'jiangmiao/auto-pairs'
 Plug 'Vimjas/vim-python-pep8-indent'
 Plug 'dense-analysis/ale'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}"
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'liuchengxu/vista.vim'
 Plug 'sheerun/vim-polyglot'
-"Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop'  }
+" Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop'  }
 Plug 'junegunn/seoul256.vim'
 call plug#end()
 
@@ -76,8 +79,11 @@ au BufReadPost *
 \ exe "norm g`\"" |
 \ endif
 
+" Python 실행 커맨드
+autocmd FileType python map <buffer> <F9> :w<CR>:exec '!python3' shellescape(@%, 1)<CR>
+autocmd FileType python imap <buffer> <F9> <esc>:w<CR>:exec '!python3' shellescape(@%, 1)<CR>
 
-"seoul256
+" seoul256 테마 설정
 let g:seoul256_background = 233
 colo seoul256
 ```
