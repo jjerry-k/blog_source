@@ -12,9 +12,9 @@ math: true
 
 # taxonomies
 categories:
-  - 
+  - "DeepLearning"
 tags:
-  - 
+  - "TensorFlow"
 
 # post type
 type: "post"
