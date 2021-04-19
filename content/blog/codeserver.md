@@ -39,15 +39,15 @@ type: "post"
 FROM codercom/code-server:latest
 USER coder
 ENV SHELL=/bin/bash
-RUN sudo apt update && sudo apt -y upgrade
-RUN sudo apt install -y unzip wget vim
+RUN sudo apt-get update && sudo apt-get -y upgrade
+RUN sudo apt-get install -y unzip wget vim
 ENV PORT=8080
 ```
 
 그 후에 `docker build`를 이용하여 image를 만들어주세요!  
 ``` bash
 cd {Dockerfile이 있는 경로}
-docker built --tag code-server:latest .
+docker build --tag code-server:latest .
 ```
 
 다 만드어진 후에는 code-server 설정을 건드려야합니다!  
