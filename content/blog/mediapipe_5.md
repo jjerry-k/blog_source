@@ -1,7 +1,7 @@
 ---
 title: "MediaPipe - (5)"
 date: 2021-06-20T23:06:14+09:00
-draft: true
+draft: false
 
 #post thumb
 image: "https://google.github.io/mediapipe/images/mediapipe_small.png"
